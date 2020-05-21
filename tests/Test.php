@@ -20,6 +20,11 @@ class Test extends \PHPUnit\Framework\TestCase
         $redis = $wei->redis;
 
         $redis->set('a', 'b');
-        $this->assertEquals('b', $redis->get('a'));
+        $this->assertSame('b', $redis->get('a'));
+
+        $redis->set('c', ['a' => 'b']);
+        $result = $redis->get('c');
+        var_dump($result);
+        $this->assertSame(['a' => 'b'], $result);
     }
 }
