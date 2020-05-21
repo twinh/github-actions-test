@@ -1,0 +1,16 @@
+{
+    "name": "twin/github-actions-test",
+    "authors": [
+        {
+            "name": "twinh",
+            "email": "twinhuang@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "wei/wei": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    }
+}
