@@ -1,4 +1,4 @@
-import sum, {sub} from '../'
+import {sum, sub} from '../'
 
 describe('test', () => {
   it('should return sum result', function () {
