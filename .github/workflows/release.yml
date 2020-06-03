@@ -1,5 +1,7 @@
-name: CI
+name: Node.js CI
+
 on: push
+
 jobs:
   test:
     runs-on: ubuntu-18.04
