@@ -126,6 +126,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
+      - run: yarn install
+
       - name: Release
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
