@@ -1,3 +1,10 @@
+## [4.3.3](https://github.com/twinh/github-actions-test/compare/v4.3.2...v4.3.3) (2020-06-04)
+
+
+### Bug Fixes
+
+* 还原 npm 发布 ([1b38225](https://github.com/twinh/github-actions-test/commit/1b38225757cf0a0a6558075d5af9f608b626fe33))
+
 ## [4.3.2](https://github.com/twinh/github-actions-test/compare/v4.3.1...v4.3.2) (2020-06-04)
 
 
