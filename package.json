@@ -1,6 +1,6 @@
 {
   "name": "twinh-github-actions-test",
-  "version": "4.3.3",
+  "version": "4.3.4",
   "main": "index.js",
   "repository": "https://github.com/twinh/github-actions-test.git",
   "author": "twinh <twinhuang@qq.com>",
