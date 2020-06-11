@@ -6,15 +6,15 @@ class Test extends \PHPUnit\Framework\TestCase
 {
     public function testCount()
     {
-        $this->assertSame(2, 1 + 1);
+        $this->assertSame(2, \Gat\Counter::sum(1, 1));
     }
 
     public function testRedis()
     {
         $wei = wei([
-           'redis' => [
-               'port' => getenv('REDIS_PORT'),
-           ]
+            'redis' => [
+                'port' => getenv('REDIS_PORT'),
+            ],
         ]);
 
         $redis = $wei->redis;
@@ -24,7 +24,6 @@ class Test extends \PHPUnit\Framework\TestCase
 
         $redis->set('c', ['a' => 'b']);
         $result = $redis->get('c');
-        var_dump($result);
         $this->assertSame(['a' => 'b'], $result);
     }
 }
