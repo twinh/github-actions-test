@@ -79,6 +79,13 @@ jobs:
           DB_PORT: ${{ job.services.mysql.ports[3306] }}
           REDIS_PORT: ${{ job.services.redis.ports[6379] }}
 
+      - name: Upload coverage results to Coveralls
+        env:
+          COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          composer global require cedx/coveralls
+          coveralls build/logs/clover.xml
+
   jest:
     runs-on: ubuntu-18.04
     steps:
@@ -102,7 +109,13 @@ jobs:
 
       - run: yarn install
 
-      - run: yarn test
+      - name: Run
+        run: yarn jest --coverage --coverageReporters text lcovonly
+
+      - name: Coveralls
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
   release:
     needs: [phpunit, jest]
