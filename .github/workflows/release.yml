@@ -84,8 +84,9 @@ jobs:
           COVERALLS_PARALLEL: true
           COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           COVERALLS_SERVICE_JOB_ID: ${{ github.run_id }}
-          COVERALLS_FLAG_NAME: phpunit
+          COVERALLS_FLAG_NAME: php-${{ matrix.php-versions }}
         run: |
+          composer global config repositories.coveralls vcs https://github.com/twinh/coveralls.php
           composer global require cedx/coveralls
           coveralls build/logs/clover.xml
 
