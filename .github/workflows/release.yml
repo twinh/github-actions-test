@@ -79,6 +79,12 @@ jobs:
           DB_PORT: ${{ job.services.mysql.ports[3306] }}
           REDIS_PORT: ${{ job.services.redis.ports[6379] }}
 
+      - uses: codecov/codecov-action@v1
+        with:
+          file: build/logs/clover.xml
+          flags: php-${{ matrix.php-versions }}
+          fail_ci_if_error: true
+
       - name: Upload coverage results to Coveralls
         env:
           COVERALLS_PARALLEL: true
@@ -118,6 +124,12 @@ jobs:
 
       - name: Run
         run: yarn jest --coverage --coverageReporters text lcovonly
+
+      - uses: codecov/codecov-action@v1
+        with:
+          file: coverage/lcov.info
+          flags: node-${{ matrix.node-version }}
+          fail_ci_if_error: true
 
       - name: Coveralls
         env:
