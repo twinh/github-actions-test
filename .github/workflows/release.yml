@@ -126,7 +126,7 @@ jobs:
           parallel: true
 
   coveralls-finish:
-    needs: [phpunit, jest, jest2]
+    needs: [phpunit, jest]
     runs-on: ubuntu-18.04
     steps:
       - name: Coveralls Finished
