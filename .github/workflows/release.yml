@@ -69,7 +69,7 @@ jobs:
 
       - name: Install
         run: |
-          composer install --no-progress --no-suggest --prefer-dist --optimize-autoloader
+          composer install --no-progress --no-suggest --prefer-dist --optimize-autoloader --ignore-platform-reqs
 
       - name: Run
         run: |
