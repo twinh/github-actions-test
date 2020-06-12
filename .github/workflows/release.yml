@@ -81,6 +81,7 @@ jobs:
 
       - uses: codecov/codecov-action@v1
         with:
+          token: ${{ secrets.CODECOV_TOKEN }}
           file: build/logs/clover.xml
           flags: php-${{ matrix.php-versions }}
           fail_ci_if_error: true
@@ -127,6 +128,7 @@ jobs:
 
       - uses: codecov/codecov-action@v1
         with:
+          token: ${{ secrets.CODECOV_TOKEN }}
           file: coverage/lcov.info
           flags: node-${{ matrix.node-version }}
           fail_ci_if_error: true
