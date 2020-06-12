@@ -148,7 +148,7 @@ jobs:
 
       - name: Coveralls
         env:
-          COVERALLS_FLAG_NAME: jest
+          COVERALLS_FLAG_NAME: jest2
         uses: coverallsapp/github-action@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
