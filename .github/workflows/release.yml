@@ -110,7 +110,39 @@ jobs:
       - run: yarn install
 
       - name: Run
-        run: yarn jest --coverage --coverageReporters text lcovonly
+        run: yarn jest __tests__ --coverage --coverageReporters text lcovonly
+
+      - name: Coveralls
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          parallel: true
+
+  jest2:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - uses: actions/cache@v1
+        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - run: yarn install
+
+      - name: Run
+        run: yarn jest index2.test.js --coverage --coverageReporters text lcovonly
 
       - name: Coveralls
         uses: coverallsapp/github-action@master
@@ -119,7 +151,7 @@ jobs:
           parallel: true
 
   coveralls-finish:
-    needs: [phpunit, jest]
+    needs: [phpunit, jest, jest2]
     runs-on: ubuntu-18.04
     steps:
       - name: Coveralls Finished
