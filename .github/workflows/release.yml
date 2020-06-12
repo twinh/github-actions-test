@@ -13,7 +13,7 @@ jobs:
       fail-fast: false
       matrix:
         operating-system: [ubuntu-latest]
-        php-versions: ['7.4']
+        php-versions: ['7.3', '7.4']
     services:
       mysql:
         image: mysql:5.7
@@ -93,9 +93,7 @@ jobs:
     runs-on: ubuntu-18.04
     strategy:
       matrix:
-        test_number:
-          - 1
-          - 2
+        node-version: [10.x, 12.x]
     steps:
       - uses: actions/checkout@v2
 
@@ -122,7 +120,7 @@ jobs:
 
       - name: Coveralls
         env:
-          COVERALLS_FLAG_NAME: run-${{ matrix.test_number }}
+          COVERALLS_FLAG_NAME: node-${{ matrix.node-version }}
         uses: coverallsapp/github-action@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
