@@ -86,7 +86,6 @@ jobs:
           COVERALLS_SERVICE_JOB_ID: ${{ github.run_id }}
           COVERALLS_FLAG_NAME: phpunit
         run: |
-          echo ${{ env.COVERALLS_SERVICE_JOB_ID }}
           composer global require cedx/coveralls
           coveralls build/logs/clover.xml
 
@@ -129,8 +128,6 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           parallel: true
 
-      - run: echo ${{ env.COVERALLS_SERVICE_JOB_ID }}
-
   coveralls-finish:
     needs: [phpunit, jest]
     runs-on: ubuntu-18.04
@@ -140,8 +137,6 @@ jobs:
         with:
           github-token: ${{ secrets.github_token }}
           parallel-finished: true
-
-      - run: echo ${{ env.COVERALLS_SERVICE_JOB_ID }}
 
   release:
     needs: [phpunit, jest]
