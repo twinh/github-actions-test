@@ -113,6 +113,8 @@ jobs:
         run: yarn jest __tests__ --coverage --coverageReporters text lcovonly
 
       - name: Coveralls
+        env:
+          COVERALLS_FLAG_NAME: jest
         uses: coverallsapp/github-action@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -145,6 +147,8 @@ jobs:
         run: yarn jest index2.test.js --coverage --coverageReporters text lcovonly
 
       - name: Coveralls
+        env:
+          COVERALLS_FLAG_NAME: jest
         uses: coverallsapp/github-action@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -155,8 +159,6 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: Coveralls Finished
-        env:
-          COVERALLS_FLAG_NAME: jest
         uses: coverallsapp/github-action@master
         with:
           github-token: ${{ secrets.github_token }}
