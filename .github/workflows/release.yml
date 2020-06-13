@@ -80,12 +80,14 @@ jobs:
           REDIS_PORT: ${{ job.services.redis.ports[6379] }}
 
       - name: Upload coverage results to Coveralls
-        env:
-          COVERALLS_PARALLEL: true
-          COVERALLS_FLAG_NAME: php-${{ matrix.php-versions }}
         run: |
           composer global require twinh/php-coveralls:dev-master
-          php-coveralls --coverage_clover=build/logs/clover.xml -vvv
+          php-coveralls --coverage_clover=build/logs/clover.xml -vvv || true
+      - name: Archive coveralls
+          uses: actions/upload-artifact@v1
+          with:
+            name: coveralls
+            path: build/logs/coveralls-upload.json
 
   jest:
     runs-on: ubuntu-18.04
