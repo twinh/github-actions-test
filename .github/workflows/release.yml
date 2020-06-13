@@ -85,7 +85,7 @@ jobs:
           COVERALLS_FLAG_NAME: php-${{ matrix.php-versions }}
         run: |
           composer global require twinh/php-coveralls:dev-master
-          vendor/bin/php-coveralls --coverage_clover=build/logs/clover.xml
+          php-coveralls --coverage_clover=build/logs/clover.xml
 
   jest:
     runs-on: ubuntu-18.04
