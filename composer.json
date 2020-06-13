@@ -13,7 +13,6 @@
     },
     "require": {
         "wei/wei": "dev-master",
-        "cedx/coveralls": "dev-main",
         "twinh/php-coveralls": "dev-master"
     },
     "require-dev": {
@@ -22,12 +21,6 @@
     "autoload": {
         "psr-4": {
             "Gat\\": "src"
-        }
-    },
-    "repositories": {
-        "coveralls": {
-            "type": "vcs",
-            "url": "https://github.com/twinh/coveralls.php"
         }
     }
 }
