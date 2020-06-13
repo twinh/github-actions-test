@@ -13,7 +13,8 @@
     },
     "require": {
         "wei/wei": "dev-master",
-        "cedx/coveralls": "dev-main"
+        "cedx/coveralls": "dev-main",
+        "twinh/php-coveralls": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.1"
