@@ -8,6 +8,7 @@ env:
 
 jobs:
   phpunit:
+    if: false
     runs-on: ${{ matrix.operating-system }}
     strategy:
       fail-fast: false
@@ -73,7 +74,20 @@ jobs:
           composer global require twinh/php-coveralls
           php-coveralls --coverage_clover=build/logs/clover.xml -vvv
 
+  jest2:
+    runs-on: ubuntu-18.04
+    steps:
+      - run: touch coverage/lcov.info
+      - env:
+          A: ${{ hashFiles('**/coverage/lcov.info') }}
+        run: echo $A
+      - if: hashFiles('**/coverage/lcov.info') === '2bf4f398bd2feaecf570f60898bab5347fda20fb18bdd7278119964649511921'
+        run: echo 1
+      - if: startsWith(hashFiles('**/coverage/lcov.info'), '2bf4f398bd2feaecf5')
+        run: echo 2
+
   jest:
+    if: false
     runs-on: ubuntu-18.04
     strategy:
       matrix:
@@ -111,6 +125,7 @@ jobs:
           parallel: true
 
   coveralls-finish:
+    if: false
     needs: [phpunit, jest]
     runs-on: ubuntu-18.04
     steps:
@@ -121,6 +136,7 @@ jobs:
           parallel-finished: true
 
   release:
+    if: false
     needs: [phpunit, jest]
     runs-on: ubuntu-18.04
     steps:
