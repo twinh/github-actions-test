@@ -80,6 +80,8 @@ jobs:
           REDIS_PORT: ${{ job.services.redis.ports[6379] }}
 
       - name: Upload coverage results to Coveralls
+        env:
+          COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
         run: |
           composer update twinh/php-coveralls:dev-master#331218a7599c79ad2644b0660dbc0b365b3c1af8 --with-dependencies
           # composer global require twinh/php-coveralls:dev-master
