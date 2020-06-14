@@ -81,8 +81,9 @@ jobs:
 
       - name: Upload coverage results to Coveralls
         run: |
-          composer global require twinh/php-coveralls:dev-master
-          php-coveralls --coverage_clover=build/logs/clover.xml -vvv || true
+          composer update twinh/php-coveralls:dev-master#331218a7599c79ad2644b0660dbc0b365b3c1af8 --with-dependencies
+          # composer global require twinh/php-coveralls:dev-master
+          ./vendor/bin/php-coveralls --coverage_clover=build/logs/clover.xml -vvv || true
       - name: Archive coveralls
         uses: actions/upload-artifact@v1
         with:
