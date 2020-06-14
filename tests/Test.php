@@ -9,7 +9,7 @@ class Test extends \PHPUnit\Framework\TestCase
         $this->assertSame(2, \Gat\Counter::sum(1, 1));
     }
 
-    public function testRedis()
+    public function ignoreTestRedis()
     {
         $wei = wei([
             'redis' => [
