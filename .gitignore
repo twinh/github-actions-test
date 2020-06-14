@@ -2,6 +2,5 @@
 /node_modules/
 /dist/
 /vendor/
-/composer.lock
 /yarn-error.log
 /npm-debug.log
