@@ -81,7 +81,7 @@ jobs:
       - env:
           A: ${{ hashFiles('**/coverage/lcov.info') }}
         run: echo $A
-      - if: hashFiles('**/coverage/lcov.info') === '2bf4f398bd2feaecf570f60898bab5347fda20fb18bdd7278119964649511921'
+      - if: hashFiles('**/coverage/lcov.info') == '2bf4f398bd2feaecf570f60898bab5347fda20fb18bdd7278119964649511921'
         run: echo 1
       - if: startsWith(hashFiles('**/coverage/lcov.info'), '2bf4f398bd2feaecf5')
         run: echo 2
