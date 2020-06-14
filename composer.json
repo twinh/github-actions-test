@@ -13,8 +13,7 @@
     },
     "require": {
         "wei/wei": "dev-master",
-        "twinh/php-coveralls": "dev-master",
-        "cedx/coveralls": "dev-debug"
+        "twinh/php-coveralls": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^8 || ^9"
