@@ -12,7 +12,8 @@
         "test": "phpunit"
     },
     "require": {
-        "wei/wei": "dev-master"
+        "wei/wei": "dev-master",
+        "twinh/php-coveralls": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^8 || ^9"
