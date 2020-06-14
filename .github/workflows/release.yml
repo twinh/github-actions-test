@@ -81,15 +81,9 @@ jobs:
 
       - name: Upload coverage results to Coveralls
         env:
-          COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
+          COVERALLS_REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # composer global require twinh/php-coveralls:dev-master
-          ./vendor/bin/php-coveralls --coverage_clover=build/logs/clover.xml -vvv || true
-      - name: Archive coveralls
-        uses: actions/upload-artifact@v1
-        with:
-          name: coveralls
-          path: build/logs/coveralls-upload.json
+          ./vendor/bin/coveralls build/logs/clover.xml -vvv
 
   jest:
     runs-on: ubuntu-18.04
