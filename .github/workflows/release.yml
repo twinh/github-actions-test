@@ -70,13 +70,8 @@ jobs:
           COVERALLS_PARALLEL: true
           COVERALLS_FLAG_NAME: php-${{ matrix.php-versions }}
         run: |
-          ./vendor/bin/php-coveralls --coverage_clover=build/logs/clover.xml -vvv || true
-
-      - name: Archive coveralls
-        uses: actions/upload-artifact@v1
-        with:
-          name: coveralls
-          path: build/logs/coveralls-upload.json
+          composer global require twinh/php-coveralls
+          php-coveralls --coverage_clover=build/logs/clover.xml -vvv
 
   jest:
     runs-on: ubuntu-18.04
