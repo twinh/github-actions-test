@@ -77,7 +77,7 @@ jobs:
   jest2:
     runs-on: ubuntu-18.04
     steps:
-      - run: touch coverage/lcov.info
+      - run: mkdir -p coverage && touch coverage/lcov.info
       - env:
           A: ${{ hashFiles('**/coverage/lcov.info') }}
         run: echo $A
