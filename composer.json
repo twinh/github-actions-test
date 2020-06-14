@@ -13,7 +13,7 @@
     },
     "require": {
         "wei/wei": "dev-master",
-        "twinh/php-coveralls": "dev-master#331218a7599c79ad2644b0660dbc0b365b3c1af8",
+        "twinh/php-coveralls": "dev-master",
         "cedx/coveralls": "dev-debug"
     },
     "require-dev": {
