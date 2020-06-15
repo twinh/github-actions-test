@@ -8,7 +8,6 @@ env:
 
 jobs:
   phpunit:
-    if: false
     runs-on: ${{ matrix.operating-system }}
     strategy:
       fail-fast: false
@@ -74,36 +73,7 @@ jobs:
           composer global require twinh/php-coveralls
           php-coveralls --coverage_clover=build/logs/clover.xml -vvv
 
-  jest2:
-    runs-on: ubuntu-18.04
-    strategy:
-      matrix:
-        node-version: [10.x, 12.x]
-    steps:
-      - uses: actions/checkout@v2
-
-      - env:
-          A: ${{ hashFiles('coverage/lcov.info') }}
-        run: echo $A
-      - if: hashFiles('coverage/lcov.info') == '5df6e0e2761359d30a8275058e299fcc0381534545f55cf43e41983f5d4c9456'
-        run: echo 1
-      - if: hashFiles('coverage/lcov.info') == ''
-        run: echo 0
-      - name: Coveralls
-        if: hashFiles('coverage/lcov.info') != ''
-        env:
-          COVERALLS_FLAG_NAME: node-${{ matrix.node-version }}
-        uses: coverallsapp/github-action@master
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          parallel: true
-      - if: startsWith(hashFiles('coverage/lcov.info'), '5df6e0e27') == false
-        uses: coverallsapp/github-action@master
-      - if: startsWith(hashFiles('coverage/lcov.info'), '5df6e0e27') == true
-        run: echo 3
-
   jest:
-    if: false
     runs-on: ubuntu-18.04
     strategy:
       matrix:
@@ -113,7 +83,7 @@ jobs:
 
       - uses: actions/setup-node@v1
         with:
-          node-version: '12'
+          node-version: ${{ matrix.node-version }}
 
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
@@ -141,7 +111,6 @@ jobs:
           parallel: true
 
   coveralls-finish:
-    if: false
     needs: [phpunit, jest]
     runs-on: ubuntu-18.04
     steps:
@@ -152,7 +121,6 @@ jobs:
           parallel-finished: true
 
   release:
-    if: false
     needs: [phpunit, jest]
     runs-on: ubuntu-18.04
     steps:
