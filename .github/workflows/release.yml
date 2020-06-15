@@ -83,6 +83,14 @@ jobs:
         run: echo $A
       - if: hashFiles('**/coverage/lcov.info') == '5df6e0e2761359d30a8275058e299fcc0381534545f55cf43e41983f5d4c9456'
         run: echo 1
+      - name: Coveralls
+        if: startsWith(hashFiles('**/coverage/lcov.info'), '5df6e0e27') == false
+        env:
+          COVERALLS_FLAG_NAME: node-${{ matrix.node-version }}
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          parallel: true
       - if: startsWith(hashFiles('**/coverage/lcov.info'), '5df6e0e27') == false
         uses: coverallsapp/github-action@master
       - if: startsWith(hashFiles('**/coverage/lcov.info'), '5df6e0e27') == true
