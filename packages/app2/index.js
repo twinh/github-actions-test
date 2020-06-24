@@ -1,4 +1,4 @@
-import add from 'base';
+import add from '@github-test/base';
 
 export default function () {
   return add(3, 4);

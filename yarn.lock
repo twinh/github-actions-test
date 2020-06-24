@@ -2115,6 +2115,11 @@
   dependencies:
     "@types/node" ">= 8"
 
+"@sellside/emitter@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.npm.taobao.org/@sellside/emitter/download/@sellside/emitter-1.2.1.tgz#0dd839c30cdf01087f4dc63613503da6bcdf5f1e"
+  integrity sha1-Ddg5wwzfAQh/TcY2E1A9przfXx4=
+
 "@semantic-release/changelog@^5.0.1":
   version "5.0.1"
   resolved "https://registry.npm.taobao.org/@semantic-release/changelog/download/@semantic-release/changelog-5.0.1.tgz#50a84b63e5d391b7debfe021421589fa2bcdafe4"
@@ -2783,6 +2788,17 @@ base@^0.11.1:
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
 
+base@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/base/download/base-1.0.1.tgz#bb9ee01639d08349643c60ab5bb15ae598cd5de4"
+  integrity sha1-u57gFjnQg0lkPGCrW7Fa5ZjNXeQ=
+  dependencies:
+    cache-base "^2.0.2"
+    define-property "^1.0.0"
+    isobject "^3.0.1"
+    mixin-deep "^1.2.0"
+    pascalcase "^0.1.1"
+
 bcrypt-pbkdf@^1.0.0:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/bcrypt-pbkdf/download/bcrypt-pbkdf-1.0.2.tgz#a4301d389b6a43f9b67ff3ca11a3f6637e360e9e"
@@ -2941,6 +2957,19 @@ cache-base@^1.0.1:
     isobject "^3.0.1"
     set-value "^2.0.0"
     to-object-path "^0.3.0"
+    union-value "^1.0.0"
+    unset-value "^1.0.0"
+
+cache-base@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.npm.taobao.org/cache-base/download/cache-base-2.0.2.tgz#c9f0cd8db658cc5d9f3db208828c47129e7b4814"
+  integrity sha1-yfDNjbZYzF2fPbIIgoxHEp57SBQ=
+  dependencies:
+    "@sellside/emitter" "^1.2.1"
+    collection-visit "^1.0.0"
+    get-value "^2.0.6"
+    isobject "^3.0.1"
+    set-value "^2.0.0"
     union-value "^1.0.0"
     unset-value "^1.0.0"
 
