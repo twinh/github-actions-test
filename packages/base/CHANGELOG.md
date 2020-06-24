@@ -1,3 +1,10 @@
+## @github-test/base [1.0.2](https://github.com/twinh/github-actions-test/compare/@github-test/base@1.0.1...@github-test/base@1.0.2) (2020-06-24)
+
+
+### Bug Fixes
+
+* 测试发布底层 ([66f695b](https://github.com/twinh/github-actions-test/commit/66f695b60d5035cfcc6fcc221f438a37ccaf5cf6))
+
 ## @github-test/base [1.0.1](https://github.com/twinh/github-actions-test/compare/@github-test/base@1.0.0...@github-test/base@1.0.1) (2020-06-24)
 
 
