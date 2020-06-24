@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "twinh",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twinh/github-actions-test.git"
+  },
   "dependencies": {
     "base": "^1.0.0"
   }
