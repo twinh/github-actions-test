@@ -1,6 +1,7 @@
 {
   "name": "@github-test/app2",
   "version": "1.0.0",
+  "private": false,
   "main": "index.js",
   "author": "twinh",
   "license": "MIT",

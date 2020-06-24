@@ -2,6 +2,7 @@
   "name": "@github-test/base",
   "version": "1.0.0",
   "main": "index.js",
+  "private": false,
   "author": "twinh",
   "license": "MIT",
   "repository": {
