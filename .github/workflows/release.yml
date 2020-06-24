@@ -148,4 +148,4 @@ jobs:
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: yarn lerna exec --concurrency 1 -- npx --no-install semantic-release
+        run: lerna exec --concurrency 1 -- npx --no-install semantic-release
