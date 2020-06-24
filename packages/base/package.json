@@ -1,6 +1,6 @@
 {
   "name": "@github-test/base",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "main": "index.js",
   "private": false,
   "author": "twinh",
@@ -8,5 +8,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/twinh/github-actions-test.git"
-  }
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {}
 }
