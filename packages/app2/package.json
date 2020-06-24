@@ -1,18 +1,1 @@
-{
-  "name": "@github-test/app2",
-  "version": "1.0.0",
-  "private": false,
-  "main": "index.js",
-  "author": "twinh",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/twinh/github-actions-test.git"
-  },
-  "dependencies": {
-    "@github-test/base": "1.0.1"
-  },
-  "devDependencies": {},
-  "peerDependencies": {},
-  "optionalDependencies": {}
-}
+{"name":"@github-test/app2","version":"1.0.0","private":false,"main":"index.js","author":"twinh","license":"MIT","repository":{"type":"git","url":"git+https://github.com/twinh/github-actions-test.git"},"dependencies":{"@github-test/base":"1.0.2"},"devDependencies":{},"peerDependencies":{},"optionalDependencies":{}}
