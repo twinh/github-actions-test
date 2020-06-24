@@ -1,3 +1,10 @@
+# [@github-test/base-v1.0.1](https://github.com/twinh/github-actions-test/compare/@github-test/base-v1.0.0...@github-test/base-v1.0.1) (2020-06-24)
+
+
+### Bug Fixes
+
+* 测试只有一个发布 ([62e9910](https://github.com/twinh/github-actions-test/commit/62e99105461d29c9c799721da18146537116ec6c))
+
 # @github-test/base-v1.0.0 (2020-06-24)
 
 
