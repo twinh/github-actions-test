@@ -10,7 +10,7 @@
     "url": "git+https://github.com/twinh/github-actions-test.git"
   },
   "dependencies": {
-    "base": "^1.0.0"
+    "@github-test/base": "^1.0.0"
   },
   "devDependencies": {},
   "peerDependencies": {},
