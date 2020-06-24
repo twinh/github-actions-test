@@ -8,5 +8,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/twinh/github-actions-test.git"
-  }
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {}
 }
