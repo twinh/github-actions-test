@@ -3,8 +3,5 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "twinh",
-  "license": "MIT",
-  "dependencies": {
-    "base": "^1.0.0"
-  }
+  "license": "MIT"
 }
