@@ -10,8 +10,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "test": "jest",
-    "semantic-release": "semantic-release"
+    "test": "jest"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
@@ -23,7 +22,6 @@
     "babel-jest": "^26.0.1",
     "husky": "^4.2.5",
     "jest": "^26.0.1",
-    "multi-semantic-release": "^2.0.1",
-    "semantic-release": "^17.0.8"
+    "semantic-release": "twinh/semantic-release#feature/monorepo"
   }
 }
