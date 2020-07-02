@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/twinh/github-actions-test/compare/@github-test/app1@1.0.4...@github-test/app1@1.0.5) (2020-07-02)
+
+
+
+### Dependencies
+* **@github-test/base:** upgraded to 1.0.3
+
 ## @github-test/app1 [1.0.2](https://github.com/twinh/github-actions-test/compare/@github-test/app1@1.0.1...@github-test/app1@1.0.2) (2020-06-24)
 
 

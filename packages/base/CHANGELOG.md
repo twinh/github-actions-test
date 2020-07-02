@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/twinh/github-actions-test/compare/@github-test/base@1.0.2...@github-test/base@1.0.3) (2020-07-02)
+
+
+### Bug Fixes
+
+* 测试发布依赖 ([b550997](https://github.com/twinh/github-actions-test/commit/b5509972e95559e0eebc7be968438a6b4f1aa7a5))
+
 ## @github-test/base [1.0.2](https://github.com/twinh/github-actions-test/compare/@github-test/base@1.0.1...@github-test/base@1.0.2) (2020-06-24)
 
 
