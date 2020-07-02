@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.0.3...@github-test/app2@1.0.4) (2020-07-02)
+
+
+### Bug Fixes
+
+* 测试发布一个包 ([abf442d](https://github.com/twinh/github-actions-test/commit/abf442dcc439c50417e0bc36c25bdab58980c2b3))
+
 ## @github-test/app2 [1.0.2](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.0.1...@github-test/app2@1.0.2) (2020-06-24)
 
 
