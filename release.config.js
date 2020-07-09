@@ -3,6 +3,7 @@ module.exports = {
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',
     '@semantic-release/changelog',
+    '@monorepo-semantic-release/monorepo',
     '@semantic-release/npm',
     '@semantic-release/github',
     '@monorepo-semantic-release/git',
