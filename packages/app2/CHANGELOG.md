@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.0.5...@github-test/app2@1.1.0) (2020-07-09)
+
+
+### Features
+
+* add composer ([aa97fa0](https://github.com/twinh/github-actions-test/commit/aa97fa068173d18b671df6f3dde368fd4158e37c))
+
+
+
+### Dependencies
+* **@github-test/base:** upgraded to 1.1.0
+
 ## [1.0.5](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.0.4...@github-test/app2@1.0.5) (2020-07-02)
 
 
