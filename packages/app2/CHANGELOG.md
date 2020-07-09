@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.2.0...@github-test/app2@1.2.1) (2020-07-09)
+
+
+### Bug Fixes
+
+* test ([ebbfb64](https://github.com/twinh/github-actions-test/commit/ebbfb642d06d3ea5301fd9d81dbf387573c77641))
+
 # [1.2.0](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.1.0...@github-test/app2@1.2.0) (2020-07-09)
 
 
