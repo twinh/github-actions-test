@@ -1,6 +1,6 @@
 {
   "name": "@github-test/app2",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "private": false,
   "main": "index.js",
   "author": "twinh",
@@ -10,6 +10,6 @@
     "url": "git+https://github.com/twinh/github-actions-test.git"
   },
   "dependencies": {
-    "@github-test/base": "^1.2.0"
+    "@github-test/base": "^1.2.1"
   }
 }

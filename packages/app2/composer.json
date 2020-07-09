@@ -7,6 +7,6 @@
         }
     ],
     "require": {
-        "github-test/base": "^1.0.3"
+        "github-test/base": "^1.2.1"
     }
 }
