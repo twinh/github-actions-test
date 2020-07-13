@@ -1,3 +1,18 @@
+# [4.5.0](https://github.com/twinh/github-actions-test/compare/v4.4.0...v4.5.0) (2020-07-13)
+
+
+### Bug Fixes
+
+* 测试单个 2 ([0761563](https://github.com/twinh/github-actions-test/commit/07615636152acf794d6934a64bad9ce6830c4cd9))
+* 测试发布上级 app ([8b9106d](https://github.com/twinh/github-actions-test/commit/8b9106d37a34d42783eee9d7d99b4e38e037c079))
+
+
+
+
+
+### Dependencies
+* **@github-test/base:** upgrade to 4.5.0
+
 ## [1.0.8](https://github.com/twinh/github-actions-test/compare/@github-test/app1@1.0.7...@github-test/app1@1.0.8) (2020-07-09)
 
 
