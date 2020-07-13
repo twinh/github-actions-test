@@ -1,3 +1,10 @@
+## [4.6.1](https://github.com/twinh/github-actions-test/compare/v4.6.0...v4.6.1) (2020-07-13)
+
+
+### Bug Fixes
+
+* 测试 npm 发布 ([22174e0](https://github.com/twinh/github-actions-test/commit/22174e0e26f85cded2c662e5cd3db54e85a03f43))
+
 # [4.6.0](https://github.com/twinh/github-actions-test/compare/v4.5.0...v4.6.0) (2020-07-13)
 
 
