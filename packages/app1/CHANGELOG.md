@@ -12,6 +12,20 @@
 ### Dependencies
 * **@github-test/base:** upgrade to 4.6.7
 
+## [4.6.7](https://github.com/twinh/github-actions-test/compare/v4.6.6...v4.6.7) (2020-07-13)
+
+
+### Bug Fixes
+
+* test ([926da7c](https://github.com/twinh/github-actions-test/commit/926da7ce4139308f515952546011f49434ba5a74))
+
+
+
+
+
+### Dependencies
+* **@github-test/base:** upgrade to 4.6.7
+
 ## [4.6.6](https://github.com/twinh/github-actions-test/compare/v4.6.5...v4.6.6) (2020-07-13)
 
 
