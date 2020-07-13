@@ -1,3 +1,12 @@
+## [4.6.6](https://github.com/twinh/github-actions-test/compare/v4.6.5...v4.6.6) (2020-07-13)
+
+
+
+
+
+### Dependencies
+* **@github-test/base:** upgrade to 4.6.6
+
 ## [4.6.5](https://github.com/twinh/github-actions-test/compare/v4.6.4...v4.6.5) (2020-07-13)
 
 
