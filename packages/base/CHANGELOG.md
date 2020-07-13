@@ -1,3 +1,10 @@
+## [4.6.8](https://github.com/twinh/github-actions-test/compare/v4.6.7...v4.6.8) (2020-07-13)
+
+
+### Bug Fixes
+
+* test 2 ([74e0f6d](https://github.com/twinh/github-actions-test/commit/74e0f6d205399889c882d9864a539a92965ed79d))
+
 ## [4.6.7](https://github.com/twinh/github-actions-test/compare/v4.6.6...v4.6.7) (2020-07-13)
 
 ## [4.6.7](https://github.com/twinh/github-actions-test/compare/v4.6.6...v4.6.7) (2020-07-13)
