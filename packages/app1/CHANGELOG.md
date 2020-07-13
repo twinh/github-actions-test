@@ -1,3 +1,17 @@
+## [4.6.2](https://github.com/twinh/github-actions-test/compare/v4.6.1...v4.6.2) (2020-07-13)
+
+
+### Bug Fixes
+
+* 测试 @monorepo-semantic-release/github ([2e5abf2](https://github.com/twinh/github-actions-test/commit/2e5abf241e7969e1979d06f2263b2ce092d1018e))
+
+
+
+
+
+### Dependencies
+* **@github-test/base:** upgrade to 4.6.2
+
 ## [4.6.1](https://github.com/twinh/github-actions-test/compare/v4.6.0...v4.6.1) (2020-07-13)
 
 
