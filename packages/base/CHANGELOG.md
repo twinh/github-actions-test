@@ -1,3 +1,10 @@
+## [4.6.5](https://github.com/twinh/github-actions-test/compare/v4.6.4...v4.6.5) (2020-07-13)
+
+
+### Bug Fixes
+
+* 测试线上发布 ([e113074](https://github.com/twinh/github-actions-test/commit/e11307484ee6c28e362baae82c410a292c412832))
+
 ## [4.6.4](https://github.com/twinh/github-actions-test/compare/v4.6.3...v4.6.4) (2020-07-13)
 
 
