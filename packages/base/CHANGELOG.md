@@ -1,3 +1,10 @@
+# [4.6.0](https://github.com/twinh/github-actions-test/compare/v4.5.0...v4.6.0) (2020-07-13)
+
+
+### Features
+
+* next ([b824ba4](https://github.com/twinh/github-actions-test/commit/b824ba40fb5b21ecf24dbd3a11bb2b8ffcbebdb1))
+
 # [4.5.0](https://github.com/twinh/github-actions-test/compare/v4.4.0...v4.5.0) (2020-07-13)
 
 
