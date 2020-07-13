@@ -1,3 +1,10 @@
+# [4.7.0](https://github.com/twinh/github-actions-test/compare/v4.6.8...v4.7.0) (2020-07-13)
+
+
+### Features
+
+* 测试新版 ([e79bca9](https://github.com/twinh/github-actions-test/commit/e79bca92d652c0051bf4248ee3873ad5c9a84c03))
+
 ## [4.6.8](https://github.com/twinh/github-actions-test/compare/v4.6.7...v4.6.8) (2020-07-13)
 
 
