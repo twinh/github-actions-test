@@ -7,5 +7,5 @@ module.exports = {
     '@monorepo-semantic-release/github',
     '@monorepo-semantic-release/git',
   ],
-  "version": "fixed",
+  "versionMode": "fixed",
 }
