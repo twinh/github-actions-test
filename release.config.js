@@ -5,7 +5,6 @@ module.exports = {
     '@semantic-release/changelog',
     '@monorepo-semantic-release/monorepo',
     '@semantic-release/npm',
-    '@semantic-release/github',
     '@monorepo-semantic-release/git',
   ],
   "version": "fixed",
