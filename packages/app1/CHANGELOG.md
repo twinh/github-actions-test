@@ -5,7 +5,7 @@
 
 
 ### Dependencies
-* **@github-test/base:** upgrade to 1.2.1
+* **@github-test/base:** upgrade to 1.3.0
 
 ## [1.0.7](https://github.com/twinh/github-actions-test/compare/@github-test/app1@1.0.6...@github-test/app1@1.0.7) (2020-07-09)
 

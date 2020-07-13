@@ -7,5 +7,6 @@ module.exports = {
     '@semantic-release/npm',
     '@semantic-release/github',
     '@monorepo-semantic-release/git',
-  ]
+  ],
+  "version": "fixed",
 }

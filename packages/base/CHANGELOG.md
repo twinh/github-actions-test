@@ -1,9 +1,14 @@
-## [1.2.1](https://github.com/twinh/github-actions-test/compare/@github-test/base@1.2.0...@github-test/base@1.2.1) (2020-07-09)
+# [1.3.0](https://github.com/twinh/github-actions-test/compare/@github-test/base@1.2.0...@github-test/base@1.3.0) (2020-07-09)
 
 
 ### Bug Fixes
 
 * 测试依赖 ([86273a6](https://github.com/twinh/github-actions-test/commit/86273a6d02185c2e237de78cccee526dabedba36))
+
+
+### Features
+
+* next ([b824ba4](https://github.com/twinh/github-actions-test/commit/b824ba40fb5b21ecf24dbd3a11bb2b8ffcbebdb1))
 
 # [1.2.0](https://github.com/twinh/github-actions-test/compare/@github-test/base@1.1.0...@github-test/base@1.2.0) (2020-07-09)
 
