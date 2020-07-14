@@ -1,3 +1,10 @@
+## [4.10.2](https://github.com/twinh/github-actions-test/compare/v4.10.1...v4.10.2) (2020-07-14)
+
+
+### Bug Fixes
+
+* 测试 fix ([8483b20](https://github.com/twinh/github-actions-test/commit/8483b20d076380e2b24e40aae5eafa7419145c77))
+
 ## [4.10.1](https://github.com/twinh/github-actions-test/compare/v4.10.0...v4.10.1) (2020-07-14)
 
 
