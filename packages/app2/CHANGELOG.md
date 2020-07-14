@@ -1,3 +1,18 @@
+# [4.8.0](https://github.com/twinh/github-actions-test/compare/v4.7.0...v4.8.0) (2020-07-14)
+
+
+### Features
+
+* next ([0da33c1](https://github.com/twinh/github-actions-test/commit/0da33c10c2e75cd50aa43f8e49685ea19be40cf8))
+
+
+
+
+
+### Dependencies
+
+* **@github-test/base:** upgrade to 4.8.0
+
 # [4.7.0](https://github.com/twinh/github-actions-test/compare/v4.6.8...v4.7.0) (2020-07-13)
 
 
