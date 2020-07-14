@@ -1,6 +1,6 @@
 {
   "name": "@github-test/base",
-  "version": "4.10.0",
+  "version": "4.10.1",
   "main": "index.js",
   "private": false,
   "author": "twinh",
