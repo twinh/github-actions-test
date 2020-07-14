@@ -4,6 +4,7 @@
 ### Bug Fixes
 
 * next ([4b191fe](https://github.com/twinh/github-actions-test/commit/4b191fe408efeaeac68c48ebc8cba5b7c507d50c))
+* 测试 fix ([1f25e8f](https://github.com/twinh/github-actions-test/commit/1f25e8f527288225687d0fa41c761a364a308497))
 
 
 ### Features
