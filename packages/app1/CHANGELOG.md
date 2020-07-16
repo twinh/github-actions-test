@@ -1,3 +1,22 @@
+# [4.11.0](https://github.com/twinh/github-actions-test/compare/v4.10.2...v4.11.0) (2020-07-16)
+
+
+### Features
+
+* Feature/test ([#8](https://github.com/twinh/github-actions-test/issues/8)) ([060a0d6](https://github.com/twinh/github-actions-test/commit/060a0d6decb1e305a9f7c2dfe6d463f72f44f6b5))
+
+
+
+
+
+### Dependencies
+
+* **@github-test/base:** upgrade from 4.10.2 to 4.11.0
+
+### Release
+
+* upgrade all packages to 4.11.0
+
 ## [4.10.3](https://github.com/twinh/github-actions-test/compare/v4.10.2...v4.10.3) (2020-07-15)
 
 
