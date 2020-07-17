@@ -1,0 +1,10 @@
+{
+  "repos": [
+    {
+      "sourceDir": "packages/app-no-npm",
+      "target": "/Users/twin/www/t21/",
+      "addTagPrefix": "v",
+      "removeTagPrefix": "@github-test/app-no-npm@"
+    }
+  ]
+}
