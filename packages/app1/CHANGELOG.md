@@ -1,3 +1,27 @@
+# [1.1.0](https://github.com/twinh/github-actions-test/compare/@github-test/app1@1.0.8...@github-test/app1@1.1.0) (2020-07-17)
+
+
+### Bug Fixes
+
+* test ([926da7c](https://github.com/twinh/github-actions-test/commit/926da7ce4139308f515952546011f49434ba5a74))
+* 测试 @monorepo-semantic-release/github ([2e5abf2](https://github.com/twinh/github-actions-test/commit/2e5abf241e7969e1979d06f2263b2ce092d1018e))
+* 测试 @monorepo-semantic-release/github 2 ([6f37f70](https://github.com/twinh/github-actions-test/commit/6f37f704b66331049e6d0fed69a026fcf6e3968c))
+* 测试线上发布 2 ([e30b83d](https://github.com/twinh/github-actions-test/commit/e30b83d6cd5e072a03428a813c08a6e162b68cb2))
+
+
+### Features
+
+* Feature/test ([#8](https://github.com/twinh/github-actions-test/issues/8)) ([060a0d6](https://github.com/twinh/github-actions-test/commit/060a0d6decb1e305a9f7c2dfe6d463f72f44f6b5))
+* next ([0da33c1](https://github.com/twinh/github-actions-test/commit/0da33c10c2e75cd50aa43f8e49685ea19be40cf8))
+
+
+
+
+
+### Dependencies
+
+* **@github-test/base:** upgrade from 1.3.0 to 1.4.0
+
 # [4.11.0](https://github.com/twinh/github-actions-test/compare/v4.10.2...v4.11.0) (2020-07-16)
 
 

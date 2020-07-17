@@ -1,3 +1,23 @@
+# [1.3.0](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.2.2...@github-test/app2@1.3.0) (2020-07-17)
+
+
+### Bug Fixes
+
+* test fixed mode notes ([68fc1e9](https://github.com/twinh/github-actions-test/commit/68fc1e9475597b3c49d3da15ea013390cc6e02b8))
+
+
+### Features
+
+* next ([0da33c1](https://github.com/twinh/github-actions-test/commit/0da33c10c2e75cd50aa43f8e49685ea19be40cf8))
+
+
+
+
+
+### Dependencies
+
+* **@github-test/base:** upgrade from 1.3.0 to 1.4.0
+
 # [4.11.0](https://github.com/twinh/github-actions-test/compare/v4.10.2...v4.11.0) (2020-07-16)
 
 

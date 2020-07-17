@@ -1,3 +1,23 @@
+# [1.4.0](https://github.com/twinh/github-actions-test/compare/@github-test/base@1.3.0...@github-test/base@1.4.0) (2020-07-17)
+
+
+### Bug Fixes
+
+* next ([4b191fe](https://github.com/twinh/github-actions-test/commit/4b191fe408efeaeac68c48ebc8cba5b7c507d50c))
+* test 2 ([74e0f6d](https://github.com/twinh/github-actions-test/commit/74e0f6d205399889c882d9864a539a92965ed79d))
+* 测试 @monorepo-semantic-release/github 3 ([658986c](https://github.com/twinh/github-actions-test/commit/658986c36b6a91ad6bc52708a75bad5ff09d9f09))
+* 测试 fix ([8483b20](https://github.com/twinh/github-actions-test/commit/8483b20d076380e2b24e40aae5eafa7419145c77))
+* 测试 fix ([1f25e8f](https://github.com/twinh/github-actions-test/commit/1f25e8f527288225687d0fa41c761a364a308497))
+* 测试 npm 发布 ([22174e0](https://github.com/twinh/github-actions-test/commit/22174e0e26f85cded2c662e5cd3db54e85a03f43))
+* 测试线上发布 ([e113074](https://github.com/twinh/github-actions-test/commit/e11307484ee6c28e362baae82c410a292c412832))
+
+
+### Features
+
+* next ([0da33c1](https://github.com/twinh/github-actions-test/commit/0da33c10c2e75cd50aa43f8e49685ea19be40cf8))
+* next ([b824ba4](https://github.com/twinh/github-actions-test/commit/b824ba40fb5b21ecf24dbd3a11bb2b8ffcbebdb1))
+* 测试新版 ([e79bca9](https://github.com/twinh/github-actions-test/commit/e79bca92d652c0051bf4248ee3873ad5c9a84c03))
+
 # [4.11.0](https://github.com/twinh/github-actions-test/compare/v4.10.2...v4.11.0) (2020-07-16)
 
 
