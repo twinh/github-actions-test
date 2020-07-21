@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/twinh/github-actions-test/compare/@github-test/base@1.4.0...@github-test/base@1.4.1) (2020-07-21)
+
+
+### Bug Fixes
+
+* 测试 beta 发布 ([9c37d13](https://github.com/twinh/github-actions-test/commit/9c37d1353583cd3f41287d72fc8491a20c522f01))
+
 # [1.4.0](https://github.com/twinh/github-actions-test/compare/@github-test/base@1.3.0...@github-test/base@1.4.0) (2020-07-17)
 
 
