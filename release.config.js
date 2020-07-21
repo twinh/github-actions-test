@@ -8,6 +8,7 @@ module.exports = {
     '@monorepo-semantic-release/github',
     '@monorepo-semantic-release/git',
   ],
+  firstRelease: '0.4.5',
   packageOptions: {
     '@github-test/base': {
       branches: [

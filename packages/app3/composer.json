@@ -1,0 +1,12 @@
+{
+    "name": "github-test/app3",
+    "authors": [
+        {
+            "name": "twinh",
+            "email": "twinhuang@qq.com"
+        }
+    ],
+    "require": {
+        "github-test/app2": "^1.3.0"
+    }
+}
