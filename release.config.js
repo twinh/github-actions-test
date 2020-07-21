@@ -7,5 +7,17 @@ module.exports = {
     '@semantic-release/npm',
     '@monorepo-semantic-release/github',
     '@monorepo-semantic-release/git',
-  ]
+  ],
+  packageOptions: {
+    '@github-test/base': {
+      branches: [
+        '+([0-9])?(.{+([0-9]),x}).x',
+        'master',
+        'next',
+        'next-major',
+        'beta',
+        {name: 'alpha', prerelease: true},
+      ],
+    }
+  }
 }
