@@ -1,3 +1,13 @@
+## [0.4.6-beta.1](https://github.com/twinh/github-actions-test/compare/@github-test/app3@0.4.5...@github-test/app3@0.4.6-beta.1) (2020-07-21)
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app2:** upgrade from 1.3.1-beta.1 to 1.3.1-beta.2
+
 ## 0.4.5 (2020-07-21)
 
 
