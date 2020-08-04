@@ -1,3 +1,13 @@
+## [1.3.2](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.3.1...@github-test/app2@1.3.2) (2020-08-04)
+
+
+
+
+
+### Dependencies
+
+* **@github-test/base:** upgrade from 1.4.3 to 1.4.4
+
 ## [1.3.1](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.3.0...@github-test/app2@1.3.1) (2020-07-22)
 
 

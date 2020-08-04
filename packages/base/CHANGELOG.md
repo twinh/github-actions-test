@@ -1,3 +1,10 @@
+## [1.4.4](https://github.com/twinh/github-actions-test/compare/@github-test/base@1.4.3...@github-test/base@1.4.4) (2020-08-04)
+
+
+### Bug Fixes
+
+* 测试发布后同步 ([c20ed9f](https://github.com/twinh/github-actions-test/commit/c20ed9fccdaf85401485eb789e76048474cfd541))
+
 ## [1.4.3](https://github.com/twinh/github-actions-test/compare/@github-test/base@1.4.2...@github-test/base@1.4.3) (2020-07-22)
 
 
