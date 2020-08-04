@@ -2,13 +2,13 @@
   "repos": [
     {
       "sourceDir": "packages/base",
-      "target": "https://github.com/kqh/base.git",
+      "target": "git@github.com:kqh/base.git",
       "addTagPrefix": "v",
       "removeTagPrefix": "@github-test/base@"
     },
     {
       "sourceDir": "packages/app1",
-      "target": "https://github.com/kqh/app1.git",
+      "target": "git@github.com:kqh/app1.git",
       "addTagPrefix": "v",
       "removeTagPrefix": "@github-test/base@"
     }
