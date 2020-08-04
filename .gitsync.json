@@ -1,19 +1,19 @@
 {
   "repos": [
     {
-      "sourceDir": "packages/app-no-npm",
-      "target": "/Users/twin/www/t21/",
+      "sourceDir": "packages/base",
+      "target": "https://github.com/kqh/base.git",
       "addTagPrefix": "v",
-      "removeTagPrefix": "@github-test/app-no-npm@",
-      "plugins": [
-        [
-          "@gitsync/plugin-git-replacer",
-          {
-            "x": "b",
-            "targetUrl": "https://github.com/twinh/app-no-npm"
-          }
-        ]
-      ]
+      "removeTagPrefix": "@github-test/base@"
+    },
+    {
+      "sourceDir": "packages/app1",
+      "target": "https://github.com/kqh/app1.git",
+      "addTagPrefix": "v",
+      "removeTagPrefix": "@github-test/base@"
     }
+  ],
+  "plugins": [
+    "@gitsync/plugin-git-replacer"
   ]
 }

@@ -25,6 +25,7 @@
     "babel-jest": "^26.0.1",
     "husky": "^4.2.5",
     "jest": "^26.0.1",
-    "semantic-release": "twinh/semantic-release#feature/monorepo"
+    "semantic-release": "twinh/semantic-release#feature/monorepo",
+    "gitsync-cli": "^0.6.0"
   }
 }
