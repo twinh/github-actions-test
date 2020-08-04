@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/twinh/github-actions-test/compare/@github-test/app1@1.1.4...@github-test/app1@1.1.5) (2020-08-04)
+
+
+### Bug Fixes
+
+* 测试发布后同步 3 ([2fc3e35](https://github.com/twinh/github-actions-test/commit/2fc3e35961caae21ee0c18c08d61ba4a2cca5f10))
+
 ## [1.1.4](https://github.com/twinh/github-actions-test/compare/@github-test/app1@1.1.3...@github-test/app1@1.1.4) (2020-08-04)
 
 
