@@ -28,6 +28,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
+      - run: node github-event-path.js
+
       - run: yarn install
 
       - name: Release
