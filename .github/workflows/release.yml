@@ -49,7 +49,7 @@ jobs:
           key: gitsync
 
       - run: |
-          yarn gitsync exec -- git reset --hard HEAD
-          yarn gitsync exec -- git pull
+          ./node_modules/.bin/gitsync exec -- git reset --hard HEAD
+          ./node_modules/.bin/gitsync exec -- git pull
 
       - run: yarn gitsync ci --log-level=info
