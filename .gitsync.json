@@ -1,5 +1,4 @@
 {
-  "baseDir": "../plugins",
   "repos": [
     {
       "sourceDir": "packages/base",
