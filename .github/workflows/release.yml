@@ -33,8 +33,8 @@ jobs:
 
       - run: yarn install
 
-      - run: yarn gitsync commit packages/app1 -y
-      - run: yarn gitsync push packages/app1
+      - run: yarn gitsync commit packages/app4 -y
+      - run: yarn gitsync push packages/app4
 
       - name: Release
         env:
