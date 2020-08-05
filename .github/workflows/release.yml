@@ -50,6 +50,6 @@ jobs:
 
       - run: |
           ./node_modules/.bin/gitsync exec -- git reset --hard HEAD
-          ./node_modules/.bin/gitsync exec -- git pull
+          ./node_modules/.bin/gitsync exec -- git pull --ff-only
 
       - run: yarn gitsync commit packages/app4 -y --log-level=verbose
