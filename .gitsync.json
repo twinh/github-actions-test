@@ -8,7 +8,7 @@
     },
     {
       "sourceDir": "packages/app4",
-      "target": "https://github.com/kqh/app1.git",
+      "target": "git@github.com:kqh/app1.git",
       "addTagPrefix": "v",
       "removeTagPrefix": "@github-test/app4@"
     }
