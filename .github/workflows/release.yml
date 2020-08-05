@@ -45,7 +45,7 @@ jobs:
       - name: Get gitsync cache
         uses: actions/cache@v2
         with:
-          path: .gitsync
+          path: .git/gitsync
           key: gitsync
 
       - run: |
