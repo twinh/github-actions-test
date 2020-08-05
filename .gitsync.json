@@ -1,4 +1,5 @@
 {
+  "baseDir": ".gitsync",
   "repos": [
     {
       "sourceDir": "packages/base",
