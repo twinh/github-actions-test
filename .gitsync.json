@@ -1,5 +1,4 @@
 {
-  "baseDir": ".gitsync",
   "repos": [
     {
       "sourceDir": "packages/base",
@@ -8,13 +7,10 @@
       "removeTagPrefix": "@github-test/base@"
     },
     {
-      "sourceDir": "packages/app1",
+      "sourceDir": "packages/app4",
       "target": "https://github.com/kqh/app1.git",
       "addTagPrefix": "v",
-      "removeTagPrefix": "@github-test/base@"
+      "removeTagPrefix": "@github-test/app4@"
     }
-  ],
-  "plugins": [
-    "@gitsync/plugin-git-replacer"
   ]
 }
