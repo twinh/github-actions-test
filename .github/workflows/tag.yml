@@ -1,7 +1,7 @@
 on: [ push ]
 
 env:
-  ref: ${GITHUB_REF#refs/*/}
+  ref: ${${GITHUB_REF#refs/*/}/master/latest}
 
 jobs:
   tag:
