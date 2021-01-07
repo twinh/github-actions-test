@@ -13,6 +13,7 @@ jobs:
       - name: Build the Docker image
         run: |
           abc
+      - run: echo "default";
       - name: success
         if: ${{ success() }}
         run: |
@@ -31,6 +32,7 @@ jobs:
       - name: Build the Docker image
         run: |
           exit 1;
+      - run: echo "default";
       - name: success
         if: ${{ success() }}
         run: |
@@ -50,6 +52,7 @@ jobs:
       - name: Build the Docker image
         run: |
           echo 1;
+      - run: echo "default";
       - name: success
         if: ${{ success() }}
         run: |
