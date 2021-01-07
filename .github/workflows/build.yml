@@ -1,19 +1,75 @@
 name: Build
 
-on: [push, pull_request]
+on: [ push, pull_request ]
 
 env:
   extensions: mbstring, mysql
   key: cache-v1 # can be any string, change to clear the extension cache.
 
 jobs:
+  if:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build the Docker image
+        run: |
+          abc
+      - name: success
+        if: ${{ success() }}
+        run: |
+          echo "success";
+      - name: failure
+        if: ${{ failure() }}
+        run: |
+          echo "failure";
+      - name: always
+        if: ${{ always() }}
+        run: |
+          echo "always";
+  if2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build the Docker image
+        run: |
+          exit 1;
+      - name: success
+        if: ${{ success() }}
+        run: |
+          echo "success";
+      - name: failure
+        if: ${{ failure() }}
+        run: |
+          echo "failure";
+      - name: always
+        if: ${{ always() }}
+        run: |
+          echo "always";
+
+  if3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build the Docker image
+        run: |
+          echo 1;
+      - name: success
+        if: ${{ success() }}
+        run: |
+          echo "success";
+      - name: failure
+        if: ${{ failure() }}
+        run: |
+          echo "failure";
+      - name: always
+        if: ${{ always() }}
+        run: |
+          echo "always";
+
   phpunit:
     runs-on: ${{ matrix.operating-system }}
     strategy:
       fail-fast: false
       matrix:
-        operating-system: [ubuntu-latest]
-        php-versions: ['7.2', '7.3', '7.4']
+        operating-system: [ ubuntu-latest ]
+        php-versions: [ '7.2', '7.3', '7.4' ]
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -76,7 +132,7 @@ jobs:
     runs-on: ubuntu-18.04
     strategy:
       matrix:
-        node-version: [10.x, 12.x]
+        node-version: [ 10.x, 12.x ]
     steps:
       - uses: actions/checkout@v2
 
@@ -110,7 +166,7 @@ jobs:
           parallel: true
 
   coveralls-finish:
-    needs: [phpunit, jest]
+    needs: [ phpunit, jest ]
     runs-on: ubuntu-18.04
     steps:
       - name: Coveralls Finished
