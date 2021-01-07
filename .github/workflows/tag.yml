@@ -1,7 +1,7 @@
 on: [ push ]
 
 env:
-  ref: ${${GITHUB_REF#refs/*/}/master/latest}
+  ref: $([ ${GITHUB_REF#refs/*/} == "master" ] && echo "latest" || echo ${GITHUB_REF#refs/*/})
 
 jobs:
   tag:
