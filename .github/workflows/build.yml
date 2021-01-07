@@ -7,65 +7,6 @@ env:
   key: cache-v1 # can be any string, change to clear the extension cache.
 
 jobs:
-  if:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Build the Docker image
-        run: |
-          abc
-      - run: echo "default";
-      - name: success
-        if: ${{ success() }}
-        run: |
-          echo "success";
-      - name: failure
-        if: ${{ failure() }}
-        run: |
-          echo "failure";
-      - name: always
-        if: ${{ always() }}
-        run: |
-          echo "always";
-  if2:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Build the Docker image
-        run: |
-          exit 1;
-      - run: echo "default";
-      - name: success
-        if: ${{ success() }}
-        run: |
-          echo "success";
-      - name: failure
-        if: ${{ failure() }}
-        run: |
-          echo "failure";
-      - name: always
-        if: ${{ always() }}
-        run: |
-          echo "always";
-
-  if3:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Build the Docker image
-        run: |
-          echo 1;
-      - run: echo "default";
-      - name: success
-        if: ${{ success() }}
-        run: |
-          echo "success";
-      - name: failure
-        if: ${{ failure() }}
-        run: |
-          echo "failure";
-      - name: always
-        if: ${{ always() }}
-        run: |
-          echo "always";
-
   phpunit:
     runs-on: ${{ matrix.operating-system }}
     strategy:
