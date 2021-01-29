@@ -1,9 +1,0 @@
-on: [ push ]
-
-jobs:
-  tag:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Test
-        run: |
-          echo ${{github.job}}
