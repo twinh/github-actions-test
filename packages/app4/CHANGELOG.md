@@ -1,3 +1,13 @@
+# [8.0.0](https://github.com/twinh/github-actions-test/compare/@github-test/app4@7.0.0...@github-test/app4@8.0.0) (2021-03-05)
+
+
+* fix!: 测试 parseOpt 选项 ([4c2cb0e](https://github.com/twinh/github-actions-test/commit/4c2cb0ecde85c967e9b482142267de4eb46f7a72))
+
+
+### BREAKING CHANGES
+
+* 测试 parseOpt 选项
+
 # [7.0.0](https://github.com/twinh/github-actions-test/compare/@github-test/app4@6.0.0...@github-test/app4@7.0.0) (2021-03-05)
 
 # [6.0.0](https://github.com/twinh/github-actions-test/compare/@github-test/app4@5.0.0...@github-test/app4@6.0.0) (2021-03-05)
