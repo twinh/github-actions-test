@@ -1,3 +1,5 @@
+# [7.0.0](https://github.com/twinh/github-actions-test/compare/@github-test/app4@6.0.0...@github-test/app4@7.0.0) (2021-03-05)
+
 # [6.0.0](https://github.com/twinh/github-actions-test/compare/@github-test/app4@5.0.0...@github-test/app4@6.0.0) (2021-03-05)
 
 
