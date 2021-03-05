@@ -1,3 +1,10 @@
+## [4.0.1](https://github.com/twinh/github-actions-test/compare/@github-test/app4@4.0.0...@github-test/app4@4.0.1) (2021-03-05)
+
+
+### Bug Fixes
+
+* 测试 conventionalcommits 规则 ([0c6b91c](https://github.com/twinh/github-actions-test/commit/0c6b91cf22674fcc29a824250d927d9a23266639))
+
 # [4.0.0](https://github.com/twinh/github-actions-test/compare/@github-test/app4@3.0.0...@github-test/app4@4.0.0) (2021-03-05)
 
 # [3.0.0](https://github.com/twinh/github-actions-test/compare/@github-test/app4@2.0.0...@github-test/app4@3.0.0) (2021-03-05)
