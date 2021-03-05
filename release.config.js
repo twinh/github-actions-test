@@ -1,11 +1,6 @@
 module.exports = {
   plugins: [
-    ["@semantic-release/commit-analyzer", {
-      "parserOpts": {
-        "headerPattern": /^(\w*)(?:\((.*)\))?!?: (.*)$/,
-        "breakingHeaderPattern": /^(\w*)(?:\((.*)\))?!: (.*)$/,
-      }
-    }],
+    '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',
     '@semantic-release/changelog',
     '@monorepo-semantic-release/monorepo',
