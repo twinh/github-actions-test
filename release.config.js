@@ -1,7 +1,10 @@
 module.exports = {
   plugins: [
     ["@semantic-release/commit-analyzer", {
-      "preset": "conventionalcommits",
+      "parserOpts": {
+        "headerPattern": /^(\w*)(?:\((.*)\))?!?: (.*)$/,
+        "breakingHeaderPattern": /^(\w*)(?:\((.*)\))?!: (.*)$/,
+      }
     }],
     '@semantic-release/release-notes-generator',
     '@semantic-release/changelog',
