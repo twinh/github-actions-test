@@ -1,3 +1,23 @@
+# [9.0.0](https://github.com/twinh/github-actions-test/compare/@github-test/app4@8.0.0...@github-test/app4@9.0.0) (2021-03-05)
+
+
+* feat(module)!: feat ([5f21d2f](https://github.com/twinh/github-actions-test/commit/5f21d2f38325e543a1f8bf912bbd2757e4640216))
+
+
+### Bug Fixes
+
+* fix ([dfd8259](https://github.com/twinh/github-actions-test/commit/dfd8259bd9c9e890587b574804795ba571593ec0))
+
+
+### Features
+
+* feat ([5e5acc1](https://github.com/twinh/github-actions-test/commit/5e5acc1e5fd36b0a2be9b571c990ea64f7072df2))
+
+
+### BREAKING CHANGES
+
+* feat with bc
+
 # [8.0.0](https://github.com/twinh/github-actions-test/compare/@github-test/app4@7.0.0...@github-test/app4@8.0.0) (2021-03-05)
 
 
