@@ -4,5 +4,14 @@
   "main": "index.js",
   "author": "twinh",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@github-test/base": "^1.4.4"
+  },
+  "ciDependencies": {
+    "@github-test/base": "kqh/base"
+  }
 }
