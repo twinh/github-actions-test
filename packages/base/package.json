@@ -12,7 +12,7 @@
   "scripts": {
     "test": "jest"
   },
-  "dependencies": {
-    "@miaoxing/dev": "*"
+  "devDependencies": {
+    "@miaoxing/dev": "^6.3.4"
   }
 }
