@@ -11,4 +11,9 @@ class App2Test extends \PHPUnit\Framework\TestCase
     {
         $this->assertSame(3, \Base\Base::add(1, 2));
     }
+
+    public function testSubBase()
+    {
+        $this->assertSame(-1, \Base\Base::sub(1, 2));
+    }
 }

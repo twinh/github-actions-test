@@ -8,4 +8,9 @@ class App2
     {
         return $a + $b;
     }
+
+    public static function sub($a, $b)
+    {
+        return $a - $b;
+    }
 }
