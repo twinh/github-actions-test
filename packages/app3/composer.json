@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Base\\": "src/"
+            "App3\\": "src/"
         }
     },
     "extra": {
