@@ -13,6 +13,9 @@
     }
   },
   "require": {},
+  "require-dev": {
+    "miaoxing/dev": "^6.3.4"
+  },
   "extra": {
     "branch-alias": {
       "dev-develop": "1.x-dev"
