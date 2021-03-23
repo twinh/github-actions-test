@@ -1,4 +1,4 @@
-export default function add(a, b) {
+module.exports = function add(a, b) {
   return a + b;
 }
 
@@ -43,3 +43,5 @@ export default function add(a, b) {
 // fix
 
 // chore
+
+// test
