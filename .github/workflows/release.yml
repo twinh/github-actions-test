@@ -52,4 +52,4 @@ jobs:
           ./node_modules/.bin/gitsync exec -- git reset --hard HEAD
           ./node_modules/.bin/gitsync exec -- git pull --ff-only
 
-      - run: yarn gitsync ci --log-level=verbose
+      - run: yarn gitsync ci --base-dir=.git/gitsync --log-level=verbose
