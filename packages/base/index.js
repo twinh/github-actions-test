@@ -1,6 +1,13 @@
-module.exports = function add(a, b) {
-  return a + b;
+const math = {
+  add: function (a, b) {
+    return a + b;
+  },
+  sub: function (a, b) {
+    return a - b;
+  }
 }
+
+module.exports = math;
 
 // fix
 

@@ -1,5 +1,12 @@
-const base = require('..');
+const math = require('..');
 
-it('should be 3', function () {
-  expect(base(1, 2)).toBe(3);
+describe('math', () => {
+  test('add', function () {
+    expect(math.add(1, 2)).toBe(3);
+  });
+
+  test('sub', function () {
+    expect(math.sub(1, 2)).toBe(-1);
+  });
 });
+
