@@ -1,5 +1,6 @@
 {
     "name": "twinh/github-actions-test",
+    "description": "",
     "authors": [
         {
             "name": "twinh",
@@ -19,7 +20,10 @@
     },
     "autoload": {
         "psr-4": {
-            "Gat\\": "src"
+            "Gat\\": "src",
+            "Base\\": "packages/base/src",
+            "App2\\": "packages/app2/src",
+            "App3\\": "packages/app3/src"
         }
     },
     "repositories": [

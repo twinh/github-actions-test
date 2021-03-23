@@ -1,5 +1,6 @@
 {
     "name": "github-test/app3",
+    "description": "",
     "authors": [
         {
             "name": "twinh",
@@ -8,5 +9,13 @@
     ],
     "require": {
         "github-test/app2": "^1.3.2"
+    },
+    "require-dev": {
+        "miaoxing/dev": "^6.3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Base\\": "src/"
+        }
     }
 }

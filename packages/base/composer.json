@@ -1,10 +1,16 @@
 {
-    "name": "github-test/base",
-    "authors": [
-        {
-            "name": "twinh",
-            "email": "twinhuang@qq.com"
-        }
-    ],
-    "require": {}
+  "name": "github-test/base",
+  "description": "",
+  "authors": [
+    {
+      "name": "twinh",
+      "email": "twinhuang@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Base\\": "src/"
+    }
+  },
+  "require": {}
 }
