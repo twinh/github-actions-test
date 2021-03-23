@@ -1,5 +1,11 @@
-const base = require('@github-test/base');
+const math = require('@github-test/base');
 
-it('should be 3', function () {
-    expect(base(1, 2)).toBe(3);
+describe('math', () => {
+    test('add', function () {
+        expect(math.add(2, 3)).toBe(5);
+    });
+
+    test('sub', function () {
+        expect(math.add(2, 3)).toBe(5);
+    });
 });
