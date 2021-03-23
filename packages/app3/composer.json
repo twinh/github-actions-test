@@ -17,5 +17,10 @@
         "psr-4": {
             "Base\\": "src/"
         }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "0.x-dev"
+        }
     }
 }
