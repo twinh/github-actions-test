@@ -9,7 +9,16 @@
     "type": "git",
     "url": "git+https://github.com/twinh/github-actions-test.git"
   },
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "@github-test/base": "^1.4.4"
+  },
+  "devDependencies": {
+    "@miaoxing/dev": "^6.3.4"
+  },
+  "ciDependencies": {
+    "@github-test/base": "kqh/base"
   }
 }

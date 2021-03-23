@@ -11,7 +11,17 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "@github-test/app2": "^1.3.2"
+  },
+  "devDependencies": {
+    "@miaoxing/dev": "^6.3.4"
+  },
+  "ciDependencies": {
+    "@github-test/base": "kqh/base",
+    "@github-test/app2": "kqh/app2"
   }
 }
