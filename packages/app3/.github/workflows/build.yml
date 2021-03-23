@@ -2,6 +2,10 @@ name: Node CI
 
 on: [push]
 
+env:
+  extensions: mbstring, mysql
+  key: cache-v1 # can be any string, change to clear the extension cache.
+
 jobs:
   phpunit:
     runs-on: ${{ matrix.operating-system }}
@@ -9,7 +13,7 @@ jobs:
       fail-fast: false
       matrix:
         operating-system: [ ubuntu-latest ]
-        php-versions: [ '7.2', '7.3', '7.4' ]
+        php-versions: [ '7.4' ]
     steps:
       - name: Checkout
         uses: actions/checkout@v2
