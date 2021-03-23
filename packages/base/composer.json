@@ -12,5 +12,10 @@
       "Base\\": "src/"
     }
   },
-  "require": {}
+  "require": {},
+  "extra": {
+    "branch-alias": {
+      "dev-develop": "1.x-dev"
+    }
+  }
 }
