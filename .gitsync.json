@@ -5,7 +5,8 @@
       "sourceDir": "packages/base",
       "target": "git@github.com:kqh/base.git",
       "addTagPrefix": "v",
-      "removeTagPrefix": "@github-test/base@"
+      "removeTagPrefix": "@github-test/base@",
+      "after": "2021-03-23 11:30"
     },
     {
       "sourceDir": "packages/app4",

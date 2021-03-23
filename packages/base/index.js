@@ -43,5 +43,3 @@ module.exports = function add(a, b) {
 // fix
 
 // chore
-
-// test
