@@ -49,7 +49,7 @@ jobs:
           key: gitsync
 
       - run: |
-          yarn gitsync exec --base-dir=.git/gitsync -- git reset --hard HEAD
-          yarn gitsync exec --base-dir=.git/gitsync -- git pull --ff-only
+          ./node_modules/.bin/gitsync exec --base-dir=.git/gitsync -- git reset --hard HEAD
+          ./node_modules/.bin/gitsync exec --base-dir=.git/gitsync -- git pull --ff-only
 
       - run: yarn gitsync ci --base-dir=.git/gitsync --log-level=verbose
