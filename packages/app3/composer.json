@@ -23,6 +23,7 @@
             "dev-develop": "0.x-dev"
         },
         "require-ci": {
+            "github-test/base": "kqh/base",
             "github-test/app2": "kqh/app2"
         }
     }
