@@ -1,4 +1,5 @@
 {
+  "baseDir": "../github-actions-test-repos",
   "repos": [
     {
       "sourceDir": "packages/base",
