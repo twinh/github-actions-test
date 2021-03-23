@@ -21,6 +21,9 @@
     "extra": {
         "branch-alias": {
             "dev-develop": "1.x-dev"
+        },
+        "require-ci": {
+            "github-test/base": "kqh/base"
         }
     }
 }
