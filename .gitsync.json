@@ -9,6 +9,18 @@
       "after": "2021-03-23 11:30"
     },
     {
+      "sourceDir": "packages/app2",
+      "target": "git@github.com:kqh/app2.git",
+      "addTagPrefix": "v",
+      "removeTagPrefix": "@github-test/app2@"
+    },
+    {
+      "sourceDir": "packages/app3",
+      "target": "git@github.com:kqh/app3.git",
+      "addTagPrefix": "v",
+      "removeTagPrefix": "@github-test/app3@"
+    },
+    {
       "sourceDir": "packages/app4",
       "target": "git@github.com:kqh/app4.git",
       "addTagPrefix": "v",
