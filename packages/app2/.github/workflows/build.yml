@@ -18,6 +18,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+
+      - name: Replace package dependencies
+        run: |
+          npx replace-pkg-dep composer.json
+
       - name: Setup cache environment
         id: cache-env
         uses: shivammathur/cache-extensions@v1
