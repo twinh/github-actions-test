@@ -1,9 +1,25 @@
 .idea/
+
+# js
 /node_modules/
 /dist/
-/vendor/
-/yarn-error.log
-/npm-debug.log
-/composer.lock
+/coverage/
 /yarn.lock
-/.gitsync/
+/yarn-error.log
+
+# php
+/vendor/
+composer.lock
+phpunit.xml
+.php_cs.cache
+.phpunit.result.cache
+
+# php-coveralls
+/build/logs/clover.xml
+
+# miaoxing
+/storage/
+/tests/config-local.php
+
+# wei
+/log/
