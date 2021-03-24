@@ -1,3 +1,19 @@
+# [1.4.0](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.3.2...@github-test/app2@1.4.0) (2021-03-24)
+
+
+### Features
+
+* 构造出 PHP 环境和测试 ([e0d1244](https://github.com/twinh/github-actions-test/commit/e0d124415b85a6b94d271b19d5b2d0c71a561acd))
+* 测试增加功能 ([6f371ac](https://github.com/twinh/github-actions-test/commit/6f371acbed9d7f2b8f4ecb6b34dac6a7bed75a54))
+
+
+
+
+
+### Dependencies
+
+* **@github-test/base:** upgrade from `1.4.4` to `1.5.0`
+
 ## [1.3.2](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.3.1...@github-test/app2@1.3.2) (2020-08-04)
 
 

@@ -1,3 +1,13 @@
+# [1.5.0](https://github.com/twinh/github-actions-test/compare/@github-test/base@1.4.4...@github-test/base@1.5.0) (2021-03-24)
+
+
+### Features
+
+* 增加 base2 ([71c8547](https://github.com/twinh/github-actions-test/commit/71c8547934eb11e4dc87bdef018b9297572c3171))
+* 增加 sub 方法 ([0453a8f](https://github.com/twinh/github-actions-test/commit/0453a8f90d1626169a8c5c856c44bb367c0b91ee))
+* 构造出 PHP 环境和测试 ([e0d1244](https://github.com/twinh/github-actions-test/commit/e0d124415b85a6b94d271b19d5b2d0c71a561acd))
+* 测试增加功能 ([6f371ac](https://github.com/twinh/github-actions-test/commit/6f371acbed9d7f2b8f4ecb6b34dac6a7bed75a54))
+
 ## [1.4.4](https://github.com/twinh/github-actions-test/compare/@github-test/base@1.4.3...@github-test/base@1.4.4) (2020-08-04)
 
 
