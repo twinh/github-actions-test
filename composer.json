@@ -13,7 +13,7 @@
         "test": "phpunit"
     },
     "require": {
-        "wei/wei": "dev-master"
+        "wei/wei": "^0.10.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8 || ^9"
@@ -25,11 +25,5 @@
             "App2\\": "packages/app2/src",
             "App3\\": "packages/app3/src"
         }
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/twinh/coveralls.php"
-        }
-    ]
+    }
 }
