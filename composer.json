@@ -1,5 +1,6 @@
 {
     "name": "twinh/github-actions-test",
+    "description": "",
     "authors": [
         {
             "name": "twinh",
@@ -12,7 +13,7 @@
         "test": "phpunit"
     },
     "require": {
-        "wei/wei": "dev-master"
+        "wei/wei": "^0.10.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8 || ^9"
@@ -21,11 +22,5 @@
         "psr-4": {
             "Gat\\": "src"
         }
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/twinh/coveralls.php"
-        }
-    ]
+    }
 }
