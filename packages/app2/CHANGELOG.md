@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.4.0...@github-test/app2@1.5.0) (2021-03-25)
+
+
+### Features
+
+* 增加 div 同步 ([7be793d](https://github.com/twinh/github-actions-test/commit/7be793d16a4ce8cb21ecc8410d156881d1a3a309))
+
 # [1.4.0](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.3.2...@github-test/app2@1.4.0) (2021-03-24)
 
 
