@@ -13,4 +13,9 @@ class App2
     {
         return $a - $b;
     }
+
+    public static function div($a, $b)
+    {
+        return $a / $b;
+    }
 }
