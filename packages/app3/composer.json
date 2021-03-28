@@ -20,7 +20,8 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-develop": "0.x-dev"
+            "dev-develop": "0.x-dev",
+            "dev-dev/page": "0.x-dev"
         },
         "require-ci": {
             "github-test/base": "kqh/base",
