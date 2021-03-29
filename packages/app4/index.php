@@ -38,8 +38,9 @@
 
 // feat
 
-// feat!
+// chore
 
+// feat!
 // patch
 
 // feat experimental
