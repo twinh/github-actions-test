@@ -1,3 +1,19 @@
+## [10.0.0](https://github.com/twinh/github-actions-test/compare/@github-test/app4@9.0.3...@github-test/app4@10.0.0) (2021-04-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* **module:** refactor some thing
+
+### Bug Fixes
+
+* 测试 ([e796016](https://github.com/twinh/github-actions-test/commit/e7960160d61a8d02529048c7c8e469ebee36faf5))
+
+
+### Code Refactoring
+
+* **module:** refactor some thing ([4429ac7](https://github.com/twinh/github-actions-test/commit/4429ac7a51323668aa53c18de4f906bfef46f2d4))
+
 ## [9.0.3](https://github.com/twinh/github-actions-test/compare/@github-test/app4@9.0.2...@github-test/app4@9.0.3) (2021-04-26)
 
 
