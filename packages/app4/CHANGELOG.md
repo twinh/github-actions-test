@@ -1,3 +1,10 @@
+### [10.0.1](https://github.com/twinh/github-actions-test/compare/@github-test/app4@10.0.0...@github-test/app4@10.0.1) (2021-04-26)
+
+
+### Patches
+
+* 测试 patch ([dc281c2](https://github.com/twinh/github-actions-test/commit/dc281c2159eb788ad94e9f162ae1062952624ab3))
+
 ## [10.0.0](https://github.com/twinh/github-actions-test/compare/@github-test/app4@9.0.3...@github-test/app4@10.0.0) (2021-04-26)
 
 
