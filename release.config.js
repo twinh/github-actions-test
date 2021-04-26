@@ -3,12 +3,15 @@ module.exports = {
     [
       '@semantic-release/commit-analyzer',
       {
-        "releaseRules": [
-          {"type": "feat", "message": "*experimental*", "release": "patch"},
-        ],
+        "preset": "conventionalcommits"
       },
     ],
-    '@semantic-release/release-notes-generator',
+    [
+      '@semantic-release/release-notes-generator',
+      {
+        "preset": "conventionalcommits"
+      }
+    ],
     '@semantic-release/changelog',
     '@monorepo-semantic-release/monorepo',
     '@semantic-release/npm',
