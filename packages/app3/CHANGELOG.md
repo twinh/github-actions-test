@@ -1,3 +1,10 @@
+## [0.7.0](https://github.com/twinh/github-actions-test/compare/@github-test/app3@0.6.0...@github-test/app3@0.7.0) (2021-05-09)
+
+
+### Features
+
+* 替换版本依赖 ([c56102c](https://github.com/twinh/github-actions-test/commit/c56102cdca5af0e139cf1d59cdd01a49fd32e987))
+
 ## [0.6.0](https://github.com/twinh/github-actions-test/compare/@github-test/app3@0.5.1...@github-test/app3@0.6.0) (2021-05-09)
 
 
