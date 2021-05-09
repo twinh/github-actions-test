@@ -1,3 +1,10 @@
+### [0.7.2](https://github.com/twinh/github-actions-test/compare/@github-test/app3@0.7.1...@github-test/app3@0.7.2) (2021-05-09)
+
+
+### Bug Fixes
+
+* 测试替换版本依赖 2 ([2e84f71](https://github.com/twinh/github-actions-test/commit/2e84f716e48bbbbfdcc5d742be1c0e7ff8d9e558))
+
 ### [0.7.1](https://github.com/twinh/github-actions-test/compare/@github-test/app3@0.7.0...@github-test/app3@0.7.1) (2021-05-09)
 
 
