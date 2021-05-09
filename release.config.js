@@ -50,6 +50,20 @@ module.exports = {
             ],
             "countMatches": true,
           },
+          {
+            "files": ["packages/app3/composer.json"],
+            "from": "\"dev-master\": \".*-dev\"",
+            "to": "\"dev-master\": \"${nextRelease.version}-dev\"",
+            "results": [
+              {
+                "file": "packages/app3/composer.json",
+                "hasChanged": true,
+                "numMatches": 1,
+                "numReplacements": 1,
+              },
+            ],
+            "countMatches": true,
+          },
         ],
       },
     ],
@@ -62,6 +76,7 @@ module.exports = {
         "assets": [
           'CHANGELOG.md',
           'package.json',
+          'composer.json',
           'lib/Wei.php',
         ],
       },
