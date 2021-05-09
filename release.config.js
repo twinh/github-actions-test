@@ -32,10 +32,40 @@ module.exports = {
       },
     ],
     '@semantic-release/changelog',
+    [
+      "@google/semantic-release-replace-plugin",
+      {
+        "replacements": [
+          {
+            "files": ["lib/Wei.php"],
+            "from": "VERSION = '.*'",
+            "to": "VERSION = '${nextRelease.version}'",
+            "results": [
+              {
+                "file": "lib/Wei.php",
+                "hasChanged": true,
+                "numMatches": 1,
+                "numReplacements": 1,
+              },
+            ],
+            "countMatches": true,
+          },
+        ],
+      },
+    ],
     '@monorepo-semantic-release/monorepo',
     '@semantic-release/npm',
     '@monorepo-semantic-release/github',
-    '@monorepo-semantic-release/git',
+    [
+      "@semantic-release/git",
+      {
+        "assets": [
+          'CHANGELOG.md',
+          'package.json',
+          'lib/Wei.php',
+        ],
+      },
+    ],
   ],
   firstRelease: '0.4.5',
 };
