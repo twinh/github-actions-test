@@ -9,3 +9,5 @@ class App3
         return $a + $b;
     }
 }
+
+// fix
