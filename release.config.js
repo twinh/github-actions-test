@@ -32,24 +32,11 @@ module.exports = {
       },
     ],
     '@semantic-release/changelog',
+    '@monorepo-semantic-release/monorepo',
     [
       "@google/semantic-release-replace-plugin",
       {
         "replacements": [
-          {
-            "files": ["packages/app3/lib/Wei.php"],
-            "from": "VERSION = '.*'",
-            "to": "VERSION = '${nextRelease.version}'",
-            "results": [
-              {
-                "file": "packages/app3/lib/Wei.php",
-                "hasChanged": true,
-                "numMatches": 1,
-                "numReplacements": 1,
-              },
-            ],
-            "countMatches": true,
-          },
           {
             "files": ["packages/app3/composer.json"],
             "from": "\"dev-master\": \".*-dev\"",
@@ -64,10 +51,23 @@ module.exports = {
             ],
             "countMatches": true,
           },
+          {
+            "files": ["packages/app3/lib/Wei.php"],
+            "from": "VERSION = '.*'",
+            "to": "VERSION = '${nextRelease.version}'",
+            "results": [
+              {
+                "file": "packages/app3/lib/Wei.php",
+                "hasChanged": true,
+                "numMatches": 1,
+                "numReplacements": 1,
+              },
+            ],
+            "countMatches": true,
+          },
         ],
       },
     ],
-    '@monorepo-semantic-release/monorepo',
     '@semantic-release/npm',
     '@monorepo-semantic-release/github',
     [
