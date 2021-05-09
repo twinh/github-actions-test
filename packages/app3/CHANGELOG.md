@@ -1,3 +1,10 @@
+## [0.6.0](https://github.com/twinh/github-actions-test/compare/@github-test/app3@0.5.1...@github-test/app3@0.6.0) (2021-05-09)
+
+
+### Features
+
+* 测试发布更新版本号 ([f94583e](https://github.com/twinh/github-actions-test/commit/f94583e9ef2418172341e0d62288362323ad2f8d))
+
 ## [0.5.1](https://github.com/twinh/github-actions-test/compare/@github-test/app3@0.5.0...@github-test/app3@0.5.1) (2021-03-25)
 
 
