@@ -37,12 +37,12 @@ module.exports = {
       {
         "replacements": [
           {
-            "files": ["lib/Wei.php"],
+            "files": ["packages/app3/lib/Wei.php"],
             "from": "VERSION = '.*'",
             "to": "VERSION = '${nextRelease.version}'",
             "results": [
               {
-                "file": "lib/Wei.php",
+                "file": "packages/app3/lib/Wei.php",
                 "hasChanged": true,
                 "numMatches": 1,
                 "numReplacements": 1,
