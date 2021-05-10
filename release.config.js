@@ -75,10 +75,10 @@ module.exports = {
       {
         'message': 'chore(release): publish\n\nSee CHANGELOG.md for more details.',
         'assets': [
-          'CHANGELOG.md',
-          'package.json',
-          'composer.json',
-          'lib/Wei.php',
+          '(packages|plugins)/*/CHANGELOG.md',
+          '(packages|plugins)/*/package.json',
+          '(packages|plugins)/*/composer.json',
+          'packages/app3/lib/Wei.php',
         ],
       },
     ],
