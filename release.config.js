@@ -71,9 +71,10 @@ module.exports = {
     '@semantic-release/npm',
     '@monorepo-semantic-release/github',
     [
-      "@semantic-release/git",
+      '@monorepo-semantic-release/git',
       {
-        "assets": [
+        'message': 'chore(release): publish\n\nSee CHANGELOG.md for more details.',
+        'assets': [
           'CHANGELOG.md',
           'package.json',
           'composer.json',
