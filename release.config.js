@@ -44,8 +44,8 @@ module.exports = {
             "replacements": [
               {
                 "files": ["composer.json"],
-                "from": "\"dev-master\": \".*-dev\"",
-                "to": "\"dev-master\": \"${nextRelease.version}-dev\"",
+                "from": '"dev-master": ".*-dev"',
+                "to": '"dev-master": "${nextRelease.version}-dev"',
                 "results": [
                   {
                     "file": "composer.json",
