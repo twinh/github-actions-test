@@ -9,6 +9,10 @@
     "type": "git",
     "url": "git+https://github.com/twinh/github-actions-test.git"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "test": "jest"
   },
