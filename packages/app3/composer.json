@@ -19,14 +19,9 @@
         }
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "0.7.6-dev",
-            "dev-develop": "0.6.x-dev",
-            "dev-dev/page": "0.6.x-dev"
-        },
         "require-ci": {
-            "github-test/base": "kqh/base",
-            "github-test/app2": "kqh/app2"
+            "github-test/base": "kqh/base as 1.x-dev",
+            "github-test/app2": "kqh/app2 as 1.x-dev"
         }
     }
 }
