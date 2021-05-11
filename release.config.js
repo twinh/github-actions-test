@@ -1,3 +1,5 @@
+global.replace = require('@monorepo-semantic-release/replace');
+
 module.exports = {
   plugins: [
     [
@@ -34,36 +36,41 @@ module.exports = {
     '@semantic-release/changelog',
     '@monorepo-semantic-release/monorepo',
     [
-      "@google/semantic-release-replace-plugin",
+      '@monorepo-semantic-release/replace',
       {
-        "replacements": [
+        "packages": [
           {
-            "files": ["packages/app3/composer.json"],
-            "from": "\"dev-master\": \".*-dev\"",
-            "to": "\"dev-master\": \"${nextRelease.version}-dev\"",
-            "results": [
+            "includes": ["@github-test/app3"],
+            "replacements": [
               {
-                "file": "packages/app3/composer.json",
-                "hasChanged": true,
-                "numMatches": 1,
-                "numReplacements": 1,
+                "files": ["composer.json"],
+                "from": "\"dev-master\": \".*-dev\"",
+                "to": "\"dev-master\": \"${nextRelease.version}-dev\"",
+                "results": [
+                  {
+                    "file": "composer.json",
+                    "hasChanged": true,
+                    "numMatches": 1,
+                    "numReplacements": 1,
+                  },
+                ],
+                "countMatches": true,
+              },
+              {
+                "files": ["lib/Wei.php"],
+                "from": "VERSION = '.*'",
+                "to": "VERSION = '${nextRelease.version}'",
+                "results": [
+                  {
+                    "file": "lib/Wei.php",
+                    "hasChanged": true,
+                    "numMatches": 1,
+                    "numReplacements": 1,
+                  },
+                ],
+                "countMatches": true,
               },
             ],
-            "countMatches": true,
-          },
-          {
-            "files": ["packages/app3/lib/Wei.php"],
-            "from": "VERSION = '.*'",
-            "to": "VERSION = '${nextRelease.version}'",
-            "results": [
-              {
-                "file": "packages/app3/lib/Wei.php",
-                "hasChanged": true,
-                "numMatches": 1,
-                "numReplacements": 1,
-              },
-            ],
-            "countMatches": true,
           },
         ],
       },
