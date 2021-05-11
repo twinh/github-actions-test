@@ -1,3 +1,10 @@
+### [10.0.2](https://github.com/twinh/github-actions-test/compare/@github-test/app4@10.0.1...@github-test/app4@10.0.2) (2021-05-11)
+
+
+### Bug Fixes
+
+* 测试发布没有 app3 ([7c17b55](https://github.com/twinh/github-actions-test/commit/7c17b5518caae3c19b187356de4a790341ef445f))
+
 ### [10.0.1](https://github.com/twinh/github-actions-test/compare/@github-test/app4@10.0.0...@github-test/app4@10.0.1) (2021-04-26)
 
 
