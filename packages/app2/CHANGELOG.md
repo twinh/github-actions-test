@@ -1,3 +1,10 @@
+### [1.5.2](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.5.1...@github-test/app2@1.5.2) (2021-05-11)
+
+
+### Bug Fixes
+
+* 测试 `@monorepo-semantic-release/git` 4 ([d9b0769](https://github.com/twinh/github-actions-test/commit/d9b0769c55acfadabc5367b38773080c6e22cf98))
+
 ### [1.5.1](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.5.0...@github-test/app2@1.5.1) (2021-05-10)
 
 
