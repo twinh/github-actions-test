@@ -1,3 +1,10 @@
+### [10.0.3](https://github.com/twinh/github-actions-test/compare/@github-test/app4@10.0.2...@github-test/app4@10.0.3) (2021-05-12)
+
+
+### Bug Fixes
+
+* 测试发布时 GitHub 的环境 ([2211c2a](https://github.com/twinh/github-actions-test/commit/2211c2a5ddbab88296ca246e7ceb87d09d1f47f6))
+
 ### [10.0.2](https://github.com/twinh/github-actions-test/compare/@github-test/app4@10.0.1...@github-test/app4@10.0.2) (2021-05-11)
 
 
