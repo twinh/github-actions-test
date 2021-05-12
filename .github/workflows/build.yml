@@ -106,10 +106,6 @@ jobs:
       - name: Run
         run: yarn jest --coverage --coverageReporters text lcovonly
 
-      - run: |
-          git branch -a
-          git branch --contains tags/@github-test/app4@10.0.2 --no-color -a
-
       - name: Coveralls
         env:
           COVERALLS_FLAG_NAME: node-${{ matrix.node-version }}

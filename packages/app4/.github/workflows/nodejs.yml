@@ -1,6 +1,6 @@
 name: Node CI
 
-on: [push]
+on: [ push ]
 
 jobs:
   build:
@@ -9,7 +9,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x]
+        node-version: [ 10.x, 12.x ]
 
     steps:
       - uses: actions/checkout@v1
@@ -22,6 +22,10 @@ jobs:
       - name: Replace package dependencies
         run: |
           npx replace-pkg-dep
+
+      - run: |
+          git branch -a
+          git branch --contains tags/v10.0.1 --no-color -a
 
       - name: yarn install and test
         run: |
