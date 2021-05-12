@@ -107,9 +107,8 @@ jobs:
         run: yarn jest --coverage --coverageReporters text lcovonly
 
       - run: |
-          echo $GITHUB_HEAD_REF
-          echo '|'
-          echo ${{ github.head_ref }}
+          git branch -a
+          git branch --contains tags/@github-test/app4@10.0.2 --no-color -a
 
       - name: Coveralls
         env:
