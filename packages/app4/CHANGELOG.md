@@ -1,3 +1,10 @@
+### [10.0.4](https://github.com/twinh/github-actions-test/compare/@github-test/app4@10.0.3...@github-test/app4@10.0.4) (2021-05-12)
+
+
+### Bug Fixes
+
+* 测试发布时读取到的 branch ([8cc3a16](https://github.com/twinh/github-actions-test/commit/8cc3a1697d61bfdfc2070f18fb6833501936bd5c))
+
 ### [10.0.3](https://github.com/twinh/github-actions-test/compare/@github-test/app4@10.0.2...@github-test/app4@10.0.3) (2021-05-12)
 
 
