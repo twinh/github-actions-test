@@ -104,7 +104,7 @@ jobs:
       - run: yarn install
 
       - name: Run
-        run: yarn jest --coverage --coverageReporters --colors text lcovonly
+        run: yarn jest --colors --coverage --coverageReporters text lcovonly
 
       - name: Coveralls
         env:
