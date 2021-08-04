@@ -90,5 +90,9 @@ module.exports = {
       },
     ],
   ],
+  packages: [
+    'packages/*',
+    'm',
+  ],
   firstRelease: '0.4.5',
 };
