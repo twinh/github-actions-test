@@ -1,0 +1,18 @@
+{
+  "name": "@github-test/m",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "twinh",
+  "license": "MIT",
+  "private": true,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "workspaces": [
+    "../packages/*"
+  ],
+  "dependencies": {
+    "@github-test/app4": "^10.0.4"
+  }
+}
