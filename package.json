@@ -1,5 +1,5 @@
 {
-  "name": "twinh-github-actions-test",
+  "name": "@github-test/test",
   "version": "0.4.6",
   "main": "index.js",
   "repository": "https://github.com/twinh/github-actions-test.git",
