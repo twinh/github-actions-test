@@ -78,6 +78,20 @@ module.exports = {
     '@semantic-release/npm',
     '@monorepo-semantic-release/github',
     [
+      '@monorepo-semantic-release/git',
+      {
+        'message': 'chore(release): publish\n\nSee CHANGELOG.md for more details.',
+        'assets': [
+          '(packages|plugins)/*/CHANGELOG.md',
+          '(packages|plugins)/*/package.json',
+          '(packages|plugins)/*/composer.json',
+          'packages/app3/lib/Wei.php',
+          'm/CHANGELOG.md',
+          'm/package.json'
+        ],
+      },
+    ],
+    [
       '@monorepo-semantic-release/replace',
       {
         "packages": [
@@ -86,8 +100,8 @@ module.exports = {
             "replacements": [
               {
                 "files": ["package.json"],
-                "from": '"private": false,',
-                "to": '"private": true,',
+                "from": '"private": true,',
+                "to": '"private": false,',
                 "results": [
                   {
                     "file": "package.json",
@@ -100,20 +114,6 @@ module.exports = {
               },
             ],
           },
-        ],
-      },
-    ],
-    [
-      '@monorepo-semantic-release/git',
-      {
-        'message': 'chore(release): publish\n\nSee CHANGELOG.md for more details.',
-        'assets': [
-          '(packages|plugins)/*/CHANGELOG.md',
-          '(packages|plugins)/*/package.json',
-          '(packages|plugins)/*/composer.json',
-          'packages/app3/lib/Wei.php',
-          'm/CHANGELOG.md',
-          'm/package.json'
         ],
       },
     ],
