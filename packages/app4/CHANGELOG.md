@@ -1,3 +1,10 @@
+## [10.1.0](https://github.com/twinh/github-actions-test/compare/@github-test/app4@10.0.4...@github-test/app4@10.1.0) (2021-08-05)
+
+
+### Features
+
+* 测试子仓库发布更新主仓库 ([f8aadae](https://github.com/twinh/github-actions-test/commit/f8aadaefcffb3ad3eac81bfe655d6eee3120e439))
+
 ### [10.0.4](https://github.com/twinh/github-actions-test/compare/@github-test/app4@10.0.3...@github-test/app4@10.0.4) (2021-05-12)
 
 
