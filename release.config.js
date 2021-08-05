@@ -86,6 +86,8 @@ module.exports = {
           '(packages|plugins)/*/package.json',
           '(packages|plugins)/*/composer.json',
           'packages/app3/lib/Wei.php',
+          'm/CHANGELOG.md',
+          'm/package.json'
         ],
       },
     ],
