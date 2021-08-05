@@ -1,3 +1,10 @@
+### [0.4.6](https://github.com/twinh/github-actions-test/compare/@github-test/test@0.4.5...@github-test/test@0.4.6) (2021-08-05)
+
+
+### Bug Fixes
+
+* 更新包名 ([c4325b9](https://github.com/twinh/github-actions-test/commit/c4325b96f93263fec7dbd8d350dc7e9b9ebde37a))
+
 ### 0.4.5 (2021-08-05)
 
 
