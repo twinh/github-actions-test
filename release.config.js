@@ -78,6 +78,32 @@ module.exports = {
     '@semantic-release/npm',
     '@monorepo-semantic-release/github',
     [
+      '@monorepo-semantic-release/replace',
+      {
+        "packages": [
+          {
+            "includes": ["@github-test/m"],
+            "replacements": [
+              {
+                "files": ["package.json"],
+                "from": '"private": false,',
+                "to": '"private": true,',
+                "results": [
+                  {
+                    "file": "package.json",
+                    "hasChanged": true,
+                    "numMatches": 1,
+                    "numReplacements": 1,
+                  },
+                ],
+                "countMatches": true,
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    [
       '@monorepo-semantic-release/git',
       {
         'message': 'chore(release): publish\n\nSee CHANGELOG.md for more details.',
