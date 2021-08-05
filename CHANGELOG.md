@@ -1,3 +1,10 @@
+### [0.4.6](https://github.com/twinh/github-actions-test/compare/@twinh/github-actions-test@0.4.5...@twinh/github-actions-test@0.4.6) (2021-08-05)
+
+
+### Bug Fixes
+
+* 测试发布主仓库 ([da9c3b5](https://github.com/twinh/github-actions-test/commit/da9c3b523699cbab87ac11c900e36776d6faa00d))
+
 ### 0.4.5 (2021-08-05)
 
 
