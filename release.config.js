@@ -87,7 +87,9 @@ module.exports = {
           '(packages|plugins)/*/composer.json',
           'packages/app3/lib/Wei.php',
           'm/CHANGELOG.md',
-          'm/package.json'
+          'm/package.json',
+          'CHANGELOG.md',
+          'package.json',
         ],
       },
     ],
@@ -114,6 +116,25 @@ module.exports = {
               },
             ],
           },
+          {
+            "includes": ["twinh-github-actions-test"],
+            "replacements": [
+              {
+                "files": ["package.json"],
+                "from": '"private": true,',
+                "to": '"private": false,',
+                "results": [
+                  {
+                    "file": "package.json",
+                    "hasChanged": true,
+                    "numMatches": 1,
+                    "numReplacements": 1,
+                  },
+                ],
+                "countMatches": true,
+              },
+            ],
+          },
         ],
       },
     ],
@@ -121,6 +142,7 @@ module.exports = {
   packages: [
     'packages/*',
     'm',
+    '.',
   ],
   firstRelease: '0.4.5',
 };
