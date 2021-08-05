@@ -117,7 +117,7 @@ module.exports = {
             ],
           },
           {
-            "includes": ["twinh-github-actions-test"],
+            "includes": ["@github-test/test"],
             "replacements": [
               {
                 "files": ["package.json"],
