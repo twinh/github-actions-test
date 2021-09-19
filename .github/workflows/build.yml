@@ -108,6 +108,7 @@ jobs:
         run: yarn jest --colors --coverage --coverageReporters text lcovonly
 
       - name: Coveralls
+        continue-on-error: true
         env:
           COVERALLS_FLAG_NAME: node-${{ matrix.node-version }}
         uses: coverallsapp/github-action@master
@@ -118,6 +119,7 @@ jobs:
   coveralls-finish:
     needs: [ phpunit, jest ]
     runs-on: ubuntu-18.04
+    continue-on-error: true
     steps:
       - name: Coveralls Finished
         uses: coverallsapp/github-action@master
