@@ -5,7 +5,7 @@ require dirname(__DIR__) . '/vendor/autoload.php';
 wei([
     'redis' => [
         'host' => '127.0.0.1',
-        'port' => getenv('REDIS_PORT'),
+        'port' => (int) getenv('REDIS_PORT'),
         'auth' => '',
     ], 
 ]);
