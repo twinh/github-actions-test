@@ -2,15 +2,18 @@
 
 require dirname(__DIR__) . '/vendor/autoload.php';
 
+wei([
+    'redis' => [
+        'host' => '127.0.0.1',
+        'port' => getenv('REDIS_PORT'),
+        'auth' => '',
+    ], 
+]);
+
 class Test extends \PHPUnit\Framework\TestCase
 {
     public function testRedis()
     {
-        wei()->setConfig('redis', [
-            'host' => '127.0.0.1',
-            'port' => (int) getenv('REDIS_PORT'),
-        ]);
-        
         $redis = wei()->redis;
         
         $redis->set('test', 'value');
