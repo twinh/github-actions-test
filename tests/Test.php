@@ -4,6 +4,28 @@ require dirname(__DIR__) . '/vendor/autoload.php';
 
 class Test extends \PHPUnit\Framework\TestCase
 {
+    public function testRedis()
+    {
+        wei()->setConfig('redis', [
+            'host' => 'redis',
+            'auth' => 'password',
+        ]);
+        
+        $redis = wei()->redis;
+        
+        $redis->set('test', 'value');
+        $this->assertSame('value', $redis->get('test'));
+        
+        $redis->incr('test_incr');
+        $this->assertSame('1', $redis->get('test_incr'));
+
+        $redis->incr('test_incr');
+        $this->assertSame('2', $redis->get('test_incr'));
+
+        $redis->remove('test');
+        $redis->remove('test_incr');
+    }
+    
     public function testCount()
     {
         $this->assertSame(2, \Gat\Counter::sum(1, 1));
