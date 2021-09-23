@@ -7,8 +7,8 @@ class Test extends \PHPUnit\Framework\TestCase
     public function testRedis()
     {
         wei()->setConfig('redis', [
-            'host' => 'redis',
-            'auth' => 'password',
+            'host' => '127.0.0.1',
+            'port' => getenv('REDIS_PORT'),
         ]);
         
         $redis = wei()->redis;
