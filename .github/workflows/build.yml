@@ -16,7 +16,6 @@ env:
 jobs:
   test:
     runs-on: ubuntu-18.04
-    continue-on-error: true
     steps:
       - uses: actions/checkout@v2
         with:
@@ -25,8 +24,11 @@ jobs:
       - name: Archive production artifacts
         run: echo ${{ env.ref }}
 
+      - name: Set name
+        run: echo "NAME=${GITHUB_REF_NAME//\//-}"
+
       - name: Archive production artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: nuaixubg-$(${{ env.TAG }})
+          name: nuaixubg-${{ env.NAME }}
           path: ./
