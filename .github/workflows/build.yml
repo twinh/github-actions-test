@@ -3,7 +3,7 @@ name: Build
 on:
   push:
   pull_request:
-  workflow_dispatch:
+  workflow_dispatch: 
   schedule:
     - cron: '20 11 * * *'
 
@@ -17,5 +17,12 @@ jobs:
     runs-on: ubuntu-18.04
     continue-on-error: true
     steps:
-      - name: Test
-        run: echo ${{ env.ref }}
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: miaoxing-js-${{ env.ref }}
+          path: ./
