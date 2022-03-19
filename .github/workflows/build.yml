@@ -27,5 +27,5 @@ jobs:
       - name: Archive production artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: miaoxing-js-$ref
+          name: miaoxing-js-${{ github.ref_name }}
           path: ./
