@@ -28,5 +28,5 @@ jobs:
       - name: Archive production artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: "${{ env.GITHUB_REPOSITORY_NAME }}_${{ env.TAG }}"
+          name: nuaixubg-$(${{ env.TAG }})
           path: ./
