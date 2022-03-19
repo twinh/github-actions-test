@@ -11,6 +11,7 @@ env:
   extensions: mbstring, mysql
   key: cache-v1 # can be any string, change to clear the extension cache.
   ref: ${GITHUB_REF_NAME//\//-}
+  TAG: $([ ${GITHUB_REF#refs/*/} == "master" ] && echo "latest" || echo ${GITHUB_REF#refs/*/})
 
 jobs:
   test:
@@ -27,5 +28,5 @@ jobs:
       - name: Archive production artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: miaoxing-js-${{ env.ref }}
+          name: miaoxing-js-${{ env.TAG }}
           path: ./
