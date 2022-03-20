@@ -10,11 +10,11 @@ on:
       generate-artifact:
         description: 'Generate artifact?'
         required: true
-        default: false
+        default: '0'
         type: choice
         options:
-          - true
-          - false
+          - '1'
+          - '0'
 
 env:
   extensions: mbstring, mysql
@@ -28,6 +28,10 @@ jobs:
     steps:
       - run: |
           echo "Generate artifact: ${{ github.event.inputs.generate-artifact }}" 
+
+      - name: Run
+        if: github.event.inputs.generate-artifact
+        run: echo 1
 
       - uses: actions/checkout@v2
         with:
