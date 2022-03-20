@@ -6,14 +6,15 @@ on:
   schedule:
     - cron: '20 11 * * *'
   workflow_dispatch:
-    generate-artifact:
-      description: 'Generate artifact?'
-      required: true
-      default: false
-      type: choice
-      options:
-        - true
-        - false  
+    inputs:
+      generate-artifact:
+        description: 'Generate artifact?'
+        required: true
+        default: false
+        type: choice
+        options:
+          - true
+          - false
 
 env:
   extensions: mbstring, mysql
