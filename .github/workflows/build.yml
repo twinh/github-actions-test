@@ -3,9 +3,17 @@ name: Build
 on:
   push:
   pull_request:
-  workflow_dispatch: 
   schedule:
     - cron: '20 11 * * *'
+  workflow_dispatch:
+    generate-artifact:
+      description: 'Generate artifact?'
+      required: true
+      default: false
+      type: choice
+      options:
+        - true
+        - false  
 
 env:
   extensions: mbstring, mysql
@@ -17,6 +25,9 @@ jobs:
   test:
     runs-on: ubuntu-18.04
     steps:
+      - run: |
+          echo "Generate artifact: ${{ github.event.inputs.generate-artifact }}" 
+
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
