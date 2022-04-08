@@ -1,3 +1,10 @@
+## [1.6.0](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.5.2...@github-test/app2@1.6.0) (2022-04-08)
+
+
+### Features
+
+* 测试子仓库发布主仓库是否会更新 ([39d89e4](https://github.com/twinh/github-actions-test/commit/39d89e40f98a7bf6b618493a07cd8d34514900f0))
+
 ### [1.5.2](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.5.1...@github-test/app2@1.5.2) (2021-05-11)
 
 

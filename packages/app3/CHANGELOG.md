@@ -1,3 +1,11 @@
+### [0.7.7](https://github.com/twinh/github-actions-test/compare/@github-test/app3@0.7.6...@github-test/app3@0.7.7) (2022-04-08)
+
+
+
+### Dependencies
+
+* **@github-test/app2:** upgrade from `1.5.2` to `1.6.0`
+
 ### [0.7.6](https://github.com/twinh/github-actions-test/compare/@github-test/app3@0.7.5...@github-test/app3@0.7.6) (2021-05-11)
 
 
