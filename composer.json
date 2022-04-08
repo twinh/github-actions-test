@@ -13,7 +13,8 @@
         "test": "phpunit"
     },
     "require": {
-        "wei/wei": "^0.10.0"
+        "wei/wei": "^0.10.0",
+        "github-test/app2": "^1.5.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^8 || ^9"
