@@ -43,20 +43,6 @@ module.exports = {
             "includes": ["@github-test/app3"],
             "replacements": [
               {
-                "files": ["composer.json"],
-                "from": '"dev-master": ".*-dev"',
-                "to": '"dev-master": "${nextRelease.version}-dev"',
-                "results": [
-                  {
-                    "file": "composer.json",
-                    "hasChanged": true,
-                    "numMatches": 1,
-                    "numReplacements": 1,
-                  },
-                ],
-                "countMatches": true,
-              },
-              {
                 "files": ["lib/Wei.php"],
                 "from": "VERSION = '.*'",
                 "to": "VERSION = '${nextRelease.version}'",
