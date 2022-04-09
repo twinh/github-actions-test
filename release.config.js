@@ -76,6 +76,7 @@ module.exports = {
           'm/package.json',
           'CHANGELOG.md',
           'package.json',
+          'composer.json',
         ],
       },
     ],
