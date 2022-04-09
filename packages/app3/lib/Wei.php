@@ -25,7 +25,7 @@ namespace Wei {
         /**
          * Version
          */
-        public const VERSION = '0.7.7';
+        public const VERSION = '0.7.8';
 
         /**
          * The configurations for all objects

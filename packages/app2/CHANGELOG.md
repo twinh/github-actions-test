@@ -1,3 +1,10 @@
+## [1.7.0](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.6.0...@github-test/app2@1.7.0) (2022-04-09)
+
+
+### Features
+
+* 测试主仓库增加依赖 ([9ef2e14](https://github.com/twinh/github-actions-test/commit/9ef2e1431a7a855eb337c4463da5efe78f926e5a))
+
 ## [1.6.0](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.5.2...@github-test/app2@1.6.0) (2022-04-08)
 
 
