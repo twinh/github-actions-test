@@ -132,4 +132,9 @@ module.exports = {
     '.',
   ],
   firstRelease: '0.4.5',
+  packageOptions: {
+    '@github-test/test': {
+      tagFormat: 'v${version}'
+    }
+  }
 };
