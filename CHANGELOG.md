@@ -1,3 +1,103 @@
+## [5.0.0](https://github.com/twinh/github-actions-test/compare/v4.11.0...v5.0.0) (2022-04-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* **module:** refactor some thing
+* **module:** feat with bc
+* 测试 parseOpt 选项
+* 测试 parseOpt 选项
+* bc 测试 conventionalcommits 规则
+* 测试 conventionalcommits 规则
+* **module:** 测试感叹号能识别
+* **module:** 测试感叹号不能识别
+* 测试感叹号不能识别
+* 1. first line
+2. second line
+3. third line
+* first line
+second line
+third line
+
+four line
+* test bc?
+
+### Features
+
+* app3 ([a5e50d1](https://github.com/twinh/github-actions-test/commit/a5e50d19abd8ebd71c81e37a41f391025be5a3e8))
+* feat ([5e5acc1](https://github.com/twinh/github-actions-test/commit/5e5acc1e5fd36b0a2be9b571c990ea64f7072df2))
+* test bc multi line ([468b3e3](https://github.com/twinh/github-actions-test/commit/468b3e3963d05026457e9914d40163863756198d))
+* test bc multi line 2 ([d07e8f1](https://github.com/twinh/github-actions-test/commit/d07e8f15e5685374a21c4cb1bfaafdbd5adf5f84))
+* 初始化 m ([dcb3aba](https://github.com/twinh/github-actions-test/commit/dcb3aba530d8bc4e63cb0c0ec836f317a3abdaf1))
+* 发布 app4 ([97a5376](https://github.com/twinh/github-actions-test/commit/97a53761258284dbc1ec2d1a381dd6b8893f7cdc))
+* 增加 app5 ([6f50995](https://github.com/twinh/github-actions-test/commit/6f50995ffebe07758bcf36cbc5aec9054f6926bc))
+* 增加 base2 ([71c8547](https://github.com/twinh/github-actions-test/commit/71c8547934eb11e4dc87bdef018b9297572c3171))
+* 增加 div 同步 ([7be793d](https://github.com/twinh/github-actions-test/commit/7be793d16a4ce8cb21ecc8410d156881d1a3a309))
+* 增加 sub 方法 ([0453a8f](https://github.com/twinh/github-actions-test/commit/0453a8f90d1626169a8c5c856c44bb367c0b91ee))
+* 增加新的包，测试不发布到 npm ([8710ff2](https://github.com/twinh/github-actions-test/commit/8710ff29a7a8862d9e040a2f0047f04ed113931a))
+* 替换版本依赖 ([c56102c](https://github.com/twinh/github-actions-test/commit/c56102cdca5af0e139cf1d59cdd01a49fd32e987))
+* 构造出 PHP 环境和测试 ([e0d1244](https://github.com/twinh/github-actions-test/commit/e0d124415b85a6b94d271b19d5b2d0c71a561acd))
+* 测试主仓库增加依赖 ([9ef2e14](https://github.com/twinh/github-actions-test/commit/9ef2e1431a7a855eb337c4463da5efe78f926e5a))
+* 测试体验功能 experimental ([0c4a9b8](https://github.com/twinh/github-actions-test/commit/0c4a9b8c3d4c119e3aa9b3c5660e49a1ca763797))
+* 测试体验功能 experimental 2 ([a4843ef](https://github.com/twinh/github-actions-test/commit/a4843efe4e662a9cca639e7448aa81efe429c330))
+* 测试发布 ([426b935](https://github.com/twinh/github-actions-test/commit/426b93589d680941508a10c6f7771a0ebdb22d4d))
+* 测试发布 ([8361f89](https://github.com/twinh/github-actions-test/commit/8361f8987c3facb2b86eb1c40baea910bb91f5f3))
+* 测试发布更新版本号 ([f94583e](https://github.com/twinh/github-actions-test/commit/f94583e9ef2418172341e0d62288362323ad2f8d))
+* 测试增加功能 ([6f371ac](https://github.com/twinh/github-actions-test/commit/6f371acbed9d7f2b8f4ecb6b34dac6a7bed75a54))
+* 测试子仓库发布主仓库是否会更新 ([39d89e4](https://github.com/twinh/github-actions-test/commit/39d89e40f98a7bf6b618493a07cd8d34514900f0))
+* 测试子仓库发布更新主仓库 ([f8aadae](https://github.com/twinh/github-actions-test/commit/f8aadaefcffb3ad3eac81bfe655d6eee3120e439))
+* **module:** feat ([5f21d2f](https://github.com/twinh/github-actions-test/commit/5f21d2f38325e543a1f8bf912bbd2757e4640216))
+* **module:** 测试感叹号不能识别 ([54f0972](https://github.com/twinh/github-actions-test/commit/54f09721c008350e4d4e0b7a0a054ca820624a9a))
+* **module:** 测试感叹号能识别 ([57581e5](https://github.com/twinh/github-actions-test/commit/57581e51b9f4b061468cd46c52eb985463e6ee03))
+
+
+### Bug Fixes
+
+* base ([9b29c2d](https://github.com/twinh/github-actions-test/commit/9b29c2da1cbfa9be469bf955b33d0e5be8ad8843))
+* fix ([dfd8259](https://github.com/twinh/github-actions-test/commit/dfd8259bd9c9e890587b574804795ba571593ec0))
+* test bc? ([9efc379](https://github.com/twinh/github-actions-test/commit/9efc3792415f54d310dbb1ddf50687917928bc4c))
+* test close ([eab121c](https://github.com/twinh/github-actions-test/commit/eab121cdc5ef25b633e50ef0f1919450bb003190)), closes [#9](https://github.com/twinh/github-actions-test/issues/9)
+* test fixed mode notes ([71df3cb](https://github.com/twinh/github-actions-test/commit/71df3cbc24816b08292b469bed75d47721a34941))
+* upgrade webfactory/ssh-agent to v0.4.1 ([cc799db](https://github.com/twinh/github-actions-test/commit/cc799db497eb1f1e705183935fb5ae813bd7bed9))
+* 更新包名 ([c4325b9](https://github.com/twinh/github-actions-test/commit/c4325b96f93263fec7dbd8d350dc7e9b9ebde37a))
+* 测试 ([e796016](https://github.com/twinh/github-actions-test/commit/e7960160d61a8d02529048c7c8e469ebee36faf5))
+* 测试 `@monorepo-semantic-release/git` ([670eb2b](https://github.com/twinh/github-actions-test/commit/670eb2bc560918416d5c1620a2b2a132a5951d2c))
+* 测试 `@monorepo-semantic-release/git` 2 ([58c9a37](https://github.com/twinh/github-actions-test/commit/58c9a3790e3b30680482123961c0c0fc32590217))
+* 测试 `@monorepo-semantic-release/git` 3 ([9b89942](https://github.com/twinh/github-actions-test/commit/9b89942326b15ce162d563c06de1c6f8fb5bced4))
+* 测试 `@monorepo-semantic-release/git` 4 ([d9b0769](https://github.com/twinh/github-actions-test/commit/d9b0769c55acfadabc5367b38773080c6e22cf98))
+* 测试 base 发布 ([23226f2](https://github.com/twinh/github-actions-test/commit/23226f2d52ba27c07cbab2572ddb4f08c2e97d94))
+* 测试 beta 发布 ([9c37d13](https://github.com/twinh/github-actions-test/commit/9c37d1353583cd3f41287d72fc8491a20c522f01))
+* 测试 conventionalcommits 规则 ([c37cf83](https://github.com/twinh/github-actions-test/commit/c37cf834875af6461174a5b4dd491292e4f4952f))
+* 测试 conventionalcommits 规则 ([c262ad2](https://github.com/twinh/github-actions-test/commit/c262ad2ad9a45d0f5d6ea2f0fe390782225e58b2))
+* 测试 conventionalcommits 规则 ([0c6b91c](https://github.com/twinh/github-actions-test/commit/0c6b91cf22674fcc29a824250d927d9a23266639))
+* 测试 parseOpt 选项 ([4c2cb0e](https://github.com/twinh/github-actions-test/commit/4c2cb0ecde85c967e9b482142267de4eb46f7a72))
+* 测试 parseOpt 选项 ([98589d6](https://github.com/twinh/github-actions-test/commit/98589d6335e55a439c4a3144399a0fae7a0fdd4b))
+* 测试发布主仓库 ([da9c3b5](https://github.com/twinh/github-actions-test/commit/da9c3b523699cbab87ac11c900e36776d6faa00d))
+* 测试发布主仓库 2 ([c2420a5](https://github.com/twinh/github-actions-test/commit/c2420a52c46fa6cc40d51930bbf30248333e2098))
+* 测试发布后同步 ([7b56610](https://github.com/twinh/github-actions-test/commit/7b56610b439f146a0621b045a5b7cd22fcd56530))
+* 测试发布后同步 ([c20ed9f](https://github.com/twinh/github-actions-test/commit/c20ed9fccdaf85401485eb789e76048474cfd541))
+* 测试发布后同步 2 ([29326c4](https://github.com/twinh/github-actions-test/commit/29326c47e53f0e33404fff6879cadeac33339931))
+* 测试发布后同步 3 ([2fc3e35](https://github.com/twinh/github-actions-test/commit/2fc3e35961caae21ee0c18c08d61ba4a2cca5f10))
+* 测试发布后同步 4 ([887cbc6](https://github.com/twinh/github-actions-test/commit/887cbc65de6d5c31e11e93d7ab2828e1044f30ea))
+* 测试发布时 GitHub 的环境 ([2211c2a](https://github.com/twinh/github-actions-test/commit/2211c2a5ddbab88296ca246e7ceb87d09d1f47f6))
+* 测试发布时读取到的 branch ([8cc3a16](https://github.com/twinh/github-actions-test/commit/8cc3a1697d61bfdfc2070f18fb6833501936bd5c))
+* 测试发布没有 app3 ([7c17b55](https://github.com/twinh/github-actions-test/commit/7c17b5518caae3c19b187356de4a790341ef445f))
+* 测试更新地址 ([7e33f4c](https://github.com/twinh/github-actions-test/commit/7e33f4c7cca9ebcb753031e355c67d1ab8ea7652))
+* 测试替换版本依赖 ([cf60703](https://github.com/twinh/github-actions-test/commit/cf60703aff2df3f291dbcb43656ac0e8e63a7f2b))
+* 测试替换版本依赖 2 ([2e84f71](https://github.com/twinh/github-actions-test/commit/2e84f716e48bbbbfdcc5d742be1c0e7ff8d9e558))
+
+
+### Code Refactoring
+
+* **module:** refactor some thing ([4429ac7](https://github.com/twinh/github-actions-test/commit/4429ac7a51323668aa53c18de4f906bfef46f2d4))
+* 测试感叹号不能识别 ([a78a35d](https://github.com/twinh/github-actions-test/commit/a78a35da9b9b908cb5e29f01e60275ba54efbedf))
+
+
+### Patches
+
+* 测试 patch ([dc281c2](https://github.com/twinh/github-actions-test/commit/dc281c2159eb788ad94e9f162ae1062952624ab3))
+* 测试 patch 发布 ([b58876d](https://github.com/twinh/github-actions-test/commit/b58876d06caebdf1238eaa96aad338598479330c))
+
 ## [0.7.0](https://github.com/twinh/github-actions-test/compare/@github-test/test@0.6.0...@github-test/test@0.7.0) (2022-04-10)
 
 
