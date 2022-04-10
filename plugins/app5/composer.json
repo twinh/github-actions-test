@@ -1,0 +1,28 @@
+{
+    "name": "github-test/app5",
+    "type": "miaoxing-plugin",
+    "description": "",
+    "authors": [
+        {
+            "name": "twinh",
+            "email": "twinhuang@qq.com"
+        }
+    ],
+    "require": {
+        "github-test/app2": "^1.7.0"
+    },
+    "require-dev": {
+        "miaoxing/dev": "^6.3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App3\\": "src/"
+        }
+    },
+    "extra": {
+        "require-ci": {
+            "github-test/base": "kqh/base as 1.x-dev",
+            "github-test/app2": "kqh/app2 as 1.x-dev"
+        }
+    }
+}
