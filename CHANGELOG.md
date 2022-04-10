@@ -1,3 +1,10 @@
+## [0.7.0](https://github.com/twinh/github-actions-test/compare/@github-test/test@0.6.0...@github-test/test@0.7.0) (2022-04-10)
+
+
+### Features
+
+* 增加 app5 ([6f50995](https://github.com/twinh/github-actions-test/commit/6f50995ffebe07758bcf36cbc5aec9054f6926bc))
+
 ## [0.6.0](https://github.com/twinh/github-actions-test/compare/@github-test/test@0.5.0...@github-test/test@0.6.0) (2022-04-09)
 
 
