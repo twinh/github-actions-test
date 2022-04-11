@@ -134,7 +134,21 @@ module.exports = {
   firstRelease: '0.4.5',
   packageOptions: {
     '@github-test/test': {
-      tagFormat: 'v${version}'
+      tagFormat: 'v${version}',
+      plugins: [
+        [
+          '@semantic-release/commit-analyzer',
+          {
+            "releaseRules": [
+              {breaking: true, "scope": "u", release: 'major'},
+              {revert: true, "scope": "u", release: 'patch'},
+              {type: 'feat', "scope": "u", release: 'minor'},
+              {type: 'fix', "scope": "u", release: 'patch'},
+              {type: 'perf', "scope": "u", release: 'patch'},
+            ],
+          },
+        ],
+      ]
     }
   }
 };
