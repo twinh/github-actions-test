@@ -7,7 +7,10 @@ module.exports = {
       {
         "preset": "conventionalcommits",
         "releaseRules": [
-          {"type": "patch", "release": "patch"},
+          {"release": false}, // 用于跳过默认规则
+          {type: 'feat', "scope": "u, *", release: 'minor'},
+          {type: 'fix', "scope": "u, *", release: 'patch'},
+          {type: 'perf', "scope": "u, *", release: 'patch'},
         ],
       },
     ],
