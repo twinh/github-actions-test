@@ -29,6 +29,12 @@
       "target": "git@github.com:kqh/app4.git",
       "addTagPrefix": "v",
       "removeTagPrefix": "@github-test/app4@"
+    },
+    {
+      "sourceDir": "plugins/app5",
+      "target": "git@github.com:kqh/app5.git",
+      "addTagPrefix": "v",
+      "removeTagPrefix": "@github-test/app5@"
     }
   ]
 }
