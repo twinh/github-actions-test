@@ -2,40 +2,8 @@ global.replace = require('@monorepo-semantic-release/replace');
 
 module.exports = {
   plugins: [
-    [
-      '@semantic-release/commit-analyzer',
-      {
-        "preset": "conventionalcommits",
-        "releaseRules": [
-          {"release": false}, // 用于跳过默认规则
-          {type: 'feat', "scope": "u, *", release: 'minor'},
-          {type: 'fix', "scope": "u, *", release: 'patch'},
-          {type: 'perf', "scope": "u, *", release: 'patch'},
-        ],
-      },
-    ],
-    [
-      '@semantic-release/release-notes-generator',
-      {
-        "preset": "conventionalcommits",
-        "presetConfig": {
-          "types": [
-            {type: 'feat', section: 'Features'},
-            {type: 'fix', section: 'Bug Fixes'},
-            {type: 'patch', section: 'Patches'},
-            {type: 'perf', section: 'Performance Improvements'},
-            {type: 'revert', section: 'Reverts'},
-            {type: 'docs', section: 'Documentation', hidden: true},
-            {type: 'style', section: 'Styles', hidden: true},
-            {type: 'chore', section: 'Miscellaneous Chores', hidden: true},
-            {type: 'refactor', section: 'Code Refactoring', hidden: true},
-            {type: 'test', section: 'Tests', hidden: true},
-            {type: 'build', section: 'Build System', hidden: true},
-            {type: 'ci', section: 'Continuous Integration', hidden: true},
-          ],
-        },
-      },
-    ],
+    '@monorepo-semantic-release/zero-commit-analyzer',
+    '@semantic-release/release-notes-generator',
     '@semantic-release/changelog',
     '@monorepo-semantic-release/monorepo',
     [
@@ -138,20 +106,11 @@ module.exports = {
   packageOptions: {
     '@github-test/test': {
       tagFormat: 'v${version}',
-      plugins: [
-        [
-          '@semantic-release/commit-analyzer',
-          {
-            "releaseRules": [
-              {breaking: true, "scope": "u", release: 'major'},
-              {revert: true, "scope": "u", release: 'patch'},
-              {type: 'feat', "scope": "u", release: 'minor'},
-              {type: 'fix', "scope": "u", release: 'patch'},
-              {type: 'perf', "scope": "u", release: 'patch'},
-            ],
-          },
-        ],
-      ]
+      filterCommits: (commits) => {
+        return commits.filter(commit => {
+          return commit.subject.split(':')[0].includes('u, ');
+        });
+      },
     }
   }
 };
