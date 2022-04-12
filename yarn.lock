@@ -2510,10 +2510,10 @@
   dependencies:
     "@semantic-release/git" "^9.0.0"
 
-"@monorepo-semantic-release/monorepo@^2.0.0-beta.1":
-  version "2.0.0-beta.1"
-  resolved "https://registry.npm.taobao.org/@monorepo-semantic-release/monorepo/download/@monorepo-semantic-release/monorepo-2.0.0-beta.1.tgz#a0e475b916856d121f8bfd6a3ed5d48be8023bf3"
-  integrity sha1-oOR1uRaFbRIfi/1qPtXUi+gCO/M=
+"@monorepo-semantic-release/monorepo@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.npmmirror.com/@monorepo-semantic-release/monorepo/-/monorepo-2.0.0.tgz#d88d7521b1783f434d6393cd5c0b18f2312d9932"
+  integrity sha512-qqHSpQKrHw38kIu0XdGPkC4/XP09nGK74kSVXkbIh+BzAr2T14kzDKywvwrLUO6jH39AXUC0WTAMltxRXKUjMw==
   dependencies:
     debug "^4.1.1"
     detect-indent "^6.0.0"
