@@ -1,3 +1,10 @@
+## [5.0.1](https://github.com/twinh/github-actions-test/compare/v5.0.0...v5.0.1) (2022-04-12)
+
+
+### Bug Fixes
+
+* **u, app5:** 测试 scope ([a384f92](https://github.com/twinh/github-actions-test/commit/a384f9204d0d2e5481169f7d09ca4e30b7444a64))
+
 ## [5.0.0](https://github.com/twinh/github-actions-test/compare/v4.11.0...v5.0.0) (2022-04-10)
 
 
