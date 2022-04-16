@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b692732ec7a88883b1664a7ca9093a11",
+    "content-hash": "ec8c1c9a3628dc7408e57fa55883bc64",
     "packages": [
         {
             "name": "composer/installers",
@@ -152,17 +152,11 @@
         },
         {
             "name": "github-test/app2",
-            "version": "v1.7.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/kqh/app2.git",
-                "reference": "b7250572ef38506f55208f51ae9e8c0340a05584"
-            },
+            "version": "1.7.0",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/kqh/app2/zipball/b7250572ef38506f55208f51ae9e8c0340a05584",
-                "reference": "b7250572ef38506f55208f51ae9e8c0340a05584",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/app2",
+                "reference": "47756bb862ab093afbd23d4a3f93fbae515164d3"
             },
             "require": {
                 "github-test/base": "^1.5.0"
@@ -181,18 +175,15 @@
                     "App2\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "authors": [
                 {
                     "name": "twinh",
                     "email": "twinhuang@qq.com"
                 }
             ],
-            "support": {
-                "issues": "https://github.com/kqh/app2/issues",
-                "source": "https://github.com/kqh/app2/tree/v1.7.0"
-            },
-            "time": "2022-04-09T04:21:31+00:00"
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "github-test/app5",
@@ -232,44 +223,30 @@
         },
         {
             "name": "github-test/base",
-            "version": "v1.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/kqh/base.git",
-                "reference": "853b450c5bd1ba9edab6ad40e1e267fcd940ecb2"
-            },
+            "version": "1.5.0",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/kqh/base/zipball/853b450c5bd1ba9edab6ad40e1e267fcd940ecb2",
-                "reference": "853b450c5bd1ba9edab6ad40e1e267fcd940ecb2",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/base",
+                "reference": "54a905e332233a490683fcf08d36d8133c49359d"
             },
             "require-dev": {
                 "miaoxing/dev": "^6.3.4"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-develop": "1.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Base\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "authors": [
                 {
                     "name": "twinh",
                     "email": "twinhuang@qq.com"
                 }
             ],
-            "support": {
-                "issues": "https://github.com/kqh/base/issues",
-                "source": "https://github.com/kqh/base/tree/v1.5.0"
-            },
-            "time": "2021-03-24T03:49:04+00:00"
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "mnsami/composer-custom-directory-installer",
