@@ -51,6 +51,9 @@ module.exports = {
         ],
       },
     ],
+    ["@semantic-release/exec", {
+      "prepareCmd": 'composer update --no-install "github-test/*" "wei/wei"',
+    }],
     '@semantic-release/npm',
     '@monorepo-semantic-release/github',
     [
@@ -67,6 +70,7 @@ module.exports = {
           'CHANGELOG.md',
           'package.json',
           'composer.json',
+          'composer.lock',
         ],
       },
     ],
