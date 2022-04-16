@@ -118,6 +118,7 @@ module.exports = {
   ],
   packages: [
     'packages/*',
+    'plugins/*',
     'm',
     '.',
   ],
