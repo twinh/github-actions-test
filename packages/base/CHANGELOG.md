@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/twinh/github-actions-test/compare/@github-test/base@1.6.0...@github-test/base@1.6.1) (2022-04-16)
+
+
+### Bug Fixes
+
+* 测试发布 ([1618184](https://github.com/twinh/github-actions-test/commit/161818405cd1caa835c1570ec34e92eb23ebf0c8))
+
 # [1.6.0](https://github.com/twinh/github-actions-test/compare/@github-test/base@1.5.0...@github-test/base@1.6.0) (2022-04-16)
 
 
