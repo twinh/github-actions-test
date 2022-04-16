@@ -1,3 +1,10 @@
+## [0.4.13](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.12...@github-test/app5@0.4.13) (2022-04-16)
+
+
+### Bug Fixes
+
+* 测试生成 note 失败 7 ([e204c4c](https://github.com/twinh/github-actions-test/commit/e204c4c6d688b4d31930dcd02e5b953064e5f1e9))
+
 ## [0.4.12](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.11...@github-test/app5@0.4.12) (2022-04-16)
 
 
