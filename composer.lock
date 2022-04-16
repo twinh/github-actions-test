@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec8c1c9a3628dc7408e57fa55883bc64",
+    "content-hash": "24b7fb67a69c1dc5cd9575528ed51630",
     "packages": [
         {
             "name": "composer/installers",
@@ -152,14 +152,14 @@
         },
         {
             "name": "github-test/app2",
-            "version": "1.7.0",
+            "version": "1.8.0",
             "dist": {
                 "type": "path",
                 "url": "packages/app2",
-                "reference": "47756bb862ab093afbd23d4a3f93fbae515164d3"
+                "reference": "1150c4f95101bbc6b3d10c551a0c522b6a5d652b"
             },
             "require": {
-                "github-test/base": "^1.5.0"
+                "github-test/base": "^1.6.0"
             },
             "require-dev": {
                 "miaoxing/dev": "^6.3.4"
@@ -187,14 +187,14 @@
         },
         {
             "name": "github-test/app5",
-            "version": "0.4.5",
+            "version": "0.4.6",
             "dist": {
                 "type": "path",
                 "url": "plugins/app5",
-                "reference": "d2a8d6a9e5b60671d1765d41d40cdeef32b64302"
+                "reference": "2114aaa10ae947f577916b63b7c02f17f3a1b893"
             },
             "require": {
-                "github-test/app2": "^1.7.0"
+                "github-test/app2": "^1.8.0"
             },
             "require-dev": {
                 "miaoxing/dev": "^6.3.4"
@@ -223,11 +223,11 @@
         },
         {
             "name": "github-test/base",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "dist": {
                 "type": "path",
                 "url": "packages/base",
-                "reference": "54a905e332233a490683fcf08d36d8133c49359d"
+                "reference": "77f06b47a17208af2b50723fb1408ebcd597de27"
             },
             "require-dev": {
                 "miaoxing/dev": "^6.3.4"
@@ -2477,5 +2477,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.2.0"
 }
