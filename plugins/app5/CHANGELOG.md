@@ -4,6 +4,14 @@
 ### Bug Fixes
 
 * 测试生成 note 失败 3 ([eda056a](https://github.com/twinh/github-actions-test/commit/eda056ac66550096cb1a85e8b72c82024abe49d4))
+* 测试生成 note 失败 4 ([569b738](https://github.com/twinh/github-actions-test/commit/569b73824f41981c319c05d7c8121d8222a9743e))
+
+## [0.4.10](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.9...@github-test/app5@0.4.10) (2022-04-16)
+
+
+### Bug Fixes
+
+* 测试生成 note 失败 3 ([eda056a](https://github.com/twinh/github-actions-test/commit/eda056ac66550096cb1a85e8b72c82024abe49d4))
 
 ## [0.4.9](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.8...@github-test/app5@0.4.9) (2022-04-16)
 
