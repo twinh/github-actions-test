@@ -38,6 +38,23 @@
 ### Features
 
 * 测试新版 monorepo 发布 ([ac814db](https://github.com/twinh/github-actions-test/commit/ac814db07f1d0fb403d8c9daa7b28ac91196c651))
+* 测试新版 monorepo 发布 2 ([11fff55](https://github.com/twinh/github-actions-test/commit/11fff555e3ef60ea0a2341dd53f1e4bc1eae1fb1))
+* 测试自动更新 composer ([39f1223](https://github.com/twinh/github-actions-test/commit/39f122319f0b1d8d3bf94117e7bc354365e3f197))
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app2:** upgrade from `1.7.0` to `1.8.0`
+
+## [0.4.6](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.5...@github-test/app5@0.4.6) (2022-04-16)
+
+
+### Features
+
+* 测试新版 monorepo 发布 ([ac814db](https://github.com/twinh/github-actions-test/commit/ac814db07f1d0fb403d8c9daa7b28ac91196c651))
 * 测试自动更新 composer ([39f1223](https://github.com/twinh/github-actions-test/commit/39f122319f0b1d8d3bf94117e7bc354365e3f197))
 
 ## [0.4.6](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.5...@github-test/app5@0.4.6) (2022-04-16)
