@@ -36,6 +36,70 @@
 ### Bug Fixes
 
 * 还原更新的版本 ([f2c7baa](https://github.com/twinh/github-actions-test/commit/f2c7baa5f7cb9e51c2c0f59e6b11a44bc12ff21d))
+* 还原更新的版本 2 ([784ff5d](https://github.com/twinh/github-actions-test/commit/784ff5d3d6a523282eccb8fdbc37382e143d8f5e))
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app2:** upgrade from `1.7.0` to `1.8.0`
+
+## [0.7.9](https://github.com/twinh/github-actions-test/compare/@github-test/app3@0.7.8...@github-test/app3@0.7.9) (2022-04-16)
+
+
+### Bug Fixes
+
+* 还原更新的版本 ([f2c7baa](https://github.com/twinh/github-actions-test/commit/f2c7baa5f7cb9e51c2c0f59e6b11a44bc12ff21d))
+* 还原更新的版本 2 ([784ff5d](https://github.com/twinh/github-actions-test/commit/784ff5d3d6a523282eccb8fdbc37382e143d8f5e))
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app2:** upgrade from `1.7.0` to `1.8.0`
+
+## [0.7.9](https://github.com/twinh/github-actions-test/compare/@github-test/app3@0.7.8...@github-test/app3@0.7.9) (2022-04-16)
+
+
+### Bug Fixes
+
+* 还原更新的版本 ([f2c7baa](https://github.com/twinh/github-actions-test/commit/f2c7baa5f7cb9e51c2c0f59e6b11a44bc12ff21d))
+* 还原更新的版本 2 ([784ff5d](https://github.com/twinh/github-actions-test/commit/784ff5d3d6a523282eccb8fdbc37382e143d8f5e))
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app2:** upgrade from `1.7.0` to `1.8.0`
+
+## [0.7.9](https://github.com/twinh/github-actions-test/compare/@github-test/app3@0.7.8...@github-test/app3@0.7.9) (2022-04-16)
+
+
+### Bug Fixes
+
+* 还原更新的版本 ([f2c7baa](https://github.com/twinh/github-actions-test/commit/f2c7baa5f7cb9e51c2c0f59e6b11a44bc12ff21d))
+* 还原更新的版本 2 ([784ff5d](https://github.com/twinh/github-actions-test/commit/784ff5d3d6a523282eccb8fdbc37382e143d8f5e))
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app2:** upgrade from `1.7.0` to `1.8.0`
+
+## [0.7.9](https://github.com/twinh/github-actions-test/compare/@github-test/app3@0.7.8...@github-test/app3@0.7.9) (2022-04-16)
+
+
+### Bug Fixes
+
+* 还原更新的版本 ([f2c7baa](https://github.com/twinh/github-actions-test/commit/f2c7baa5f7cb9e51c2c0f59e6b11a44bc12ff21d))
 
 
 

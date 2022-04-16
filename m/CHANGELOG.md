@@ -31,6 +31,66 @@
 ## [0.6.2](https://github.com/twinh/github-actions-test/compare/@github-test/m@0.6.1...@github-test/m@0.6.2) (2022-04-16)
 
 
+### Bug Fixes
+
+* 还原更新的版本 2 ([784ff5d](https://github.com/twinh/github-actions-test/commit/784ff5d3d6a523282eccb8fdbc37382e143d8f5e))
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app4:** upgrade from `10.1.0` to `10.1.1`
+
+## [0.6.2](https://github.com/twinh/github-actions-test/compare/@github-test/m@0.6.1...@github-test/m@0.6.2) (2022-04-16)
+
+
+### Bug Fixes
+
+* 还原更新的版本 2 ([784ff5d](https://github.com/twinh/github-actions-test/commit/784ff5d3d6a523282eccb8fdbc37382e143d8f5e))
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app4:** upgrade from `10.1.0` to `10.1.1`
+
+## [0.6.2](https://github.com/twinh/github-actions-test/compare/@github-test/m@0.6.1...@github-test/m@0.6.2) (2022-04-16)
+
+
+### Bug Fixes
+
+* 还原更新的版本 2 ([784ff5d](https://github.com/twinh/github-actions-test/commit/784ff5d3d6a523282eccb8fdbc37382e143d8f5e))
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app4:** upgrade from `10.1.0` to `10.1.1`
+
+## [0.6.2](https://github.com/twinh/github-actions-test/compare/@github-test/m@0.6.1...@github-test/m@0.6.2) (2022-04-16)
+
+
+### Bug Fixes
+
+* 还原更新的版本 2 ([784ff5d](https://github.com/twinh/github-actions-test/commit/784ff5d3d6a523282eccb8fdbc37382e143d8f5e))
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app4:** upgrade from `10.1.0` to `10.1.1`
+
+## [0.6.2](https://github.com/twinh/github-actions-test/compare/@github-test/m@0.6.1...@github-test/m@0.6.2) (2022-04-16)
+
+
 
 
 
