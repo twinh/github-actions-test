@@ -2510,14 +2510,15 @@
   dependencies:
     "@semantic-release/git" "^9.0.0"
 
-"@monorepo-semantic-release/monorepo@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.npmmirror.com/@monorepo-semantic-release/monorepo/-/monorepo-2.0.0.tgz#d88d7521b1783f434d6393cd5c0b18f2312d9932"
-  integrity sha512-qqHSpQKrHw38kIu0XdGPkC4/XP09nGK74kSVXkbIh+BzAr2T14kzDKywvwrLUO6jH39AXUC0WTAMltxRXKUjMw==
+"@monorepo-semantic-release/monorepo@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.npmmirror.com/@monorepo-semantic-release/monorepo/-/monorepo-2.1.0.tgz#4f2169f2048aa2a3b89fc7487fda7b7014281703"
+  integrity sha512-ak0thcewEH+BEn/2hLJrfR7rsnPNvDcIeXHgfPFTcx78V7KkcEUpfZMCf+fds6I4QFb3MmaG+AMR8svc0sU+mg==
   dependencies:
     debug "^4.1.1"
     detect-indent "^6.0.0"
     detect-newline "^3.1.0"
+    execa "^4.0.0"
     lodash "^4.17.15"
     semver "^7.3.2"
     stringify-package "^1.0.1"

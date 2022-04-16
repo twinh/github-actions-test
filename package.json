@@ -28,7 +28,7 @@
     "@google/semantic-release-replace-plugin": "^1.0.2",
     "@monorepo-semantic-release/git": "^1.2.0",
     "@monorepo-semantic-release/github": "^1.0.0",
-    "@monorepo-semantic-release/monorepo": "^2.0.0",
+    "@monorepo-semantic-release/monorepo": "^2.1.0",
     "@monorepo-semantic-release/replace": "^1.0.0",
     "@monorepo-semantic-release/zero-commit-analyzer": "^1.0.1",
     "@semantic-release/changelog": "^5.0.1",
