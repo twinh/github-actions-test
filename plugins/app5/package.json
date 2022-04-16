@@ -1,0 +1,8 @@
+{
+  "name": "@github-test/app5",
+  "version": "1.0.1",
+  "main": "index.js",
+  "author": "twinh",
+  "license": "MIT",
+  "private": true
+}
