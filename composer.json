@@ -14,7 +14,7 @@
     },
     "require": {
         "wei/wei": "^0.10.0",
-        "github-test/app5": "^0.4.5",
+        "github-test/app5": "^0.4.6",
         "composer/installers": "^2.1",
         "mnsami/composer-custom-directory-installer": "^2.0"
     },
