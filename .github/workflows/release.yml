@@ -38,8 +38,6 @@ jobs:
 
       - run: yarn install
 
-      - run: yarn json -I -f m/package.json -e "this.private=false"
-
       - name: Release
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
