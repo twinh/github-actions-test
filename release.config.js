@@ -29,6 +29,25 @@ module.exports = {
               },
             ],
           },
+          {
+            "includes": ["@github-test/app5"],
+            "replacements": [
+              {
+                "files": ["../../composer.json"],
+                "from": '                    "github-test/app5": ".*"',
+                "to": '                    "github-test/app5": "${nextRelease.version}"',
+                "results": [
+                  {
+                    "file": "../../composer.json",
+                    "hasChanged": true,
+                    "numMatches": 1,
+                    "numReplacements": 1,
+                  },
+                ],
+                "countMatches": true,
+              },
+            ],
+          },
         ],
       },
     ],
