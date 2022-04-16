@@ -4,7 +4,7 @@
   "main": "index.js",
   "author": "twinh",
   "license": "MIT",
-  "private": false,
+  "private": true,
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
