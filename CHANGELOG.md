@@ -1,3 +1,23 @@
+## [5.0.5](https://github.com/twinh/github-actions-test/compare/v5.0.4...v5.0.5) (2022-04-16)
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app5:** upgrade from `0.4.7` to `0.4.8`
+
+## [5.0.5](https://github.com/twinh/github-actions-test/compare/v5.0.4...v5.0.5) (2022-04-16)
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app5:** upgrade from `0.4.7` to `0.4.8`
+
 ## [5.0.4](https://github.com/twinh/github-actions-test/compare/v5.0.3...v5.0.4) (2022-04-16)
 
 

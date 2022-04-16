@@ -1,3 +1,17 @@
+## [0.4.8](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.7...@github-test/app5@0.4.8) (2022-04-16)
+
+
+### Bug Fixes
+
+* 测试生成 note 失败 ([5a02351](https://github.com/twinh/github-actions-test/commit/5a02351ceed446b83a43264b815fd7fd670da823))
+
+## [0.4.8](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.7...@github-test/app5@0.4.8) (2022-04-16)
+
+
+### Bug Fixes
+
+* 测试生成 note 失败 ([5a02351](https://github.com/twinh/github-actions-test/commit/5a02351ceed446b83a43264b815fd7fd670da823))
+
 ## [0.4.7](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.6...@github-test/app5@0.4.7) (2022-04-16)
 
 
