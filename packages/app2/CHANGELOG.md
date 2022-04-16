@@ -43,6 +43,21 @@
 
 * **@github-test/base:** upgrade from `1.5.0` to `1.6.0`
 
+# [1.8.0](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.7.0...@github-test/app2@1.8.0) (2022-04-16)
+
+
+### Features
+
+* 测试更新 ([dd08c2b](https://github.com/twinh/github-actions-test/commit/dd08c2b240f02349bf7609efed196b13baab9944))
+
+
+
+
+
+### Dependencies
+
+* **@github-test/base:** upgrade from `1.5.0` to `1.6.0`
+
 ## [1.7.0](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.6.0...@github-test/app2@1.7.0) (2022-04-09)
 
 

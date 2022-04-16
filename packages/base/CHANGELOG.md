@@ -25,6 +25,18 @@
 # [1.6.0](https://github.com/twinh/github-actions-test/compare/@github-test/base@1.5.0...@github-test/base@1.6.0) (2022-04-16)
 
 
+### Bug Fixes
+
+* 测试 php monorepo 发布 ([b9388b6](https://github.com/twinh/github-actions-test/commit/b9388b65451101e897ee0368e9e02378ea60ab5a))
+
+
+### Features
+
+* 测试 base 更新 ([6be1ab4](https://github.com/twinh/github-actions-test/commit/6be1ab4721bd08d1ae68f015f53ed28b8c2ca145))
+
+# [1.6.0](https://github.com/twinh/github-actions-test/compare/@github-test/base@1.5.0...@github-test/base@1.6.0) (2022-04-16)
+
+
 ### Features
 
 * 测试 base 更新 ([6be1ab4](https://github.com/twinh/github-actions-test/commit/6be1ab4721bd08d1ae68f015f53ed28b8c2ca145))
