@@ -1,3 +1,10 @@
+## [5.2.5](https://github.com/twinh/github-actions-test/compare/v5.2.4...v5.2.5) (2022-04-21)
+
+
+### Bug Fixes
+
+* **u, ci:** release 也应该使用 pat ([6dc0c36](https://github.com/twinh/github-actions-test/commit/6dc0c36e43dd4a1048c21c0fa9233666d8fb32de))
+
 ## [5.2.4](https://github.com/twinh/github-actions-test/compare/v5.2.3...v5.2.4) (2022-04-21)
 
 
