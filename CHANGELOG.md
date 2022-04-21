@@ -1,3 +1,10 @@
+## [5.2.4](https://github.com/twinh/github-actions-test/compare/v5.2.3...v5.2.4) (2022-04-21)
+
+
+### Bug Fixes
+
+* **u, ci:** 尝试 checkout 时就使用 PAT ([1150f09](https://github.com/twinh/github-actions-test/commit/1150f0956ca73082ac3d1de01038251760659fba))
+
 ## [5.2.3](https://github.com/twinh/github-actions-test/compare/v5.2.2...v5.2.3) (2022-04-21)
 
 
