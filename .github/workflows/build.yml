@@ -6,37 +6,56 @@ on:
   schedule:
     - cron: '20 11 * * *'
   workflow_dispatch:
-    inputs:
-      generate-artifact:
-        description: 'Generate artifact?'
-        required: true
-        default: '0'
-        type: choice
-        options:
-          - '1'
-          - '0'
 
 env:
   extensions: mbstring, mysql
   key: cache-v1 # can be any string, change to clear the extension cache.
   ref: ${GITHUB_REF_NAME//\//-}
-  TAG: $([ ${GITHUB_REF#refs/*/} == "master" ] && echo "latest" || echo ${GITHUB_REF#refs/*/})
 
 jobs:
-  test:
+  js:
     runs-on: ubuntu-18.04
     steps:
-      - run: |
-          echo "Generate artifact: ${{ github.event.inputs.generate-artifact }}" 
-
-      - name: Run
-        if: github.event.inputs.generate-artifact
-        run: echo 1
-
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-          
+
+      - name: Generate artifact
+        run: |
+          zip -r miaoxing-js.zip ./
+
+      - name: Archive artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: miaoxing-js-${{ env.ref }}
+          path: miaoxing-js.zip
+          retention-days: 5
+
+  weapp:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Generate artifact
+        run: |
+          zip -r miaoxing-weap.zip ./
+
+      - name: Archive artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: miaoxing-weap-${{ env.ref }}
+          path: miaoxing-weapp.zip
+          retention-days: 5
+
+  all:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
       - name: Archive production artifacts
         run: echo ${{ env.ref }}
 
@@ -49,11 +68,28 @@ jobs:
           name: nuaixubg-${{ env.NAME }}
           path: ./
 
-      - run: |
+      - name: Downlaod JS files
+        uses: actions/download-artifact@v3
+        with:
+          name: miaoxing-js-${{ env.ref }}
+
+      - name: Downlaod Weapp files
+        uses: actions/download-artifact@v3
+        with:
+          name: miaoxing-weapp-${{ env.ref }}
+
+      - name: Download ossutil
+        env:
+          OSS_UTIL_CONFIG: ${{ secrets.OSS_UTIL_COFIG }}
+        run: |
           wget https://gosspublic.alicdn.com/ossutil/1.7.10/ossutil64
           chmod 755 ossutil64
-          echo "$OSS_UTIL_COFIG" > .ossutilconfig 
-          head -c 5MB /dev/urandom > test.txt
-          ./ossutil64 cp test.txt oss://miaox -c .ossutilconfig
-        env:
-          OSS_UTIL_COFIG: ${{ secrets.OSS_UTIL_COFIG }}
+          echo "$OSS_UTIL_CONFIG" > .ossutilconfig
+
+      - name: Upload build
+        run: |
+          ./ossutil64 cp miaoxing-*.zip oss://miaox -c .ossutilconfig
+
+      - uses: softprops/action-gh-release@v1
+        with:
+          files: miaoxing-*.zip
