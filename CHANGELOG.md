@@ -1,3 +1,10 @@
+## [5.2.1](https://github.com/twinh/github-actions-test/compare/v5.2.0...v5.2.1) (2022-04-21)
+
+
+### Bug Fixes
+
+* **u, test:** 测试 tag 触发 build ([ce53820](https://github.com/twinh/github-actions-test/commit/ce538208ef584ebdb2c60b777b9986bf1b4bd9c0))
+
 # [5.2.0](https://github.com/twinh/github-actions-test/compare/v5.1.1...v5.2.0) (2022-04-21)
 
 
