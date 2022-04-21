@@ -1,3 +1,10 @@
+## [5.2.7](https://github.com/twinh/github-actions-test/compare/v5.2.6...v5.2.7) (2022-04-21)
+
+
+### Bug Fixes
+
+* **u, ci:** persist-credentials: false 有效，再测试 PAT ([0e1b70e](https://github.com/twinh/github-actions-test/commit/0e1b70e3b570c9d82b6139f16854d318abad0752))
+
 ## [5.2.6](https://github.com/twinh/github-actions-test/compare/v5.2.5...v5.2.6) (2022-04-21)
 
 
