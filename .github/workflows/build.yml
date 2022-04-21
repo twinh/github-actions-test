@@ -20,42 +20,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Generate artifact
-        run: |
-          zip -r miaoxing-js.zip ./
-
-      - name: Archive artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: miaoxing-js-${{ env.ref }}
-          path: miaoxing-js.zip
-          retention-days: 5
-
-  weapp:
-    runs-on: ubuntu-18.04
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-
-      - name: Generate artifact
-        run: |
-          zip -r miaoxing-weap.zip ./
-
-      - name: Archive artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: miaoxing-weap-${{ env.ref }}
-          path: miaoxing-weapp.zip
-          retention-days: 5
-
-  all:
-    runs-on: ubuntu-18.04
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-
       - name: Archive production artifacts
         run: echo ${{ env.ref }}
 
@@ -68,15 +32,58 @@ jobs:
           name: nuaixubg-${{ env.NAME }}
           path: ./
 
+      - name: Generate artifact
+        run: |
+          zip -r miaoxing-js.zip ./
+
+      - name: Archive artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: miaoxing-js
+          path: miaoxing-js.zip
+          retention-days: 5
+
+  weapp:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Generate artifact
+        run: |
+          zip -r miaoxing-weapp.zip ./
+
+      - name: Archive artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: miaoxing-weapp
+          path: miaoxing-weapp.zip
+          retention-days: 5
+
+  all:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Set Build name
+        run: echo "BUILD_NAME=${GITHUB_REF_NAME//\//-}" >> $GITHUB_ENV
+
       - name: Downlaod JS files
         uses: actions/download-artifact@v3
         with:
           name: miaoxing-js-${{ env.ref }}
 
+      - run: mv miaoxing-js.zip miaoxing-js-$BUILD_NAME.zip
+
       - name: Downlaod Weapp files
         uses: actions/download-artifact@v3
         with:
           name: miaoxing-weapp-${{ env.ref }}
+
+      - run: mv miaoxing-weapp.zip miaoxing-weapp-$BUILD_NAME.zip
 
       - name: Download ossutil
         env:
