@@ -74,14 +74,14 @@ jobs:
       - name: Downlaod JS files
         uses: actions/download-artifact@v3
         with:
-          name: miaoxing-js-${{ env.ref }}
+          name: miaoxing-js
 
       - run: mv miaoxing-js.zip miaoxing-js-$BUILD_NAME.zip
 
       - name: Downlaod Weapp files
         uses: actions/download-artifact@v3
         with:
-          name: miaoxing-weapp-${{ env.ref }}
+          name: miaoxing-weapp
 
       - run: mv miaoxing-weapp.zip miaoxing-weapp-$BUILD_NAME.zip
 
