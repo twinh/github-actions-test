@@ -1,3 +1,10 @@
+## [5.2.3](https://github.com/twinh/github-actions-test/compare/v5.2.2...v5.2.3) (2022-04-21)
+
+
+### Bug Fixes
+
+* **u, test:** 测试 tag 触发发布 ([ba185af](https://github.com/twinh/github-actions-test/commit/ba185afdd3c493060529accae9411148849be8cc))
+
 ## [5.2.2](https://github.com/twinh/github-actions-test/compare/v5.2.1...v5.2.2) (2022-04-21)
 
 
