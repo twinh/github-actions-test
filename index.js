@@ -32,3 +32,5 @@ export const sub = (a, b) => {
 // test invalid commit
 
 // test 3
+
+// feat
