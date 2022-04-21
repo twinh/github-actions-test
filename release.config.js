@@ -33,7 +33,6 @@ module.exports = {
       },
     ],
     '@semantic-release/npm',
-    '@monorepo-semantic-release/github',
     [
       '@monorepo-semantic-release/git',
       {
