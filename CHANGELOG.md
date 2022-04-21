@@ -1,3 +1,11 @@
+## [5.1.1](https://github.com/twinh/github-actions-test/compare/v5.1.0...v5.1.1) (2022-04-21)
+
+
+### Bug Fixes
+
+* **u, test:** 测试发布 1 ([6ba6dc1](https://github.com/twinh/github-actions-test/commit/6ba6dc1b09cd9fd8ce10018c85617faf4a48d0f8))
+* **u, test:** 测试发布 2 ([fbb6a5c](https://github.com/twinh/github-actions-test/commit/fbb6a5c11bf88e75628d9b17f7c6738fdfbb443a))
+
 # [5.1.0](https://github.com/twinh/github-actions-test/compare/v5.0.10...v5.1.0) (2022-04-21)
 
 
