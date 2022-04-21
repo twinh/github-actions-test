@@ -1,3 +1,10 @@
+## [5.2.6](https://github.com/twinh/github-actions-test/compare/v5.2.5...v5.2.6) (2022-04-21)
+
+
+### Bug Fixes
+
+* **u, ci:** 尝试 persist-credentials: false ([3c43314](https://github.com/twinh/github-actions-test/commit/3c43314b4115e96c0c9f1470ebcf4b74dcc1a9fc))
+
 ## [5.2.5](https://github.com/twinh/github-actions-test/compare/v5.2.4...v5.2.5) (2022-04-21)
 
 
