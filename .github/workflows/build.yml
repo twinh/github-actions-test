@@ -87,6 +87,7 @@ jobs:
       - run: mv miaoxing-weapp.zip miaoxing-weapp-$BUILD_NAME.zip
 
       - name: Download ossutil
+        if: startsWith(github.ref, 'refs/tags/v')
         env:
           OSS_UTIL_CONFIG: ${{ secrets.OSS_UTIL_COFIG }}
         run: |
@@ -95,10 +96,12 @@ jobs:
           echo "$OSS_UTIL_CONFIG" > .ossutilconfig
 
       - name: Upload build
+        if: startsWith(github.ref, 'refs/tags/v')
         run: |
           ./ossutil64 cp miaoxing-js-$BUILD_NAME.zip oss://miaox -c .ossutilconfig
           ./ossutil64 cp miaoxing-weapp-$BUILD_NAME.zip oss://miaox -c .ossutilconfig
 
       - uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/v')
         with:
           files: miaoxing-*.zip
