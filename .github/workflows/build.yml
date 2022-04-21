@@ -96,7 +96,8 @@ jobs:
 
       - name: Upload build
         run: |
-          ./ossutil64 cp miaoxing-*.zip oss://miaox -c .ossutilconfig
+          ./ossutil64 cp miaoxing-js-$BUILD_NAME.zip oss://miaox -c .ossutilconfig
+          ./ossutil64 cp miaoxing-weapp-$BUILD_NAME.zip oss://miaox -c .ossutilconfig
 
       - uses: softprops/action-gh-release@v1
         with:
