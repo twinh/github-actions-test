@@ -1,3 +1,10 @@
+# [5.1.0](https://github.com/twinh/github-actions-test/compare/v5.0.10...v5.1.0) (2022-04-21)
+
+
+### Features
+
+* **u, test:** 测试发布 ([6eb7a67](https://github.com/twinh/github-actions-test/commit/6eb7a67d6a1ffa5ee764779702db7e4ebf5bc94c))
+
 ## [5.0.10](https://github.com/twinh/github-actions-test/compare/v5.0.9...v5.0.10) (2022-04-16)
 
 
