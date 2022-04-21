@@ -16,6 +16,7 @@ jobs:
 
       - uses: webfactory/ssh-agent@v0.4.1
         with:
+          token: ${{ secrets.PAT }}
           ssh-private-key: ${{ secrets.SSH_KEY }}
 
       - uses: actions/setup-node@v1
@@ -41,7 +42,6 @@ jobs:
       - name: Release
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.PAT }}
         run: yarn monorepo-semantic-release --debug
 
       - name: Get gitsync cache
