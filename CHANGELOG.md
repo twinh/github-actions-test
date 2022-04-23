@@ -1,3 +1,10 @@
+## [5.4.2](https://github.com/twinh/github-actions-test/compare/v5.4.1...v5.4.2) (2022-04-23)
+
+
+### Bug Fixes
+
+* **u, test:** 测试只有主仓库发布 ([d85ab22](https://github.com/twinh/github-actions-test/commit/d85ab227d8849e35d25aa09f80618424a891706f))
+
 ## [5.4.1](https://github.com/twinh/github-actions-test/compare/v5.4.0...v5.4.1) (2022-04-23)
 
 
