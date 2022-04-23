@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/twinh/github-actions-test/compare/@github-test/base@1.7.0...@github-test/base@1.7.1) (2022-04-23)
+
+
+### Bug Fixes
+
+* **u, base:** 测试完整发布流程 2 ([caf32fc](https://github.com/twinh/github-actions-test/commit/caf32fcf14cd979295da8b81804e21a7b91a11eb))
+
 # [1.7.0](https://github.com/twinh/github-actions-test/compare/@github-test/base@1.6.1...@github-test/base@1.7.0) (2022-04-23)
 
 

@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "github-test/base": "^1.7.0"
+        "github-test/base": "^1.7.1"
     },
     "require-dev": {
         "miaoxing/dev": "^6.3.4"

@@ -1,3 +1,19 @@
+## [5.4.1](https://github.com/twinh/github-actions-test/compare/v5.4.0...v5.4.1) (2022-04-23)
+
+
+### Bug Fixes
+
+* **u, base:** 测试完整发布流程 2 ([caf32fc](https://github.com/twinh/github-actions-test/commit/caf32fcf14cd979295da8b81804e21a7b91a11eb))
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app2:** upgrade from `1.8.2` to `1.8.3`
+* **@github-test/app5:** upgrade from `0.4.16` to `0.4.17`
+
 # [5.4.0](https://github.com/twinh/github-actions-test/compare/v5.3.1...v5.4.0) (2022-04-23)
 
 
