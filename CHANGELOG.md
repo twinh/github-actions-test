@@ -1,3 +1,19 @@
+# [5.4.0](https://github.com/twinh/github-actions-test/compare/v5.3.1...v5.4.0) (2022-04-23)
+
+
+### Features
+
+* **u, base:** 测试完整发布流程 ([3c850e4](https://github.com/twinh/github-actions-test/commit/3c850e4c09b08ac480c7f682d254aba7ce0ea8bb))
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app2:** upgrade from `1.8.1` to `1.8.2`
+* **@github-test/app5:** upgrade from `0.4.15` to `0.4.16`
+
 ## [5.3.1](https://github.com/twinh/github-actions-test/compare/v5.3.0...v5.3.1) (2022-04-23)
 
 

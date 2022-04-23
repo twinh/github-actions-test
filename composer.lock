@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2d72884b41ca64e9b390bd46112fe173",
+    "content-hash": "b3eb282b0181ea568bee5fcba8d225bc",
     "packages": [
         {
             "name": "composer/installers",
@@ -152,14 +152,14 @@
         },
         {
             "name": "github-test/app2",
-            "version": "1.8.1",
+            "version": "1.8.2",
             "dist": {
                 "type": "path",
                 "url": "packages/app2",
-                "reference": "5e689e1663c4db713cd1556b2055ba2554a1749e"
+                "reference": "64c52ec1f54ae728e20f5cefeb2aa48aee015733"
             },
             "require": {
-                "github-test/base": "^1.6.1"
+                "github-test/base": "^1.7.0"
             },
             "require-dev": {
                 "miaoxing/dev": "^6.3.4"
@@ -191,10 +191,10 @@
             "dist": {
                 "type": "path",
                 "url": "plugins/app5",
-                "reference": "963bea90026ac08660e72c5f87604dab2a1129cb"
+                "reference": "e084fb05430c20a86c130e7bcfa48c046ed9e09a"
             },
             "require": {
-                "github-test/app2": "^1.8.1"
+                "github-test/app2": "^1.8.2"
             },
             "require-dev": {
                 "miaoxing/dev": "^6.3.4"
@@ -223,11 +223,11 @@
         },
         {
             "name": "github-test/base",
-            "version": "1.6.1",
+            "version": "1.7.0",
             "dist": {
                 "type": "path",
                 "url": "packages/base",
-                "reference": "f60c41adc3db050b917751df6d45445a6291a99b"
+                "reference": "878bd81c867346b5d6db479f25c56500d3498f01"
             },
             "require-dev": {
                 "miaoxing/dev": "^6.3.4"
@@ -2477,5 +2477,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.2.0"
 }

@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/twinh/github-actions-test/compare/@github-test/base@1.6.1...@github-test/base@1.7.0) (2022-04-23)
+
+
+### Features
+
+* **u, base:** 测试完整发布流程 ([3c850e4](https://github.com/twinh/github-actions-test/commit/3c850e4c09b08ac480c7f682d254aba7ce0ea8bb))
+
 ## [1.6.1](https://github.com/twinh/github-actions-test/compare/@github-test/base@1.6.0...@github-test/base@1.6.1) (2022-04-16)
 
 
