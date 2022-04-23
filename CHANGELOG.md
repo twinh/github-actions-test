@@ -1,3 +1,19 @@
+## [5.4.4](https://github.com/twinh/github-actions-test/compare/v5.4.3...v5.4.4) (2022-04-23)
+
+
+### Bug Fixes
+
+* **u, app2:** 测试3个 tag 是否会触发新 action ([c7341fa](https://github.com/twinh/github-actions-test/commit/c7341fa096861e063a9e7cebf145cf8c85c3bf86))
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app2:** upgrade from `1.8.3` to `1.8.4`
+* **@github-test/app5:** upgrade from `0.4.18` to `0.4.19`
+
 ## [5.4.3](https://github.com/twinh/github-actions-test/compare/v5.4.2...v5.4.3) (2022-04-23)
 
 

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4905b5efcf95e62b56f15c200a02c420",
+    "content-hash": "ba042412c6dc06c99a4816997a6d816d",
     "packages": [
         {
             "name": "composer/installers",
@@ -152,11 +152,11 @@
         },
         {
             "name": "github-test/app2",
-            "version": "1.8.3",
+            "version": "1.8.4",
             "dist": {
                 "type": "path",
                 "url": "packages/app2",
-                "reference": "5b6a5398d87475f7bbfa389026a4206ea2b713ce"
+                "reference": "9e2a34ebf4186f7efddbe5e7d6096cdb001ed149"
             },
             "require": {
                 "github-test/base": "^1.7.1"
@@ -187,14 +187,14 @@
         },
         {
             "name": "github-test/app5",
-            "version": "0.4.18",
+            "version": "0.4.19",
             "dist": {
                 "type": "path",
                 "url": "plugins/app5",
-                "reference": "dc7b8b23dedcc9235d18d2617565eb69bbe3af4f"
+                "reference": "4027f0e971f09882fefac011e0dfe643a736934f"
             },
             "require": {
-                "github-test/app2": "^1.8.3"
+                "github-test/app2": "^1.8.4"
             },
             "require-dev": {
                 "miaoxing/dev": "^6.3.4"
@@ -227,7 +227,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/base",
-                "reference": "5923f46eb21579aab823727cba422e18073c0808"
+                "reference": "bae88cba8f9e427e3b849031606f7fd5e979fe02"
             },
             "require-dev": {
                 "miaoxing/dev": "^6.3.4"
