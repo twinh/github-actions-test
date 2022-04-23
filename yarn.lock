@@ -2503,10 +2503,10 @@
     "@semantic-release/git" "^9.0.0"
     lodash "^4.17.15"
 
-"@monorepo-semantic-release/github@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npm.taobao.org/@monorepo-semantic-release/github/download/@monorepo-semantic-release/github-1.0.0.tgz#30e814d953a2817e68e57314e039fdaf1f5615e2"
-  integrity sha1-MOgU2VOigX5o5XMU4Dn9rx9WFeI=
+"@monorepo-semantic-release/github@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.npmmirror.com/@monorepo-semantic-release/github/-/github-1.1.0.tgz#33c4f2d1cd7913e60b85fc8d77141de2626f7fc8"
+  integrity sha512-TsGAzn7TWW+f3hEy1J52RCqjCmkZ5I4BX2Zvp8gtl2TIgq6foJsLacn+WOMmJxsb9wYfARiF7ARL4AUDPfq5Lg==
   dependencies:
     "@semantic-release/git" "^9.0.0"
 
