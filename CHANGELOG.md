@@ -1,3 +1,18 @@
+# [5.3.0](https://github.com/twinh/github-actions-test/compare/v5.2.7...v5.3.0) (2022-04-23)
+
+
+### Features
+
+* **u, app5:** 测试只发主仓库 ([fade387](https://github.com/twinh/github-actions-test/commit/fade38730e4878528edbc8ed8b2c6916dc741e92))
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app5:** upgrade from `0.4.14` to `0.4.15`
+
 ## [5.2.7](https://github.com/twinh/github-actions-test/compare/v5.2.6...v5.2.7) (2022-04-21)
 
 
