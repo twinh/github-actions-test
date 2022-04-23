@@ -34,6 +34,12 @@ module.exports = {
     ],
     '@semantic-release/npm',
     [
+      '@monorepo-semantic-release/github',
+      {
+        includes: ['@github-test/test']
+      }
+    ],
+    [
       '@monorepo-semantic-release/git',
       {
         'message': 'chore(release): publish\n\nSee CHANGELOG.md for more details.',
