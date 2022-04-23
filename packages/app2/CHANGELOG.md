@@ -1,3 +1,10 @@
+## [1.8.5](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.8.4...@github-test/app2@1.8.5) (2022-04-23)
+
+
+### Bug Fixes
+
+* **u, app2:** 再测试3个 tag 是否会触发新 action ([d2b2a83](https://github.com/twinh/github-actions-test/commit/d2b2a8320886d03b151820f5f95cd00d4254ed8c))
+
 ## [1.8.4](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.8.3...@github-test/app2@1.8.4) (2022-04-23)
 
 

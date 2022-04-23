@@ -14,7 +14,7 @@
     },
     "require": {
         "wei/wei": "^0.10.0",
-        "github-test/app5": "^0.4.19",
+        "github-test/app5": "^0.4.20",
         "composer/installers": "^2.1",
         "mnsami/composer-custom-directory-installer": "^2.0"
     },
@@ -27,7 +27,7 @@
             "url": "plugins/*",
             "options": {
                 "versions": {
-                    "github-test/app5": "0.4.19"
+                    "github-test/app5": "0.4.20"
                 }
             }
         },
@@ -36,8 +36,8 @@
             "url": "packages/*",
             "options": {
                 "versions": {
-                    "github-test/app2": "1.8.4",
-                    "github-test/app3": "0.7.13",
+                    "github-test/app2": "1.8.5",
+                    "github-test/app3": "0.7.14",
                     "github-test/base": "1.7.1"
                 }
             }
