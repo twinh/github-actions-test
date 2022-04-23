@@ -1,3 +1,10 @@
+## [0.4.18](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.17...@github-test/app5@0.4.18) (2022-04-23)
+
+
+### Bug Fixes
+
+* **u, test:** 测试多个 tag 是否会触发新 action ([efa01d7](https://github.com/twinh/github-actions-test/commit/efa01d7cf52387c2efaa3b526944f1715e771775))
+
 ## [0.4.17](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.16...@github-test/app5@0.4.17) (2022-04-23)
 
 
