@@ -1,3 +1,10 @@
+## [0.4.16](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.15...@github-test/app5@0.4.16) (2022-04-23)
+
+
+### Bug Fixes
+
+* **u, app5:** 测试只发主仓库 ([4884f4f](https://github.com/twinh/github-actions-test/commit/4884f4fd6c58e1d04a79ad8d59e156320ae0ed16))
+
 ## [0.4.15](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.14...@github-test/app5@0.4.15) (2022-04-23)
 
 

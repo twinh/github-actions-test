@@ -1,3 +1,18 @@
+## [5.3.1](https://github.com/twinh/github-actions-test/compare/v5.3.0...v5.3.1) (2022-04-23)
+
+
+### Bug Fixes
+
+* **u, app5:** 测试只发主仓库 ([4884f4f](https://github.com/twinh/github-actions-test/commit/4884f4fd6c58e1d04a79ad8d59e156320ae0ed16))
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app5:** upgrade from `0.4.15` to `0.4.16`
+
 # [5.3.0](https://github.com/twinh/github-actions-test/compare/v5.2.7...v5.3.0) (2022-04-23)
 
 
