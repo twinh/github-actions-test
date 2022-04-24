@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.8.5...@github-test/app2@1.9.0) (2022-04-24)
+
+
+### Features
+
+* **u, app2:** 测试 release 触发构建 ([21672c2](https://github.com/twinh/github-actions-test/commit/21672c2ed0f9dbd9bcd4089b5999ea32ffe02b04))
+
 ## [1.8.5](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.8.4...@github-test/app2@1.8.5) (2022-04-23)
 
 

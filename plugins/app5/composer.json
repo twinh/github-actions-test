@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "github-test/app2": "^1.8.5"
+        "github-test/app2": "^1.9.0"
     },
     "require-dev": {
         "miaoxing/dev": "^6.3.4"
