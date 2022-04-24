@@ -17,7 +17,6 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-          token: ${{ secrets.MY_GITHUB_TOKEN }}
 
       - uses: webfactory/ssh-agent@v0.4.1
         with:
@@ -46,7 +45,7 @@ jobs:
       - name: Release
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: yarn monorepo-semantic-release --debug
 
       - name: Get gitsync cache
