@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.9.0...@github-test/app2@1.10.0) (2022-04-24)
+
+
+### Features
+
+* **u, app2:** 尝试使用回默认 token 看 release 事件是否触发 ([7c06b38](https://github.com/twinh/github-actions-test/commit/7c06b38f06ba4c3223c29856e5247bc28b22cbb9))
+
 # [1.9.0](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.8.5...@github-test/app2@1.9.0) (2022-04-24)
 
 

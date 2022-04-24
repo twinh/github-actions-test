@@ -1,3 +1,19 @@
+# [5.6.0](https://github.com/twinh/github-actions-test/compare/v5.5.0...v5.6.0) (2022-04-24)
+
+
+### Features
+
+* **u, app2:** 尝试使用回默认 token 看 release 事件是否触发 ([7c06b38](https://github.com/twinh/github-actions-test/commit/7c06b38f06ba4c3223c29856e5247bc28b22cbb9))
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app2:** upgrade from `1.9.0` to `1.10.0`
+* **@github-test/app5:** upgrade from `0.4.21` to `0.4.22`
+
 # [5.5.0](https://github.com/twinh/github-actions-test/compare/v5.4.5...v5.5.0) (2022-04-24)
 
 
