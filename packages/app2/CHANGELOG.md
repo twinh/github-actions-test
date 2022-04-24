@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.10.0...@github-test/app2@1.10.1) (2022-04-24)
+
+
+### Bug Fixes
+
+* **u, app2:** 尝试发布使用自定 token 看 release 事件是否触发 ([5335d59](https://github.com/twinh/github-actions-test/commit/5335d595f835efb74895198eb1a995020e53fb65))
+
 # [1.10.0](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.9.0...@github-test/app2@1.10.0) (2022-04-24)
 
 

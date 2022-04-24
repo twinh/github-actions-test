@@ -1,3 +1,19 @@
+## [5.6.1](https://github.com/twinh/github-actions-test/compare/v5.6.0...v5.6.1) (2022-04-24)
+
+
+### Bug Fixes
+
+* **u, app2:** 尝试发布使用自定 token 看 release 事件是否触发 ([5335d59](https://github.com/twinh/github-actions-test/commit/5335d595f835efb74895198eb1a995020e53fb65))
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app2:** upgrade from `1.10.0` to `1.10.1`
+* **@github-test/app5:** upgrade from `0.4.22` to `0.4.23`
+
 # [5.6.0](https://github.com/twinh/github-actions-test/compare/v5.5.0...v5.6.0) (2022-04-24)
 
 
