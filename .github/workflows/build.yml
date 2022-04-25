@@ -38,13 +38,13 @@ jobs:
 
       - name: Generate artifact
         run: |
-          zip -r miaoxing-js.zip ./
+          zip -r miaoxing2-js.zip ./
 
       - name: Archive artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: miaoxing-js
-          path: miaoxing-js.zip
+          name: miaoxing2-js
+          path: miaoxing2-js.zip
           retention-days: 5
 
   weapp:
@@ -56,13 +56,13 @@ jobs:
 
       - name: Generate artifact
         run: |
-          zip -r miaoxing-weapp.zip ./
+          zip -r miaoxing2-weapp.zip ./
 
       - name: Archive artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: miaoxing-weapp
-          path: miaoxing-weapp.zip
+          name: miaoxing2-weapp
+          path: miaoxing2-weapp.zip
           retention-days: 5
 
   all:
@@ -79,16 +79,16 @@ jobs:
       - name: Downlaod JS files
         uses: actions/download-artifact@v3
         with:
-          name: miaoxing-js
+          name: miaoxing2-js
 
-      - run: mv miaoxing-js.zip miaoxing-js-$BUILD_NAME.zip
+      - run: mv miaoxing2-js.zip miaoxing2-js-$BUILD_NAME.zip
 
       - name: Downlaod Weapp files
         uses: actions/download-artifact@v3
         with:
-          name: miaoxing-weapp
+          name: miaoxing2-weapp
 
-      - run: mv miaoxing-weapp.zip miaoxing-weapp-$BUILD_NAME.zip
+      - run: mv miaoxing2-weapp.zip miaoxing2-weapp-$BUILD_NAME.zip
 
       - name: Download ossutil
         if: startsWith(github.ref, 'refs/tags/v')
@@ -102,12 +102,12 @@ jobs:
       - name: Upload build
         if: startsWith(github.ref, 'refs/tags/v')
         run: |
-          ./ossutil64 cp miaoxing-js-$BUILD_NAME.zip oss://miaox -c .ossutilconfig
-          ./ossutil64 cp miaoxing-weapp-$BUILD_NAME.zip oss://miaox -c .ossutilconfig
+          ./ossutil64 cp miaoxing2-js-$BUILD_NAME.zip oss://mx2/releases/ -c .ossutilconfig
+          ./ossutil64 cp miaoxing2-weapp-$BUILD_NAME.zip oss://mx2/releases/ -c .ossutilconfig
 
       - uses: softprops/action-gh-release@fe9a9bd3295828558c7a3c004f23f3bf77d155b2
         if: startsWith(github.ref, 'refs/tags/v')
         with:
-          files: miaoxing-*.zip
+          files: miaoxing2-*.zip
           body: "## 下载地址\n\nhttps://github.com/twinh/github-actions-test"
           append_body: true
