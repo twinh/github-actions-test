@@ -134,10 +134,12 @@ module.exports = {
       tagFormat: 'v${version}',
       filterCommits: (commits) => {
         return commits.map(commit => {
-          commit.message = removeCommitScope(commit.message, 'u');
-          if (commit.message !== commit.subject) {
-            return commit; 
+          const message = removeCommitScope(commit.message, 'u');
+          if (message === commit.message) {
+            return false;
           }
+          commit.message = message;
+          return commit;
         }).filter(Boolean);
       },
     },
