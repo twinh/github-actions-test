@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e86ece342376a838a72a2cac31823417",
+    "content-hash": "91510e7663bc7d1a1aae4e457a047a7d",
     "packages": [
         {
             "name": "composer/installers",
@@ -152,14 +152,14 @@
         },
         {
             "name": "github-test/app2",
-            "version": "1.10.1",
+            "version": "1.10.2",
             "dist": {
                 "type": "path",
                 "url": "packages/app2",
-                "reference": "836088f0657fd5da4210c9caef2663aa55c566a3"
+                "reference": "dc35f3eb6559fb12025de55b0ed7e7b177ee1ed8"
             },
             "require": {
-                "github-test/base": "^1.7.1"
+                "github-test/base": "^1.8.0"
             },
             "require-dev": {
                 "miaoxing/dev": "^6.3.4"
@@ -187,14 +187,14 @@
         },
         {
             "name": "github-test/app5",
-            "version": "0.4.24",
+            "version": "0.4.25",
             "dist": {
                 "type": "path",
                 "url": "plugins/app5",
-                "reference": "5626bb9f0b6ffcf9d9413588cf2f0e01b0d24632"
+                "reference": "458cb04be3e8c614707a974a9d5032bb85b4fbac"
             },
             "require": {
-                "github-test/app2": "^1.10.1"
+                "github-test/app2": "^1.10.2"
             },
             "require-dev": {
                 "miaoxing/dev": "^6.3.4"
@@ -223,11 +223,11 @@
         },
         {
             "name": "github-test/base",
-            "version": "1.7.1",
+            "version": "1.8.0",
             "dist": {
                 "type": "path",
                 "url": "packages/base",
-                "reference": "4ae4d66ec45944df3db2b783d39a8c9cccba8ec2"
+                "reference": "e75d5a5e70ef1762f94117999de77d4f07989ff4"
             },
             "require-dev": {
                 "miaoxing/dev": "^6.3.4"

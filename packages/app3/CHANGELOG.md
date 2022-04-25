@@ -1,3 +1,13 @@
+## [0.7.18](https://github.com/twinh/github-actions-test/compare/@github-test/app3@0.7.17...@github-test/app3@0.7.18) (2022-04-25)
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app2:** upgrade from `1.10.1` to `1.10.2`
+
 ## [0.7.17](https://github.com/twinh/github-actions-test/compare/@github-test/app3@0.7.16...@github-test/app3@0.7.17) (2022-04-24)
 
 

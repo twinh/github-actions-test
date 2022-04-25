@@ -1,3 +1,19 @@
+# [5.8.0](https://github.com/twinh/github-actions-test/compare/v5.7.2...v5.8.0) (2022-04-25)
+
+
+### Features
+
+* **base:** 测试完整流程 ([65268c8](https://github.com/twinh/github-actions-test/commit/65268c8916dbb7e867ebdae74c833bc1c4afc68e))
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app2:** upgrade from `1.10.1` to `1.10.2`
+* **@github-test/app5:** upgrade from `0.4.24` to `0.4.25`
+
 ## [5.7.2](https://github.com/twinh/github-actions-test/compare/v5.7.1...v5.7.2) (2022-04-25)
 
 
