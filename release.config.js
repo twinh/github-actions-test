@@ -1,4 +1,23 @@
-global.replace = require('@monorepo-semantic-release/replace');
+const parser = require('conventional-commits-parser').sync;
+
+function removeCommitScope(message, scope) {
+  const result = parser(message, {
+    headerPattern: /^(\w*)(?:\((.*)\))?: (.*)$/,
+  });
+  if (!result.scope) {
+    return message;
+  }
+
+  let scopes = result.scope.split(', ');
+  if (!scopes.includes(scope)) {
+    return message;
+  }
+
+  scopes = scopes.filter(item => item !== scope);
+  return result.type
+    + (scopes.length ? '(' + scopes.join(', ') + ')' : '') + ': '
+    +  result.subject + '\n\n' + result.body + '\n\n' + result.footer;
+}
 
 module.exports = {
   plugins: [
@@ -36,8 +55,8 @@ module.exports = {
     [
       '@monorepo-semantic-release/github',
       {
-        includes: ['@github-test/test']
-      }
+        includes: ['@github-test/test'],
+      },
     ],
     [
       '@monorepo-semantic-release/git',
@@ -114,10 +133,13 @@ module.exports = {
     '@github-test/test': {
       tagFormat: 'v${version}',
       filterCommits: (commits) => {
-        return commits.filter(commit => {
-          return commit.subject.split(':')[0].includes('u, ');
-        });
+        return commits.map(commit => {
+          commit.message = removeCommitScope(commit.message, 'u');
+          if (commit.message !== commit.subject) {
+            return commit; 
+          }
+        }).filter(Boolean);
       },
-    }
-  }
+    },
+  },
 };
