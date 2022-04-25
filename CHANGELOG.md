@@ -1,3 +1,10 @@
+## [5.7.2](https://github.com/twinh/github-actions-test/compare/v5.7.1...v5.7.2) (2022-04-25)
+
+
+### Bug Fixes
+
+* 解决 body 字符串生成错误 ([a817d5b](https://github.com/twinh/github-actions-test/commit/a817d5b8ae5b32f164dac76dc133d1f1ad04e3e1))
+
 ## [5.7.1](https://github.com/twinh/github-actions-test/compare/v5.7.0...v5.7.1) (2022-04-25)
 
 
