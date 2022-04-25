@@ -1,3 +1,10 @@
+## [5.7.1](https://github.com/twinh/github-actions-test/compare/v5.7.0...v5.7.1) (2022-04-25)
+
+
+### Bug Fixes
+
+* 测试只有一个 scope ([1965ee8](https://github.com/twinh/github-actions-test/commit/1965ee8493256deb0070545ac55f0f4bd7dcf6e9))
+
 # [5.7.0](https://github.com/twinh/github-actions-test/compare/v5.6.1...v5.7.0) (2022-04-25)
 
 
