@@ -1,3 +1,18 @@
+# [5.7.0](https://github.com/twinh/github-actions-test/compare/v5.6.1...v5.7.0) (2022-04-25)
+
+
+### Features
+
+* **app5:** 测试发布更改 changelog ([dd63495](https://github.com/twinh/github-actions-test/commit/dd63495a355e36c3aa018fd199bab7878c26fb22))
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app5:** upgrade from `0.4.23` to `0.4.24`
+
 ## [5.6.1](https://github.com/twinh/github-actions-test/compare/v5.6.0...v5.6.1) (2022-04-24)
 
 
