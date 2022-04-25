@@ -109,9 +109,5 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/v')
         with:
           files: miaoxing-*.zip
-          body: '''
-## 下载地址
-
-https://github.com/twinh/github-actions-test
-          '''
+          body: "## 下载地址\n\nhttps://github.com/twinh/github-actions-test"
           append_body: true
