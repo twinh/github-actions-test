@@ -105,7 +105,7 @@ jobs:
           ./ossutil64 cp miaoxing-js-$BUILD_NAME.zip oss://miaox -c .ossutilconfig
           ./ossutil64 cp miaoxing-weapp-$BUILD_NAME.zip oss://miaox -c .ossutilconfig
 
-      - uses: softprops/action-gh-release@fe9a9bd
+      - uses: softprops/action-gh-release@fe9a9bd3295828558c7a3c004f23f3bf77d155b2
         if: startsWith(github.ref, 'refs/tags/v')
         with:
           files: miaoxing-*.zip
