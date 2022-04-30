@@ -1,3 +1,15 @@
+## [0.4.32](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.31...@github-test/app5@0.4.32) (2022-04-30)
+
+
+### Bug Fixes
+
+* invalid environment variable format '### Bug Fixes' ([cb2c6b9](https://github.com/twinh/github-actions-test/commit/cb2c6b9fad4bd67f9cbb52bc74cce1b115cca8eb))
+
+
+### Reverts
+
+* Revert "fix: npx 安装 conventional-changelog-cli 失败" ([f23a805](https://github.com/twinh/github-actions-test/commit/f23a805b3178962aa3588b19df093c1ff4e1885c))
+
 ## [0.4.31](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.30...@github-test/app5@0.4.31) (2022-04-30)
 
 
