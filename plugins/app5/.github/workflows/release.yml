@@ -10,11 +10,16 @@ jobs:
     runs-on: "ubuntu-latest"
 
     steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
       - id: changelog
         uses: TriPSs/conventional-changelog-action@v3
         with:
           github-token: ${{ secrets.github_token }}
           output-file: "false"
+          skip-git-pull: "true"
           release-count: '2'
 
       - uses: softprops/action-gh-release@v1
