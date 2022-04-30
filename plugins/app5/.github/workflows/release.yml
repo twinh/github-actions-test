@@ -14,14 +14,14 @@ jobs:
         with:
           fetch-depth: 0
 
-      - id: changelog
-        uses: TriPSs/conventional-changelog-action@v3
+      - uses: actions/setup-node@v3
         with:
-          github-token: ${{ secrets.github_token }}
-          output-file: "false"
-          skip-git-pull: "true"
-          release-count: '2'
+          node-version: 16
+          cache: 'npm'
+
+      - run: |
+          echo "CHANGELOG=$(npx conventional-changelog-cli -p angular -r 2)" >> $GITHUB_ENV
 
       - uses: softprops/action-gh-release@v1
         with:
-          body: ${{ steps.changelog.outputs.clean_changelog }}
+          body: ${{ env.CHANGELOG }}
