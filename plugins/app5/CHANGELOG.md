@@ -1,3 +1,10 @@
+## [0.4.27](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.26...@github-test/app5@0.4.27) (2022-04-30)
+
+
+### Features
+
+* 测试新的发布 ([e1c8b68](https://github.com/twinh/github-actions-test/commit/e1c8b68628204963f26b03cf1f212ef18b7f6dc7))
+
 ## [0.4.26](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.25...@github-test/app5@0.4.26) (2022-04-30)
 
 
