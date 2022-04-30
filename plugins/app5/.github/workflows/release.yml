@@ -1,4 +1,4 @@
-name: "tagged-release"
+name: "GitHub Release"
 
 on:
   push:
@@ -6,12 +6,17 @@ on:
       - "v*"
 
 jobs:
-  tagged-release:
-    name: "Tagged Release"
+  release:
     runs-on: "ubuntu-latest"
 
     steps:
-      - uses: "marvinpinto/action-automatic-releases@latest"
+      - id: changelog
+        uses: TriPSs/conventional-changelog-action@v3
         with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          prerelease: false
+          github-token: ${{ secrets.github_token }}
+          output-file: "false"
+          release-count: '2'
+
+      - uses: softprops/action-gh-release@v1
+        with:
+          body: ${{ steps.changelog.outputs.clean_changelog }}
