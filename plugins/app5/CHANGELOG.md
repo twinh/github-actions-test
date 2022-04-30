@@ -1,3 +1,10 @@
+## [0.4.28](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.27...@github-test/app5@0.4.28) (2022-04-30)
+
+
+### Bug Fixes
+
+* 增加 checkout, 忽略 git pull ([e76b454](https://github.com/twinh/github-actions-test/commit/e76b454079d594556983bf0e3acb387297b4b095))
+
 ## [0.4.27](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.26...@github-test/app5@0.4.27) (2022-04-30)
 
 
