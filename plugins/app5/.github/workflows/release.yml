@@ -18,10 +18,12 @@ jobs:
         with:
           node-version: 16
 
-      - id: changelog
-        run: |
-          echo "::set-output name=CHANGELOG::$(npx conventional-changelog-cli -p angular -r 2)"
+      - run: |
+          CHANGELOG=$(npx conventional-changelog-cli -p angular -r 2)
+          echo "CHANGELOG<<EOF" >> $GITHUB_ENV
+          echo "$CHANGELOG" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
 
       - uses: softprops/action-gh-release@v1
         with:
-          body: ${{ steps.changelog.outputs.CHANGELOG }}
+          body: ${{ env.CHANGELOG }}
