@@ -1,3 +1,10 @@
+## [0.4.33](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.32...@github-test/app5@0.4.33) (2022-04-30)
+
+
+### Bug Fixes
+
+* 解决 GitHub Action 环境变量不支持多行 ([7835e17](https://github.com/twinh/github-actions-test/commit/7835e178b135f996e4483827fa7168adcdf2f50a))
+
 ## [0.4.32](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.31...@github-test/app5@0.4.32) (2022-04-30)
 
 
