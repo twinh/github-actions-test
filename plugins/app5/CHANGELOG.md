@@ -1,3 +1,10 @@
+## [0.4.31](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.30...@github-test/app5@0.4.31) (2022-04-30)
+
+
+### Bug Fixes
+
+* npx 安装 conventional-changelog-cli 失败 ([3097080](https://github.com/twinh/github-actions-test/commit/3097080882643c80a3dd1e764146d8f8907bf65f))
+
 ## [0.4.30](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.29...@github-test/app5@0.4.30) (2022-04-30)
 
 

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3bb31c838a04b0a60094df09ebf76adb",
+    "content-hash": "dee2f396e3d68ae2b8d0cdee4263c51c",
     "packages": [
         {
             "name": "composer/installers",
@@ -187,11 +187,11 @@
         },
         {
             "name": "github-test/app5",
-            "version": "0.4.30",
+            "version": "0.4.31",
             "dist": {
                 "type": "path",
                 "url": "plugins/app5",
-                "reference": "addd215607950f1f2ddca6ac0c8a385642c6d09a"
+                "reference": "b46eb2c03823a6bdfc5a1be7de9cde76df09047f"
             },
             "require": {
                 "github-test/app2": "^1.10.2"
