@@ -1,3 +1,12 @@
+## [0.4.26](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.25...@github-test/app5@0.4.26) (2022-04-30)
+
+
+### Features
+
+* 增加 tag 自动发布 ([cd9094b](https://github.com/twinh/github-actions-test/commit/cd9094bccfabff4160d84679d50383f8f3db8972))
+* 测试功能1 ([ab0f300](https://github.com/twinh/github-actions-test/commit/ab0f3007dc1c3e4930434356b36a1f5803520c42))
+* 测试功能2 ([131eaf1](https://github.com/twinh/github-actions-test/commit/131eaf1e074a0c11cbafbc75e9f7e2500fb08b35))
+
 ## [0.4.25](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.24...@github-test/app5@0.4.25) (2022-04-25)
 
 
