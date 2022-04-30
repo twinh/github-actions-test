@@ -19,8 +19,7 @@ jobs:
           node-version: 16
 
       - run: |
-          npm install -g conventional-changelog-cli
-          echo "CHANGELOG=$(conventional-changelog -p angular -r 2)" >> $GITHUB_ENV
+          echo "CHANGELOG=$(npx conventional-changelog-cli -p angular -r 2)" >> $GITHUB_ENV
 
       - uses: softprops/action-gh-release@v1
         with:
