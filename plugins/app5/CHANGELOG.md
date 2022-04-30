@@ -1,3 +1,10 @@
+## [0.4.29](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.28...@github-test/app5@0.4.29) (2022-04-30)
+
+
+### Bug Fixes
+
+* changelog 改为自己生成 ([c1de90d](https://github.com/twinh/github-actions-test/commit/c1de90dbc6af456dbd96bf7a61e09b29be1ee6c8))
+
 ## [0.4.28](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.27...@github-test/app5@0.4.28) (2022-04-30)
 
 

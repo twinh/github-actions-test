@@ -1,3 +1,13 @@
+## [5.8.4](https://github.com/twinh/github-actions-test/compare/v5.8.3...v5.8.4) (2022-04-30)
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app5:** upgrade from `0.4.28` to `0.4.29`
+
 ## [5.8.3](https://github.com/twinh/github-actions-test/compare/v5.8.2...v5.8.3) (2022-04-30)
 
 
