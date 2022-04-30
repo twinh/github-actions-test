@@ -1,3 +1,10 @@
+## [0.4.30](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.29...@github-test/app5@0.4.30) (2022-04-30)
+
+
+### Bug Fixes
+
+* dependencies lock file is not found in xx ([0dd1417](https://github.com/twinh/github-actions-test/commit/0dd14174045a49174ea252017ea0c4c8bb545974))
+
 ## [0.4.29](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.28...@github-test/app5@0.4.29) (2022-04-30)
 
 
