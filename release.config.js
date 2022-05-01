@@ -20,6 +20,15 @@ function removeCommitScope(message, scope) {
 }
 
 module.exports = {
+  branches: [
+    '+([0-9])?(.{+([0-9]),x}).x',
+    'main',
+    'master',
+    'next',
+    'next-major',
+    {name: 'beta', prerelease: true},
+    {name: 'alpha', prerelease: true},
+  ],
   plugins: [
     '@monorepo-semantic-release/zero-commit-analyzer',
     '@semantic-release/release-notes-generator',
