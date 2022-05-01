@@ -1,3 +1,10 @@
+# [0.5.0](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.34...@github-test/app5@0.5.0) (2022-05-01)
+
+
+### Features
+
+* 发布 1.0.0 [release 1.0.0] ([fabd935](https://github.com/twinh/github-actions-test/commit/fabd935460e2aeb189375f1b53bbcdafb2b8f0f9))
+
 ## [0.4.34](https://github.com/twinh/github-actions-test/compare/@github-test/app5@0.4.33...@github-test/app5@0.4.34) (2022-05-01)
 
 
