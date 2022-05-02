@@ -2534,10 +2534,10 @@
     lodash "^4.17.21"
     micromatch "^4.0.4"
 
-"@monorepo-semantic-release/zero-commit-analyzer@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.npmmirror.com/@monorepo-semantic-release/zero-commit-analyzer/-/zero-commit-analyzer-1.0.1.tgz#2775dbc36bdcdcc884841ba6bd0b7582ef6601f9"
-  integrity sha512-NzO81FVbvQn7+Lf9O77CaMA6KRhKPiMA7pHqjtT4uEoRp1sIdz2IBh1+XydqmboL+KfxkVPNOkS61XeIskErKg==
+"@monorepo-semantic-release/zero-commit-analyzer@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.npmmirror.com/@monorepo-semantic-release/zero-commit-analyzer/-/zero-commit-analyzer-1.0.2.tgz#0bff837f2c7029a417d5c5c55decf7725384100c"
+  integrity sha512-MXdA8qoLl9H+it6D1Fx/Oz6Bp3YhwR+c7IaxcJrp86xkZO6mp8ZwUaJQiCEXlNm1kvh5Yh3jGvCP3tV8ZK7KAg==
   dependencies:
     "@semantic-release/commit-analyzer" "^8.0.1"
     semver "^7.3.2"
