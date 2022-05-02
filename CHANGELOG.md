@@ -1,3 +1,13 @@
+## [5.8.11](https://github.com/twinh/github-actions-test/compare/v5.8.10...v5.8.11) (2022-05-02)
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app5:** upgrade from `0.5.0` to `1.0.0`
+
 ## [5.8.10](https://github.com/twinh/github-actions-test/compare/v5.8.9...v5.8.10) (2022-05-01)
 
 
