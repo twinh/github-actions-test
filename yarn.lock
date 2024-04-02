@@ -2615,10 +2615,10 @@
   dependencies:
     "@semantic-release/git" "^9.0.0"
 
-"@monorepo-semantic-release/monorepo@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.npmmirror.com/@monorepo-semantic-release/monorepo/-/monorepo-2.1.1.tgz#55a4e0d8989a101dc44fc3bc07db6fc6dfbf5d06"
-  integrity sha512-6QEhbjpfCKxqtD/4mucQ+8sHCJeJTBRM4ZqZ7CJb2bWn+E1U9mUk7Ecy93OysQkf4AxVv0bKEfithKq0SA/Ggg==
+"@monorepo-semantic-release/monorepo@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.npmmirror.com/@monorepo-semantic-release/monorepo/-/monorepo-2.2.0.tgz#419d0b2b4a40092addeebdc5396b8060d66aee06"
+  integrity sha512-1+tFJPtol54WfyaBYWX7YaF3K8pAEOEMAkOewvlfkQ42pRKEqa5zB+3rcfNsom1sQJSda6/JIQzDczSnk5o5rQ==
   dependencies:
     debug "^4.1.1"
     detect-indent "^6.0.0"
