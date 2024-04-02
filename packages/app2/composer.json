@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "github-test/base": "^1.8.0"
+        "github-test/base": "^2.0.0"
     },
     "require-dev": {
         "miaoxing/dev": "^6.3.4"
@@ -20,7 +20,7 @@
     },
     "extra": {
         "require-ci": {
-            "github-test/base": "kqh/base as 1.x-dev"
+            "github-test/base": "kqh/base as 2.x-dev"
         }
     }
 }

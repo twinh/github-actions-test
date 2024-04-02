@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/twinh/github-actions-test/compare/@github-test/base@1.8.0...@github-test/base@2.0.0) (2024-04-02)
+
+
+### Features
+
+* 测试 base 更新 ([2f38d49](https://github.com/twinh/github-actions-test/commit/2f38d49263ca926e8f93a24bb6848ab6f548d880))
+
+
+### BREAKING CHANGES
+
+* test require ci
+
 # [1.8.0](https://github.com/twinh/github-actions-test/compare/@github-test/base@1.7.1...@github-test/base@1.8.0) (2022-04-25)
 
 
