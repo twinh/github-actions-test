@@ -22,7 +22,8 @@
     "extra": {
         "require-ci": {
             "github-test/base": "kqh/base as 2.x-dev",
-            "github-test/app2": "kqh/app2 as 2.x-dev"
+            "github-test/app2": "kqh/app2 as 2.x-dev",
+            "github-test/app3": "kqh/app3 as 0.7.x-dev"
         }
     }
 }
