@@ -53,7 +53,7 @@ module.exports = {
                     "numReplacements": 1,
                   },
                 ],
-                "countMatches": true,
+                "countMatches": false,
               },
             ],
           },
