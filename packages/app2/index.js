@@ -39,3 +39,5 @@ export default function () {
 // fix
 
 // break
+
+// break 2
