@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "13783ccd8cedf342f2d024d1a23a0763",
+    "content-hash": "efcdb2d03fe120a769c4c70252502c35",
     "packages": [
         {
             "name": "composer/installers",
@@ -152,14 +152,14 @@
         },
         {
             "name": "github-test/app2",
-            "version": "1.10.2",
+            "version": "1.10.3",
             "dist": {
                 "type": "path",
                 "url": "packages/app2",
-                "reference": "dc35f3eb6559fb12025de55b0ed7e7b177ee1ed8"
+                "reference": "f482390bbfb72e8ce5b69e74660e7acc09f94e5b"
             },
             "require": {
-                "github-test/base": "^1.8.0"
+                "github-test/base": "^2.0.0"
             },
             "require-dev": {
                 "miaoxing/dev": "^6.3.4"
@@ -167,7 +167,7 @@
             "type": "library",
             "extra": {
                 "require-ci": {
-                    "github-test/base": "kqh/base as 1.x-dev"
+                    "github-test/base": "kqh/base as 2.x-dev"
                 }
             },
             "autoload": {
@@ -187,14 +187,14 @@
         },
         {
             "name": "github-test/app5",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "dist": {
                 "type": "path",
                 "url": "plugins/app5",
-                "reference": "e093cec675004691acb5736cc8f386d89fefa9e0"
+                "reference": "5a12577aa444bb30aa56df51a91ae7998d8aea85"
             },
             "require": {
-                "github-test/app2": "^1.10.2"
+                "github-test/app2": "^1.10.3"
             },
             "require-dev": {
                 "miaoxing/dev": "^6.3.4"
@@ -202,7 +202,7 @@
             "type": "miaoxing-plugin",
             "extra": {
                 "require-ci": {
-                    "github-test/base": "kqh/base as 1.x-dev",
+                    "github-test/base": "kqh/base as 2.x-dev",
                     "github-test/app2": "kqh/app2 as 1.x-dev"
                 }
             },
@@ -223,11 +223,11 @@
         },
         {
             "name": "github-test/base",
-            "version": "1.8.0",
+            "version": "2.0.0",
             "dist": {
                 "type": "path",
                 "url": "packages/base",
-                "reference": "e75d5a5e70ef1762f94117999de77d4f07989ff4"
+                "reference": "031bc77049ced782d0c4fe6e12cdca580b383b7b"
             },
             "require-dev": {
                 "miaoxing/dev": "^6.3.4"
@@ -2477,5 +2477,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
