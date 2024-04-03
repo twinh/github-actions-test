@@ -3,6 +3,20 @@
 
 ### Features
 
+* **app2:** 测试更新 require-ci ([7933a19](https://github.com/twinh/github-actions-test/commit/7933a19b69568b4be6d62210af2cb349dbaa4da4))
+* **app2:** 测试更新 require-ci ([f1a045c](https://github.com/twinh/github-actions-test/commit/f1a045c3160a9a60156a4442176b7cdfc9348311))
+
+
+### BREAKING CHANGES
+
+* **app2:** 测试更新 require-ci
+* **app2:** 测试更新 require-ci
+
+# [2.0.0](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.10.3...@github-test/app2@2.0.0) (2024-04-03)
+
+
+### Features
+
 * **app2:** 测试更新 require-ci ([f1a045c](https://github.com/twinh/github-actions-test/commit/f1a045c3160a9a60156a4442176b7cdfc9348311))
 
 

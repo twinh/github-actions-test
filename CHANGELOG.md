@@ -9,6 +9,17 @@
 * **@github-test/app2:** upgrade from `1.10.3` to `2.0.0`
 * **@github-test/app5:** upgrade from `1.0.1` to `1.0.2`
 
+## [5.8.13](https://github.com/twinh/github-actions-test/compare/v5.8.12...v5.8.13) (2024-04-03)
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app2:** upgrade from `1.10.3` to `2.0.0`
+* **@github-test/app5:** upgrade from `1.0.1` to `1.0.2`
+
 ## [5.8.12](https://github.com/twinh/github-actions-test/compare/v5.8.11...v5.8.12) (2024-04-03)
 
 
