@@ -8,6 +8,16 @@
 
 * **@github-test/base:** upgrade from `1.8.0` to `2.0.0`
 
+## [10.1.6](https://github.com/twinh/github-actions-test/compare/@github-test/app4@10.1.5...@github-test/app4@10.1.6) (2024-04-03)
+
+
+
+
+
+### Dependencies
+
+* **@github-test/base:** upgrade from `1.8.0` to `2.0.0`
+
 ## [10.1.5](https://github.com/twinh/github-actions-test/compare/@github-test/app4@10.1.4...@github-test/app4@10.1.5) (2022-04-25)
 
 
