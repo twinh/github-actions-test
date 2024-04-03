@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.10.3...@github-test/app2@2.0.0) (2024-04-03)
+
+
+### Features
+
+* **app2:** 测试更新 require-ci ([f1a045c](https://github.com/twinh/github-actions-test/commit/f1a045c3160a9a60156a4442176b7cdfc9348311))
+
+
+### BREAKING CHANGES
+
+* **app2:** 测试更新 require-ci
+
 ## [1.10.3](https://github.com/twinh/github-actions-test/compare/@github-test/app2@1.10.2...@github-test/app2@1.10.3) (2024-04-03)
 
 

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "efcdb2d03fe120a769c4c70252502c35",
+    "content-hash": "5fce2283f1ecfadc6913f4fa9763563d",
     "packages": [
         {
             "name": "composer/installers",
@@ -152,11 +152,11 @@
         },
         {
             "name": "github-test/app2",
-            "version": "1.10.3",
+            "version": "2.0.0",
             "dist": {
                 "type": "path",
                 "url": "packages/app2",
-                "reference": "f482390bbfb72e8ce5b69e74660e7acc09f94e5b"
+                "reference": "5cb063668c7eac8123bce029395ea0aa30517ef4"
             },
             "require": {
                 "github-test/base": "^2.0.0"
@@ -187,14 +187,14 @@
         },
         {
             "name": "github-test/app5",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "dist": {
                 "type": "path",
                 "url": "plugins/app5",
-                "reference": "5a12577aa444bb30aa56df51a91ae7998d8aea85"
+                "reference": "2725bc25947f79c87aff7832122761e16b6e44d8"
             },
             "require": {
-                "github-test/app2": "^1.10.3"
+                "github-test/app2": "^2.0.0"
             },
             "require-dev": {
                 "miaoxing/dev": "^6.3.4"
@@ -203,7 +203,7 @@
             "extra": {
                 "require-ci": {
                     "github-test/base": "kqh/base as 2.x-dev",
-                    "github-test/app2": "kqh/app2 as 1.x-dev"
+                    "github-test/app2": "kqh/app2 as 2.x-dev"
                 }
             },
             "autoload": {
@@ -227,7 +227,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/base",
-                "reference": "031bc77049ced782d0c4fe6e12cdca580b383b7b"
+                "reference": "2febda047d6420421f952cc8e20313a9fcbcb64d"
             },
             "require-dev": {
                 "miaoxing/dev": "^6.3.4"
