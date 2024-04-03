@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "github-test/app2": "^2.0.0"
+        "github-test/app2": "^3.0.0"
     },
     "require-dev": {
         "miaoxing/dev": "^6.3.4"
@@ -22,8 +22,8 @@
     "extra": {
         "require-ci": {
             "github-test/base": "kqh/base as 2.x-dev",
-            "github-test/app2": "kqh/app2 as 2.x-dev",
-            "github-test/app3": "kqh/app3 as 0.7.x-dev"
+            "github-test/app2": "kqh/app2 as 3.x-dev",
+            "github-test/app3": "kqh/app3 as 0.8.x-dev"
         }
     }
 }

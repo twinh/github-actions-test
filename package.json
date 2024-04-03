@@ -1,10 +1,10 @@
 {
   "name": "@github-test/test",
-  "version": "5.8.13",
+  "version": "5.8.15",
   "main": "index.js",
   "repository": "https://github.com/twinh/github-actions-test.git",
   "author": "twinh <twinhuang@qq.com>",
-  "private": true,
+  "private": false,
   "workspaces": [
     "packages/*"
   ],
@@ -17,7 +17,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@github-test/app2": "^2.0.0"
+    "@github-test/app2": "^3.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
