@@ -1,6 +1,6 @@
 {
   "name": "@github-test/app2",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "private": false,
   "main": "index.js",
   "author": "twinh",
@@ -17,7 +17,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@github-test/base": "^2.0.1"
+    "@github-test/base": "^3.0.0"
   },
   "devDependencies": {
     "@miaoxing/dev": "^6.3.4"

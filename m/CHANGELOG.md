@@ -1,3 +1,13 @@
+## [0.6.9](https://github.com/twinh/github-actions-test/compare/@github-test/m@0.6.8...@github-test/m@0.6.9) (2024-04-04)
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app4:** upgrade from `10.1.7` to `10.1.8`
+
 ## [0.6.8](https://github.com/twinh/github-actions-test/compare/@github-test/m@0.6.7...@github-test/m@0.6.8) (2024-04-04)
 
 
