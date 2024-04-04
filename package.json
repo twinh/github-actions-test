@@ -4,7 +4,7 @@
   "main": "index.js",
   "repository": "https://github.com/twinh/github-actions-test.git",
   "author": "twinh <twinhuang@qq.com>",
-  "private": false,
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
