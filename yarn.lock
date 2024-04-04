@@ -1735,10 +1735,10 @@
   dependencies:
     "@semantic-release/git" "^9.0.0"
 
-"@monorepo-semantic-release/monorepo@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.npmmirror.com/@monorepo-semantic-release/monorepo/-/monorepo-2.2.0.tgz#419d0b2b4a40092addeebdc5396b8060d66aee06"
-  integrity sha512-1+tFJPtol54WfyaBYWX7YaF3K8pAEOEMAkOewvlfkQ42pRKEqa5zB+3rcfNsom1sQJSda6/JIQzDczSnk5o5rQ==
+"@monorepo-semantic-release/monorepo@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.npmmirror.com/@monorepo-semantic-release/monorepo/-/monorepo-2.2.1.tgz#9d3cb8a1b55dbe76e177b26192bd4571d5ea8627"
+  integrity sha512-95xj23UByDVNa+67JZXRKh5F0SK4/5j8Cld1eb6/B0xyLQ/JrgYq6OlCfi3LRWv0gN/ZHcQ2zQYLALqxfQXtWA==
   dependencies:
     debug "^4.1.1"
     detect-indent "^6.0.0"
@@ -7149,10 +7149,10 @@ modify-values@^1.0.0:
   resolved "https://registry.npmmirror.com/modify-values/-/modify-values-1.0.1.tgz#b3939fa605546474e3e3e3c63d64bd43b4ee6022"
   integrity sha512-xV2bxeN6F7oYjZWTe/YPAy6MN2M+sL4u/Rlm2AHCIVGfo2p1yGmBHQ6vHehl4bRTZBdHu3TSkWdYgkwpYzAGSw==
 
-monorepo-semantic-release@^18.1.0-beta.1:
-  version "18.1.0-beta.1"
-  resolved "https://registry.npmmirror.com/monorepo-semantic-release/-/monorepo-semantic-release-18.1.0-beta.1.tgz#b45ff98ec06ce106177222c0a3a8bba32197318b"
-  integrity sha512-FooDGhzxrc3V0xP3G5LISp2gXr0p5rUlNu7kTVUp+/iulRjB4MQWVyIqTI78GQd/jDj7BEdphHDcXxa544a5lg==
+monorepo-semantic-release@^18.1.0-beta.2:
+  version "18.1.0-beta.2"
+  resolved "https://registry.npmmirror.com/monorepo-semantic-release/-/monorepo-semantic-release-18.1.0-beta.2.tgz#bc83c8f80ca93a9872f7058a719f9d0f862a1c83"
+  integrity sha512-kkXL8YNAps6Bubo72lfCKNRvUTDxC5+pqP27q1+IZ8adhka6JoZUXsanr9OBXFs9C2U+FkRE6A7dUCfZK2cEPQ==
   dependencies:
     "@semantic-release/commit-analyzer" "^8.0.0"
     "@semantic-release/error" "^2.2.0"
