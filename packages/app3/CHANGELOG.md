@@ -1,3 +1,13 @@
+## [0.8.3](https://github.com/twinh/github-actions-test/compare/@github-test/app3@0.8.2...@github-test/app3@0.8.3) (2024-04-04)
+
+
+
+
+
+### Dependencies
+
+* **@github-test/app2:** upgrade from `4.0.0` to `4.0.1`
+
 ## [0.8.2](https://github.com/twinh/github-actions-test/compare/@github-test/app3@0.8.1...@github-test/app3@0.8.2) (2024-04-04)
 
 

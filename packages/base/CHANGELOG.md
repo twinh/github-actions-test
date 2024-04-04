@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/twinh/github-actions-test/compare/@github-test/base@2.0.0...@github-test/base@2.0.1) (2024-04-04)
+
+
+### Bug Fixes
+
+* 测试更新 ([6e470b9](https://github.com/twinh/github-actions-test/commit/6e470b903dd465e817eb87b9b7642bf885fc14b6))
+
 # [2.0.0](https://github.com/twinh/github-actions-test/compare/@github-test/base@1.8.0...@github-test/base@2.0.0) (2024-04-03)
 
 
