@@ -77,14 +77,14 @@ jobs:
         run: echo "BUILD_NAME=${GITHUB_REF_NAME//\//-}" >> $GITHUB_ENV
 
       - name: Downlaod JS files
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: miaoxing2-js
 
       - run: mv miaoxing2-js.zip miaoxing2-js-$BUILD_NAME.zip
 
       - name: Downlaod Weapp files
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: miaoxing2-weapp
 
