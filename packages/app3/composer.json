@@ -18,6 +18,12 @@
             "App3\\": "src/"
         }
     },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "phpstan/extension-installer": true
+        }
+    },
     "extra": {
         "require-ci": {
             "github-test/base": "kqh/base as 3.x-dev",
