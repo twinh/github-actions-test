@@ -104,3 +104,14 @@ jobs:
         run: |
           yarn install
           yarn test
+
+  coveralls-finish:
+    needs: [ phpunit ]
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - name: Coveralls Finished
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.github_token }}
+          parallel-finished: true
